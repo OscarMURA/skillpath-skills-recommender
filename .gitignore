@@ -1,0 +1,15 @@
+# Datasets (pesan cientos de MB; GitHub rechaza archivos > 100 MB). Ver datos/README.md
+datos/*
+!datos/README.md
+
+# Credenciales
+.env
+kaggle.json
+access_token
+
+# Python / Jupyter
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
