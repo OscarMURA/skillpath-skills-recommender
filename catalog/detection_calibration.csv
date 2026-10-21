@@ -1,0 +1,193 @@
+role,skill,text_frequency,skills_frequency,reference_frequency,diff,ratio,reliable
+Data Analyst,a/b testing,2.16,1.74,1.74,0.42,1.24,True
+Software Engineer,a/b testing,0.74,0.48,0.48,0.26,1.53,True
+Data Scientist,a/b testing,4.84,4.43,4.43,0.42,1.09,True
+Data Analyst,agile,14.88,11.03,11.03,3.86,1.35,True
+Software Engineer,agile,41.17,33.86,33.86,7.3,1.22,True
+Data Scientist,agile,18.36,10.61,10.61,7.75,1.73,True
+Data Analyst,airflow,0.19,0.2,0.2,-0.01,0.96,True
+Software Engineer,airflow,0.74,0.65,0.65,0.09,1.13,True
+Data Scientist,airflow,8.23,7.8,7.8,0.44,1.06,True
+Data Analyst,algorithms,2.65,0.41,0.41,2.24,6.48,False
+Software Engineer,algorithms,12.21,4.26,4.26,7.95,2.87,False
+Data Scientist,algorithms,21.52,3.44,3.44,18.08,6.26,False
+Data Analyst,angular,0.23,0.17,0.17,0.06,1.38,True
+Software Engineer,angular,14.39,11.58,11.58,2.81,1.24,True
+Data Scientist,angular,0.6,0.51,0.51,0.09,1.18,True
+Data Analyst,aws,3.29,2.66,2.66,0.63,1.24,True
+Software Engineer,aws,32.27,27.83,27.83,4.44,1.16,True
+Data Scientist,aws,28.25,22.14,22.14,6.11,1.28,True
+Data Analyst,azure,5.59,3.02,3.02,2.57,1.85,True
+Software Engineer,azure,20.5,14.08,14.08,6.42,1.46,True
+Data Scientist,azure,20.16,14.88,14.88,5.28,1.36,True
+Data Analyst,big data,2.17,1.22,1.22,0.95,1.78,False
+Software Engineer,big data,4.16,1.73,1.73,2.43,2.41,False
+Data Scientist,big data,17.71,7.15,7.15,10.56,2.48,False
+Data Analyst,c#,1.07,1.08,1.08,-0.01,0.99,True
+Software Engineer,c#,21.54,19.18,19.18,2.36,1.12,True
+Data Scientist,c#,3.41,3.0,3.0,0.42,1.14,True
+Data Analyst,c++,0.71,1.09,1.09,-0.39,0.65,True
+Software Engineer,c++,23.34,18.01,18.01,5.33,1.3,True
+Data Scientist,c++,5.07,3.92,3.92,1.15,1.29,True
+Data Analyst,ci/cd,0.41,0.18,0.18,0.23,2.26,True
+Software Engineer,ci/cd,14.34,7.65,7.65,6.68,1.87,True
+Data Scientist,ci/cd,5.97,3.21,3.21,2.77,1.86,True
+Data Analyst,css,0.93,1.14,1.14,-0.21,0.81,True
+Software Engineer,css,15.11,12.68,12.68,2.42,1.19,True
+Data Scientist,css,0.69,0.74,0.74,-0.05,0.94,True
+Data Analyst,data cleaning,2.72,3.14,3.14,-0.43,0.86,True
+Software Engineer,data cleaning,0.15,0.09,0.09,0.06,1.75,True
+Data Scientist,data cleaning,3.25,5.97,5.97,-2.72,0.54,True
+Data Analyst,data mining,4.2,7.41,7.41,-3.2,0.57,True
+Software Engineer,data mining,0.28,0.38,0.38,-0.11,0.72,True
+Data Scientist,data mining,10.86,13.21,13.21,-2.35,0.82,True
+Data Analyst,data modeling,4.96,6.64,6.64,-1.68,0.75,True
+Software Engineer,data modeling,1.65,1.29,1.29,0.36,1.28,True
+Data Scientist,data modeling,10.98,12.25,12.25,-1.27,0.9,True
+Data Analyst,data structures,2.19,0.57,0.57,1.61,3.81,True
+Software Engineer,data structures,6.12,4.42,4.42,1.7,1.38,True
+Data Scientist,data structures,4.59,1.73,1.73,2.86,2.65,True
+Data Analyst,data visualization,11.94,18.06,18.06,-6.12,0.66,True
+Software Engineer,data visualization,1.27,1.09,1.09,0.18,1.17,True
+Data Scientist,data visualization,17.57,24.79,24.79,-7.22,0.71,True
+Data Analyst,data warehousing,6.81,4.59,4.59,2.22,1.48,True
+Software Engineer,data warehousing,1.48,0.6,0.6,0.89,2.48,True
+Data Scientist,data warehousing,13.54,8.6,8.6,4.94,1.57,True
+Data Analyst,deep learning,0.18,0.19,0.19,-0.01,0.96,True
+Software Engineer,deep learning,0.95,0.64,0.64,0.31,1.48,True
+Data Scientist,deep learning,9.5,6.94,6.94,2.56,1.37,True
+Data Analyst,docker,0.17,0.31,0.31,-0.14,0.55,True
+Software Engineer,docker,15.81,16.27,16.27,-0.46,0.97,True
+Data Scientist,docker,8.19,7.86,7.86,0.32,1.04,True
+Data Analyst,etl,6.32,3.31,3.31,3.01,1.91,True
+Software Engineer,etl,2.1,0.97,0.97,1.13,2.16,True
+Data Scientist,etl,20.69,11.6,11.6,9.09,1.78,True
+Data Analyst,excel,32.5,26.29,26.29,6.21,1.24,True
+Software Engineer,excel,1.37,0.5,0.5,0.86,2.72,True
+Data Scientist,excel,9.48,7.47,7.47,2.01,1.27,True
+Data Analyst,gcp,1.28,1.18,1.18,0.1,1.09,True
+Software Engineer,gcp,13.42,9.37,9.37,4.05,1.43,True
+Data Scientist,gcp,12.98,10.56,10.56,2.42,1.23,True
+Data Analyst,git,1.3,0.99,0.99,0.31,1.31,True
+Software Engineer,git,24.49,19.12,19.12,5.37,1.28,True
+Data Scientist,git,13.56,9.96,9.96,3.6,1.36,True
+Data Analyst,go,0.12,0.11,0.11,0.01,1.07,True
+Software Engineer,go,14.95,14.91,14.91,0.03,1.0,True
+Data Scientist,go,1.45,1.43,1.43,0.02,1.02,True
+Data Analyst,hadoop,0.82,1.14,1.14,-0.32,0.72,True
+Software Engineer,hadoop,0.92,1.05,1.05,-0.13,0.88,True
+Data Scientist,hadoop,10.03,10.7,10.7,-0.67,0.94,True
+Data Analyst,html,1.33,1.61,1.61,-0.28,0.83,True
+Software Engineer,html,16.32,14.05,14.05,2.27,1.16,True
+Data Scientist,html,0.97,0.97,0.97,0.0,1.0,True
+Data Analyst,java,2.49,2.71,2.71,-0.22,0.92,True
+Software Engineer,java,34.35,33.88,33.88,0.47,1.01,True
+Data Scientist,java,16.03,15.24,15.24,0.78,1.05,True
+Data Analyst,javascript,2.32,2.65,2.65,-0.33,0.88,True
+Software Engineer,javascript,31.11,28.75,28.75,2.36,1.08,True
+Data Scientist,javascript,5.67,5.07,5.07,0.6,1.12,True
+Data Analyst,jira,4.94,4.94,4.94,0.0,1.0,True
+Software Engineer,jira,9.64,9.82,9.82,-0.18,0.98,True
+Data Scientist,jira,3.27,3.48,3.48,-0.21,0.94,True
+Data Analyst,kafka,0.28,0.37,0.37,-0.09,0.77,True
+Software Engineer,kafka,5.74,5.31,5.31,0.44,1.08,True
+Data Scientist,kafka,9.18,9.18,9.18,0.0,1.0,True
+Data Analyst,kubernetes,0.16,0.32,0.32,-0.17,0.49,True
+Software Engineer,kubernetes,16.78,17.65,17.65,-0.86,0.95,True
+Data Scientist,kubernetes,7.75,7.54,7.54,0.21,1.03,True
+Data Analyst,linux,1.62,1.5,1.5,0.13,1.08,True
+Software Engineer,linux,18.58,14.97,14.97,3.61,1.24,True
+Data Scientist,linux,5.21,4.38,4.38,0.83,1.19,True
+Data Analyst,looker,1.71,1.5,1.5,0.2,1.14,True
+Software Engineer,looker,0.14,0.07,0.07,0.06,1.86,True
+Data Scientist,looker,2.38,2.03,2.03,0.35,1.17,True
+Data Analyst,machine learning,4.38,5.65,5.65,-1.28,0.77,True
+Software Engineer,machine learning,10.04,7.16,7.16,2.87,1.4,True
+Data Scientist,machine learning,43.29,42.99,42.99,0.3,1.01,True
+Data Analyst,microservices,0.26,0.16,0.16,0.1,1.65,False
+Software Engineer,microservices,16.27,9.88,9.88,6.39,1.65,False
+Data Scientist,microservices,5.4,2.14,2.14,3.25,2.52,False
+Data Analyst,mysql,0.86,0.82,0.82,0.04,1.05,True
+Software Engineer,mysql,5.84,5.31,5.31,0.53,1.1,True
+Data Scientist,mysql,4.31,3.85,3.85,0.46,1.12,True
+Data Analyst,natural language processing,0.27,0.43,0.43,-0.17,0.62,True
+Software Engineer,natural language processing,0.88,1.07,1.07,-0.19,0.82,True
+Data Scientist,natural language processing,12.98,12.22,12.22,0.76,1.06,True
+Data Analyst,node.js,0.06,0.1,0.1,-0.04,0.62,True
+Software Engineer,node.js,11.67,11.75,11.75,-0.09,0.99,True
+Data Scientist,node.js,0.44,0.53,0.53,-0.09,0.83,True
+Data Analyst,nosql,0.52,0.76,0.76,-0.24,0.68,True
+Software Engineer,nosql,8.3,5.98,5.98,2.32,1.39,True
+Data Scientist,nosql,9.82,6.6,6.6,3.23,1.49,True
+Data Analyst,numpy,0.24,0.25,0.25,-0.01,0.97,True
+Software Engineer,numpy,0.38,0.34,0.34,0.04,1.12,True
+Data Scientist,numpy,5.12,3.85,3.85,1.27,1.33,True
+Data Analyst,object-oriented programming,0.6,0.41,0.41,0.19,1.46,True
+Software Engineer,object-oriented programming,7.92,5.55,5.55,2.37,1.43,True
+Data Scientist,object-oriented programming,3.37,2.14,2.14,1.22,1.57,True
+Data Analyst,oracle,6.71,3.38,3.38,3.33,1.98,True
+Software Engineer,oracle,5.23,3.3,3.3,1.93,1.59,True
+Data Scientist,oracle,6.0,3.64,3.64,2.35,1.65,True
+Data Analyst,pandas,0.71,0.55,0.55,0.16,1.29,True
+Software Engineer,pandas,0.47,0.41,0.41,0.06,1.16,True
+Data Scientist,pandas,10.08,7.63,7.63,2.44,1.32,True
+Data Analyst,postgresql,0.66,0.53,0.53,0.13,1.25,True
+Software Engineer,postgresql,10.29,9.26,9.26,1.04,1.11,True
+Data Scientist,postgresql,5.37,3.94,3.94,1.43,1.36,True
+Data Analyst,power bi,18.39,18.42,18.42,-0.03,1.0,True
+Software Engineer,power bi,0.79,0.73,0.73,0.06,1.09,True
+Data Scientist,power bi,16.77,16.1,16.1,0.67,1.04,True
+Data Analyst,python,15.92,16.86,16.86,-0.94,0.94,True
+Software Engineer,python,37.75,37.9,37.9,-0.15,1.0,True
+Data Scientist,python,65.36,65.04,65.04,0.32,1.0,True
+Data Analyst,pytorch,0.06,0.07,0.07,-0.01,0.89,True
+Software Engineer,pytorch,0.6,0.61,0.61,-0.01,0.98,True
+Data Scientist,pytorch,7.56,7.15,7.15,0.42,1.06,True
+Data Analyst,r,9.33,9.6,9.6,-0.28,0.97,True
+Software Engineer,r,0.51,0.56,0.56,-0.04,0.92,True
+Data Scientist,r,30.88,29.59,29.59,1.29,1.04,True
+Data Analyst,react,0.25,0.23,0.23,0.02,1.1,True
+Software Engineer,react,20.97,19.44,19.44,1.53,1.08,True
+Data Scientist,react,0.76,0.76,0.76,0.0,1.0,True
+Data Analyst,rest api,0.46,0.63,0.63,-0.17,0.73,True
+Software Engineer,rest api,13.95,15.57,15.57,-1.61,0.9,True
+Data Scientist,rest api,2.7,2.91,2.91,-0.21,0.93,True
+Data Analyst,sas,4.64,4.27,4.27,0.36,1.08,True
+Software Engineer,sas,0.14,0.1,0.1,0.04,1.44,True
+Data Scientist,sas,6.32,6.02,6.02,0.3,1.05,True
+Data Analyst,scala,0.22,0.21,0.21,0.01,1.04,True
+Software Engineer,scala,4.36,4.25,4.25,0.11,1.03,True
+Data Scientist,scala,10.49,9.43,9.43,1.06,1.11,True
+Data Analyst,scikit-learn,0.11,0.12,0.12,-0.01,0.93,True
+Software Engineer,scikit-learn,0.22,0.21,0.21,0.01,1.05,True
+Data Scientist,scikit-learn,7.08,5.86,5.86,1.22,1.21,True
+Data Analyst,snowflake,2.31,2.05,2.05,0.25,1.12,True
+Software Engineer,snowflake,0.9,0.8,0.8,0.1,1.12,True
+Data Scientist,snowflake,11.97,10.56,10.56,1.41,1.13,True
+Data Analyst,spark,0.95,1.42,1.42,-0.47,0.67,True
+Software Engineer,spark,2.86,2.48,2.48,0.38,1.16,True
+Data Scientist,spark,21.63,20.13,20.13,1.5,1.07,True
+Data Analyst,sql,33.07,33.51,33.51,-0.45,0.99,True
+Software Engineer,sql,26.16,23.96,23.96,2.2,1.09,True
+Data Scientist,sql,56.09,55.07,55.07,1.01,1.02,True
+Data Analyst,sql server,6.13,3.77,3.77,2.36,1.63,True
+Software Engineer,sql server,8.91,6.8,6.8,2.11,1.31,True
+Data Scientist,sql server,7.68,4.08,4.08,3.6,1.88,True
+Data Analyst,statistics,12.0,5.59,5.59,6.41,2.15,False
+Software Engineer,statistics,1.16,0.45,0.45,0.72,2.6,False
+Data Scientist,statistics,29.4,15.45,15.45,13.95,1.9,False
+Data Analyst,tableau,16.02,16.93,16.93,-0.91,0.95,True
+Software Engineer,tableau,0.68,0.63,0.63,0.05,1.08,True
+Data Scientist,tableau,19.33,19.14,19.14,0.18,1.01,True
+Data Analyst,tensorflow,0.09,0.09,0.09,0.0,1.0,True
+Software Engineer,tensorflow,0.74,0.72,0.72,0.02,1.03,True
+Data Scientist,tensorflow,8.95,8.12,8.12,0.83,1.1,True
+Data Analyst,typescript,0.11,0.11,0.11,0.0,1.0,True
+Software Engineer,typescript,16.42,15.61,15.61,0.81,1.05,True
+Data Scientist,typescript,0.32,0.3,0.3,0.02,1.08,True
+Data Analyst,unit testing,0.57,0.83,0.83,-0.26,0.69,True
+Software Engineer,unit testing,12.29,10.58,10.58,1.71,1.16,True
+Data Scientist,unit testing,2.63,1.34,1.34,1.29,1.97,True
+Data Analyst,vba,2.32,1.67,1.67,0.65,1.39,True
+Software Engineer,vba,0.17,0.13,0.13,0.04,1.33,True
+Data Scientist,vba,1.01,0.74,0.74,0.28,1.38,True

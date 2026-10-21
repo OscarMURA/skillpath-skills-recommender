@@ -182,3 +182,13 @@ Ejemplo real (Data Scientist con `python` avanzado; Frequency en %):
 **Alternativas no elegidas:** `Frequency / Effort + λ·sim` (mezcla unidades distintas y exige elegir λ según el Role) y `Frequency × sim / Effort` (por construcción llevaría a 0 la prioridad de toda Skill sin relación, aunque sea muy frecuente; no se midió, es razonamiento). No se encontró evidencia con ejemplos reales de que otra forma fuera claramente mejor.
 
 - **Aprobación humana de la extensión:** Oscar, 2026-10-20 (reconocida tal cual, sin cambios).
+
+---
+
+## Fuente de la Frequency para Learners de nivel inicial (ticket 07)
+
+> **Sección POSTERIOR a la firma y a la extensión con similitud. Pendiente de acuse humano.** Lo firmado no se modificó.
+
+La fórmula **no cambia**: `Prioridad(s) = Frequency(s, r) × (1 + sim(s)) / Effort(s)`. Solo cambia de dónde sale la Frequency cuando el Learner profile declara nivel de experiencia inicial: en lugar de la Frequency base (asaniczka), se usa una mezcla con la Frequency de Offers de nivel inicial de arshkon. El valor por defecto (con experiencia) conserva exactamente el comportamiento anterior. Detalle, pesos y limitaciones en `docs/entry-level-complement.md`.
+
+- **Acuse humano:** pendiente.

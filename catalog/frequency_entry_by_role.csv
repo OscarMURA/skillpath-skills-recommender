@@ -1,0 +1,181 @@
+role,skill,offers_with_skill,role_offers,frequency
+Data Analyst,sql,35,80,43.75
+Data Analyst,excel,32,80,40.0
+Data Analyst,python,23,80,28.75
+Data Analyst,machine learning,18,80,22.5
+Data Analyst,power bi,17,80,21.25
+Data Analyst,tableau,16,80,20.0
+Data Analyst,data visualization,14,80,17.5
+Data Analyst,agile,10,80,12.5
+Data Analyst,r,9,80,11.25
+Data Analyst,data warehousing,7,80,8.75
+Data Analyst,data cleaning,6,80,7.5
+Data Analyst,etl,6,80,7.5
+Data Analyst,java,6,80,7.5
+Data Analyst,aws,5,80,6.25
+Data Analyst,azure,5,80,6.25
+Data Analyst,sas,5,80,6.25
+Data Analyst,git,4,80,5.0
+Data Analyst,looker,4,80,5.0
+Data Analyst,c++,3,80,3.75
+Data Analyst,data mining,3,80,3.75
+Data Analyst,hadoop,3,80,3.75
+Data Analyst,natural language processing,3,80,3.75
+Data Analyst,sql server,3,80,3.75
+Data Analyst,vba,3,80,3.75
+Data Analyst,data modeling,2,80,2.5
+Data Analyst,docker,2,80,2.5
+Data Analyst,numpy,2,80,2.5
+Data Analyst,oracle,2,80,2.5
+Data Analyst,pandas,2,80,2.5
+Data Analyst,scikit-learn,2,80,2.5
+Data Analyst,spark,2,80,2.5
+Data Analyst,ci/cd,1,80,1.25
+Data Analyst,data structures,1,80,1.25
+Data Analyst,gcp,1,80,1.25
+Data Analyst,html,1,80,1.25
+Data Analyst,javascript,1,80,1.25
+Data Analyst,kafka,1,80,1.25
+Data Analyst,kubernetes,1,80,1.25
+Data Analyst,mysql,1,80,1.25
+Data Analyst,nosql,1,80,1.25
+Data Analyst,object-oriented programming,1,80,1.25
+Data Analyst,postgresql,1,80,1.25
+Data Analyst,scala,1,80,1.25
+Data Analyst,snowflake,1,80,1.25
+Data Analyst,a/b testing,0,80,0.0
+Data Analyst,airflow,0,80,0.0
+Data Analyst,angular,0,80,0.0
+Data Analyst,c#,0,80,0.0
+Data Analyst,css,0,80,0.0
+Data Analyst,deep learning,0,80,0.0
+Data Analyst,go,0,80,0.0
+Data Analyst,jira,0,80,0.0
+Data Analyst,linux,0,80,0.0
+Data Analyst,node.js,0,80,0.0
+Data Analyst,pytorch,0,80,0.0
+Data Analyst,react,0,80,0.0
+Data Analyst,rest api,0,80,0.0
+Data Analyst,tensorflow,0,80,0.0
+Data Analyst,typescript,0,80,0.0
+Data Analyst,unit testing,0,80,0.0
+Data Scientist,python,36,47,76.6
+Data Scientist,machine learning,35,47,74.47
+Data Scientist,sql,28,47,59.57
+Data Scientist,r,26,47,55.32
+Data Scientist,sas,13,47,27.66
+Data Scientist,natural language processing,10,47,21.28
+Data Scientist,data visualization,8,47,17.02
+Data Scientist,data modeling,7,47,14.89
+Data Scientist,hadoop,7,47,14.89
+Data Scientist,excel,6,47,12.77
+Data Scientist,tableau,6,47,12.77
+Data Scientist,data mining,5,47,10.64
+Data Scientist,deep learning,5,47,10.64
+Data Scientist,scala,5,47,10.64
+Data Scientist,agile,4,47,8.51
+Data Scientist,aws,4,47,8.51
+Data Scientist,git,4,47,8.51
+Data Scientist,java,4,47,8.51
+Data Scientist,pytorch,4,47,8.51
+Data Scientist,azure,3,47,6.38
+Data Scientist,c++,3,47,6.38
+Data Scientist,data structures,3,47,6.38
+Data Scientist,gcp,3,47,6.38
+Data Scientist,oracle,3,47,6.38
+Data Scientist,power bi,3,47,6.38
+Data Scientist,spark,3,47,6.38
+Data Scientist,tensorflow,3,47,6.38
+Data Scientist,etl,2,47,4.26
+Data Scientist,javascript,2,47,4.26
+Data Scientist,linux,2,47,4.26
+Data Scientist,mysql,2,47,4.26
+Data Scientist,nosql,2,47,4.26
+Data Scientist,sql server,2,47,4.26
+Data Scientist,css,1,47,2.13
+Data Scientist,data warehousing,1,47,2.13
+Data Scientist,docker,1,47,2.13
+Data Scientist,html,1,47,2.13
+Data Scientist,jira,1,47,2.13
+Data Scientist,looker,1,47,2.13
+Data Scientist,postgresql,1,47,2.13
+Data Scientist,rest api,1,47,2.13
+Data Scientist,scikit-learn,1,47,2.13
+Data Scientist,snowflake,1,47,2.13
+Data Scientist,a/b testing,0,47,0.0
+Data Scientist,airflow,0,47,0.0
+Data Scientist,angular,0,47,0.0
+Data Scientist,c#,0,47,0.0
+Data Scientist,ci/cd,0,47,0.0
+Data Scientist,data cleaning,0,47,0.0
+Data Scientist,go,0,47,0.0
+Data Scientist,kafka,0,47,0.0
+Data Scientist,kubernetes,0,47,0.0
+Data Scientist,node.js,0,47,0.0
+Data Scientist,numpy,0,47,0.0
+Data Scientist,object-oriented programming,0,47,0.0
+Data Scientist,pandas,0,47,0.0
+Data Scientist,react,0,47,0.0
+Data Scientist,typescript,0,47,0.0
+Data Scientist,unit testing,0,47,0.0
+Data Scientist,vba,0,47,0.0
+Software Engineer,java,99,216,45.83
+Software Engineer,agile,78,216,36.11
+Software Engineer,javascript,75,216,34.72
+Software Engineer,python,75,216,34.72
+Software Engineer,c++,66,216,30.56
+Software Engineer,aws,53,216,24.54
+Software Engineer,git,52,216,24.07
+Software Engineer,sql,50,216,23.15
+Software Engineer,c#,43,216,19.91
+Software Engineer,unit testing,42,216,19.44
+Software Engineer,react,41,216,18.98
+Software Engineer,html,40,216,18.52
+Software Engineer,kubernetes,38,216,17.59
+Software Engineer,azure,36,216,16.67
+Software Engineer,css,35,216,16.2
+Software Engineer,docker,35,216,16.2
+Software Engineer,linux,35,216,16.2
+Software Engineer,typescript,32,216,14.81
+Software Engineer,ci/cd,28,216,12.96
+Software Engineer,data structures,26,216,12.04
+Software Engineer,nosql,26,216,12.04
+Software Engineer,sql server,25,216,11.57
+Software Engineer,object-oriented programming,23,216,10.65
+Software Engineer,rest api,22,216,10.19
+Software Engineer,angular,21,216,9.72
+Software Engineer,node.js,21,216,9.72
+Software Engineer,go,20,216,9.26
+Software Engineer,postgresql,20,216,9.26
+Software Engineer,gcp,17,216,7.87
+Software Engineer,machine learning,15,216,6.94
+Software Engineer,oracle,15,216,6.94
+Software Engineer,kafka,14,216,6.48
+Software Engineer,mysql,11,216,5.09
+Software Engineer,jira,10,216,4.63
+Software Engineer,data modeling,6,216,2.78
+Software Engineer,scala,6,216,2.78
+Software Engineer,etl,5,216,2.31
+Software Engineer,spark,5,216,2.31
+Software Engineer,a/b testing,3,216,1.39
+Software Engineer,excel,2,216,0.93
+Software Engineer,hadoop,2,216,0.93
+Software Engineer,power bi,2,216,0.93
+Software Engineer,pytorch,2,216,0.93
+Software Engineer,snowflake,2,216,0.93
+Software Engineer,airflow,1,216,0.46
+Software Engineer,data visualization,1,216,0.46
+Software Engineer,data warehousing,1,216,0.46
+Software Engineer,r,1,216,0.46
+Software Engineer,sas,1,216,0.46
+Software Engineer,tensorflow,1,216,0.46
+Software Engineer,vba,1,216,0.46
+Software Engineer,data cleaning,0,216,0.0
+Software Engineer,data mining,0,216,0.0
+Software Engineer,deep learning,0,216,0.0
+Software Engineer,looker,0,216,0.0
+Software Engineer,natural language processing,0,216,0.0
+Software Engineer,numpy,0,216,0.0
+Software Engineer,pandas,0,216,0.0
+Software Engineer,scikit-learn,0,216,0.0
+Software Engineer,tableau,0,216,0.0

@@ -3,11 +3,26 @@
 from skillpath import catalog, similarity
 from skillpath.frequency import normalize_skill
 from skillpath.models import (
+    EXPERIENCE_LEVELS,
     MASTERED_LEVELS,
     LearnerProfile,
     LearningPath,
     LearningPathItem,
 )
+
+
+# Entry-level Frequency is blended with the base one as if the base had
+# ENTRY_PRIOR_OFFERS fictitious Offers: w = n / (n + K). See docs/entry-level-complement.md.
+ENTRY_PRIOR_OFFERS = 100
+# Below this many entry-level Offers the sample is too small: no blend (w = 0).
+MIN_ENTRY_OFFERS = 30
+
+
+def entry_weight(sample_size: int) -> float:
+    """Weight of the entry-level Frequency in the blend for a sample of n Offers."""
+    if sample_size < MIN_ENTRY_OFFERS:
+        return 0.0
+    return sample_size / (sample_size + ENTRY_PRIOR_OFFERS)
 
 
 def _missing_prerequisites(skill_name: str, mastered: set[str]) -> list[str]:
@@ -51,12 +66,24 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
     then comes from Frequency and Effort alone, and ``most_frequent()`` gives the
     Role's most frequent Skills. See docs/cold-start.md.
 
-    Raises ValueError if the Role is unknown.
+    ``experience_level="entry"`` (student or recent graduate) mixes the base
+    Frequency with the entry-level one (arshkon): Frequency = w * entry +
+    (1 - w) * base, w = n / (n + ENTRY_PRIOR_OFFERS); Skills absent from the
+    entry-level table (unreliable detection) and samples smaller than
+    MIN_ENTRY_OFFERS use the base only. The priority formula does not change.
+    See docs/entry-level-complement.md.
+
+    Raises ValueError if the Role or the experience level is unknown.
     """
     role = learner_profile.role
     if role not in catalog.FREQUENCY:
         raise ValueError(
             f"Role desconocido: {role!r}. Roles disponibles: {sorted(catalog.FREQUENCY)}"
+        )
+    level = learner_profile.experience_level
+    if level not in EXPERIENCE_LEVELS:
+        raise ValueError(
+            f"Nivel de experiencia desconocido: {level!r}. Valores válidos: {list(EXPERIENCE_LEVELS)}"
         )
     skills = catalog.CATALOG
     role_table = catalog.FREQUENCY[role]
@@ -68,10 +95,32 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
         name: role_table.get(normalize_skill(name, catalog.ALIASES), 0.0)
         for name in skills
     }
+    # Frequency source per Skill: None (default level) | "mix" | "excluded" | "small" | "nodata".
+    sources: dict[str, str | None] = {name: None for name in skills}
+    weight, sample = 0.0, None
+    if level == "entry":
+        entry_table = catalog.ENTRY_FREQUENCY.get(role)
+        sample = catalog.ENTRY_SAMPLE_SIZE.get(role)
+        if entry_table is None or sample is None:
+            sources = {name: "nodata" for name in skills}
+            sample = None
+        else:
+            weight = entry_weight(sample)
+            for name in skills:
+                norm = normalize_skill(name, catalog.ALIASES)
+                if norm not in entry_table:
+                    sources[name] = "excluded"
+                elif weight == 0.0:
+                    sources[name] = "small"
+                else:
+                    sources[name] = "mix"
+                    frequencies[name] = (
+                        weight * entry_table[norm] + (1 - weight) * frequencies[name]
+                    )
     mastered = {
         name
-        for name, level in learner_profile.known_skills.items()
-        if level in MASTERED_LEVELS
+        for name, lvl in learner_profile.known_skills.items()
+        if lvl in MASTERED_LEVELS
     }
     candidates = [name for name in skills if name not in mastered]
 
@@ -110,6 +159,7 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
             explanation=_explain(
                 name, role, frequencies[name], known[name], efforts[name], mastered,
                 closures[name], sim.relations[name], sim.has_anchor,
+                sources[name], weight, sample,
             ),
             similarity=sim.scores[name],
         )
@@ -120,6 +170,9 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
         items=items,
         unrecognized_interests=sim.unrecognized_interests,
         cold_start=not sim.has_anchor,
+        experience_level=level,
+        entry_sample_size=sample,
+        entry_weight=weight,
     )
 
 
@@ -133,9 +186,13 @@ def _explain(
     closure: set[str],
     relations: list[similarity.Relation],
     has_anchor: bool,
+    source: str | None = None,
+    weight: float = 0.0,
+    sample: int | None = None,
 ) -> str:
-    if has_data:
-        text = f"Aparece en el {frequency:.1f}% de las ofertas de {role}; esfuerzo estimado {effort}."
+    note = _explain_source(source, weight, sample)
+    if has_data or source == "mix":
+        text = f"Aparece en el {frequency:.1f}% de las ofertas de {role}{note}; esfuerzo estimado {effort}."
     else:
         text = (
             f"No aparece en las ofertas de {role} analizadas. Frequency 0 %, así que va "
@@ -151,6 +208,25 @@ def _explain(
     elif prerequisites:
         text += f" Ya dominas sus prerrequisitos: {', '.join(prerequisites)}."
     return text
+
+
+def _explain_source(source: str | None, weight: float, sample: int | None) -> str:
+    """Parenthetical about where the Frequency comes from (entry-level Learners only)."""
+    if source == "mix":
+        return (
+            f" (mezcla: {weight:.0%} de {sample} ofertas de nivel inicial de arshkon, una muestra "
+            f"pequeña, y {1 - weight:.0%} de las ofertas base)"
+        )
+    if source == "excluded":
+        return " (solo ofertas base: la detección en el texto no fue fiable para esta habilidad)"
+    if source == "small":
+        return (
+            f" (solo ofertas base: hay apenas {sample} ofertas de nivel inicial, menos del mínimo "
+            f"de {MIN_ENTRY_OFFERS})"
+        )
+    if source == "nodata":
+        return " (solo ofertas base: no hay datos de nivel inicial para este rol)"
+    return ""
 
 
 def _explain_similarity(relations: list[similarity.Relation], has_anchor: bool) -> str:

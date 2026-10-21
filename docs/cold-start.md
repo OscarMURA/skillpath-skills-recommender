@@ -88,3 +88,5 @@ La Skill se recomienda sin fallar, queda después de `sql`, su Effort baja cuand
 - No se midió cuánto mejora la experiencia con el formulario; es una decisión de diseño, no un resultado evaluado.
 
 Ver también: `docs/priority-formula.md` y `docs/similarity.md`.
+
+Ver también: `docs/entry-level-complement.md` (Frequency para Learners de nivel inicial).

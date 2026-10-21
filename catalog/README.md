@@ -10,6 +10,8 @@ Datos versionados que alimentan la Frequency real por Role. Los datasets origina
 | `aliases.csv` | Tabla de alias (`alias,skill`) que unifica variantes de una misma Skill. Ambos lados se normalizan al cargar. |
 | `exclusions.txt` | Habilidades blandas y genéricas que se descartan. Una por línea; `#` inicia un comentario. |
 | `cooccurrence.csv` | Co-ocurrencia de Skills del Catalog en las Offers de cada Role. Columnas: `role, skill_a, skill_b, offers_together, closeness`. Se genera; no se edita a mano. Ver la sección Co-ocurrencia. |
+| `frequency_entry_by_role.csv` | Frequency de nivel inicial por Role, detectada en el texto de arshkon. Mismas columnas que `frequency_by_role.csv`. Se genera; no se edita a mano. |
+| `detection_calibration.csv` | Calibración del detector de Skills contra asaniczka. Se genera. |
 | `skills.csv` | Catalog curado de 64 Skills con categoría, descripción, Difficulty y Prerequisites. Se edita a mano (ver la sección Catalog). |
 
 ## Cómo se calcula
@@ -29,6 +31,43 @@ Un dataset equivale a un Role: Data Analyst, Software Engineer y Data Scientist 
 Opciones: `--datos DIR`, `--out PATH`, `--min-frequency 1.0`, `--top N` (imprime las N Skills más frecuentes por Role, útil para revisar alias y exclusiones) y `--raw` (ignora alias y exclusiones y no escribe el CSV).
 
 Umbral: solo se guardan Skills con Frequency >= 1.0 % (`--min-frequency`) para que el archivo sea pequeño. Excepción: las Skills del Catalog siempre se incluyen, aunque estén por debajo del umbral (con el Catalog de 64 Skills, varias quedan por debajo del 1 % en algún Role, sobre todo en Data Analyst). Una Skill del Catalog sin ninguna Offer en un Role no tiene fila ahí y el recomendador le asigna Frequency 0.0.
+
+## Frequency de nivel inicial (`frequency_entry_by_role.csv`)
+
+Complemento para estudiantes y recién graduados (ADR 0002). arshkon no trae Skills técnicas, así que las Skills del Catalog se detectan por diccionario en `description` (`skillpath/skill_detection.py`: regex por Skill con nombre, alias de `aliases.csv` y sinónimos de texto; reglas especiales para ambiguos como `r`, `go`, `excel`, `spark`, `rest api`).
+
+- **Role:** por título, `data analyst`, `data scientist` o `software (engineer|developer|development engineer)`. Un título que coincide con más de un Role se descarta.
+- **Nivel inicial = `Entry level` + `Internship`.** `Associate` no entra: asaniczka, la base, ya se compone de Offers Associate y Mid senior, y meterlo diluiría el contraste. Se cambia con `--levels`.
+- **Deduplicación:** arshkon repite Offers (por ejemplo "Online Data Analyst" 20 veces con el mismo texto), lo que inflaba la Frequency. Se deduplica por Role con el texto exacto de `description` (strip, espacios colapsados, sin distinguir mayúsculas): cada texto cuenta una vez.
+- **Tamaño de muestra** (`role_offers`, igual para todas las filas de un Role), Offers antes -> después de deduplicar, por nivel:
+
+| Role | Entry level | Internship | Associate (no usado) | Nivel inicial usado (antes -> después) |
+|---|---|---|---|---|
+| Data Analyst | 116 -> 78 | 2 -> 2 | 39 -> 37 | 118 -> 80 |
+| Software Engineer | 217 -> 208 | 8 -> 8 | 84 -> 76 | 225 -> 216 |
+| Data Scientist | 56 -> 46 | 1 -> 1 | 13 -> 11 | 57 -> 47 |
+
+  Las cifras por nivel deduplican dentro de cada nivel; la última columna deduplica sobre Entry + Internship juntos. El comando imprime esta tabla. Muestras pequeñas: úsese con cautela y como complemento de la Frequency base.
+- **Frequency** = 100 × Offers del Role (nivel inicial) cuya descripción menciona la Skill / `role_offers`, redondeada a 2 decimales; cada Offer cuenta una vez por Skill.
+- **Contrato:** hay una fila por cada Role y cada Skill fiable del Catalog, también con 0 Offers. **Una Skill ausente** de este archivo está excluida por no fiable (ver calibración): el recomendador debe usar solo la Frequency base para ella. Una Skill presente con `frequency` 0 significa que sí se pudo medir y no apareció.
+
+```
+.venv/bin/python -m skillpath.build_entry_frequency
+```
+
+Opciones: `--datos DIR`, `--out PATH`, `--levels "Entry level" "Internship"`, `--calibration-out PATH`, `--skip-calibration` (usa la calibración guardada, tarda unos 7 s en vez de unos 2,3 min), `--top N`. La salida es determinista (byte a byte) y arshkon se lee por trozos de 2.000 filas con solo 3 columnas.
+
+## Calibración del detector (`detection_calibration.csv`)
+
+Se aplica el mismo detector a `job_summary` de todas las Offers de asaniczka con `job_summary` y `job_skills` no vacíos (12.705, 9.367 y 4.336 Offers) y se compara, sobre las MISMAS Offers, con la Frequency de `job_skills` (con alias y exclusiones de siempre). Columnas: `role, skill, text_frequency, skills_frequency, reference_frequency` (la de `frequency_by_role.csv`), `diff` (puntos), `ratio` (`text/skills`, vacío si `skills_frequency` es 0) y `reliable` (igual para los tres Roles de una Skill).
+
+La calibración no deduplica `job_summary`: asaniczka también tiene textos exactos repetidos (12.705 -> 11.021 distintos en Data Analyst, 9.367 -> 7.743 en Software Engineer, 4.336 -> 3.450 en Data Scientist), dato solo informativo.
+
+**Regla de fiabilidad:** una Skill es no fiable si en cualquier Role `|diff| > 10` puntos, o si en un Role con `skills_frequency >= 2` el `ratio` queda fuera de [0.5, 2.0]. Las no fiables se excluyen de `frequency_entry_by_role.csv`.
+
+Antes de excluir se revisaron falsos positivos reales y se ajustó el detector: `statistics` ya no cuenta "statistical", `azure` no cuenta "Azure DevOps", `oracle` no cuenta Oracle ERP/Fusion/Cloud ERP, `ci/cd` no cuenta "continuous integration", `object-oriented programming` solo cuenta "object-oriented programming/languages" y `OOP`, y `algorithms` no cuenta "machine learning algorithms".
+
+**Excluidas hoy:** `algorithms`, `big data`, `microservices`, `statistics`. El desvío es sobre todo ruido de `job_skills` (extracción que omite Skills realmente mencionadas en el texto), no error del detector: los falsos positivos revisados eran menciones reales. Aun así no hay forma de saber cuál de las dos fuentes se acerca más a la verdad, así que se excluyen por prudencia.
 
 ## Co-ocurrencia (`cooccurrence.csv`)
 

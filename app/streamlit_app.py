@@ -11,6 +11,7 @@ import streamlit as st
 from skillpath import LearnerProfile, recommend
 from skillpath.catalog import CATALOG, ROLES
 
+EXPERIENCE = {"Con experiencia": "experienced", "Inicial (estudiante o recién graduado)": "entry"}
 LEVELS = {"básico": "basic", "intermedio": "intermediate", "avanzado": "advanced"}
 
 st.title("SkillPath")
@@ -22,6 +23,13 @@ st.write(
 )
 
 role = st.selectbox("Rol objetivo", ROLES)
+experience_label = st.radio(
+    "Nivel de experiencia",
+    list(EXPERIENCE),
+    key="experience_level",
+    help="«Inicial» mezcla las ofertas base con ofertas de nivel inicial (arshkon) para calcular la frecuencia.",
+)
+experience_level = EXPERIENCE[experience_label]
 start_empty = st.checkbox(
     "Empezar sin datos",
     key="start_empty",
@@ -30,7 +38,10 @@ start_empty = st.checkbox(
 
 SUGGESTIONS = 8
 suggested = [
-    i.skill for i in recommend(LearnerProfile(role=role)).most_frequent(SUGGESTIONS)
+    i.skill
+    for i in recommend(
+        LearnerProfile(role=role, experience_level=experience_level)
+    ).most_frequent(SUGGESTIONS)
 ]
 st.caption(f"Sugerencias: las más frecuentes en las ofertas de {role}. Marca las que ya conoces.")
 columns = st.columns(4)
@@ -59,8 +70,28 @@ interests = chosen_interests + [t.strip() for t in free_interests.split(",") if 
 if start_empty:
     known_skills, interests = {}, []
 path = recommend(
-    LearnerProfile(role=role, known_skills=known_skills, interests=interests)
+    LearnerProfile(
+        role=role,
+        known_skills=known_skills,
+        interests=interests,
+        experience_level=experience_level,
+    )
 )
+if path.experience_level == "entry":
+    if path.entry_sample_size is None:
+        st.warning(
+            f"No hay ofertas de nivel inicial para {role}: la frecuencia usa solo las ofertas base."
+        )
+    elif path.entry_weight == 0.0:
+        st.warning(
+            f"Solo hay {path.entry_sample_size} ofertas de nivel inicial de {role} (arshkon), "
+            "muy pocas para mezclarlas: la frecuencia usa solo las ofertas base."
+        )
+    else:
+        st.warning(
+            f"La frecuencia mezcla las ofertas base con solo {path.entry_sample_size} ofertas de "
+            f"nivel inicial de {role} (arshkon): es una muestra pequeña; tómala como orientación."
+        )
 if path.cold_start:
     st.info(
         "Sin datos tuyos no podemos personalizar: se muestra la ruta calculada con la "

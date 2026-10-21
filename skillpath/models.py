@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 
 MASTERY_LEVELS = ("basic", "intermediate", "advanced")
 MASTERED_LEVELS = ("intermediate", "advanced")
+EXPERIENCE_LEVELS = ("experienced", "entry")
 
 
 @dataclass(frozen=True)
@@ -25,6 +26,9 @@ class LearnerProfile:
     role: str
     known_skills: dict[str, str] = field(default_factory=dict)  # Skill name -> Mastery level
     interests: list[str] = field(default_factory=list)
+    # "experienced" (default) uses the base Frequency only; "entry" (student or
+    # recent graduate) blends in the entry-level Frequency. See docs/entry-level-complement.md.
+    experience_level: str = "experienced"
 
 
 @dataclass(frozen=True)
@@ -46,6 +50,11 @@ class LearningPath:
     items: list[LearningPathItem]
     unrecognized_interests: list[str] = field(default_factory=list)
     cold_start: bool = False  # True when the Learner profile has no known Skill or recognized interest
+    experience_level: str = "experienced"
+    # Entry-level Offers behind the blend (None when not entry level or no data for the Role).
+    entry_sample_size: int | None = None
+    # Weight of the entry-level Frequency in the blend (0.0 when not blended).
+    entry_weight: float = 0.0
 
     def most_frequent(self, n: int = 10) -> list[LearningPathItem]:
         """The n candidate Skills with highest Frequency in the Role's Offers.
