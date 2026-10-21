@@ -35,6 +35,7 @@ class LearningPathItem:
     frequency: float  # percentage of the Role's Offers mentioning the Skill
     effort: int
     explanation: str  # short, in Spanish
+    similarity: float = 0.0  # cosine with the Learner's known Skills and interests, in [0, 1]
 
 
 @dataclass(frozen=True)
@@ -43,3 +44,4 @@ class LearningPath:
 
     role: str
     items: list[LearningPathItem]
+    unrecognized_interests: list[str] = field(default_factory=list)

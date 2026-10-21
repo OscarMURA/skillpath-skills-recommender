@@ -1,6 +1,6 @@
 """Deterministic recommendation logic (no LLM, no randomness)."""
 
-from skillpath import catalog
+from skillpath import catalog, similarity
 from skillpath.frequency import normalize_skill
 from skillpath.models import (
     MASTERED_LEVELS,
@@ -39,7 +39,9 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
     candidate and counts as a missing Prerequisite for the Skills that need it.
 
     Effort = Difficulty + number of distinct missing Prerequisites, transitive
-    (the walk stops at mastered Skills). Priority = Frequency / Effort.
+    (the walk stops at mastered Skills). Priority = Frequency * (1 + similarity)
+    / Effort, where similarity in [0, 1] is the TF-IDF cosine between the
+    candidate and the Learner's known Skills and interests (0 with none).
     Order: priority descending, ties by higher Frequency, then name ascending;
     then a stable topological adjustment so every Skill comes after all its
     missing Prerequisites. See docs/priority-formula.md.
@@ -70,7 +72,12 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
 
     closures = {name: _missing_closure(name, mastered) for name in candidates}
     efforts = {name: skills[name].difficulty + len(closures[name]) for name in candidates}
-    priorities = {name: frequencies[name] / efforts[name] for name in candidates}
+    sim = similarity.compute_similarity(
+        role, learner_profile.known_skills, learner_profile.interests, candidates
+    )
+    priorities = {
+        name: frequencies[name] * (1 + sim.scores[name]) / efforts[name] for name in candidates
+    }
     pending = sorted(
         candidates, key=lambda n: (-priorities[n], -frequencies[n], n)
     )
@@ -96,12 +103,14 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
             frequency=frequencies[name],
             effort=efforts[name],
             explanation=_explain(
-                name, role, frequencies[name], known[name], efforts[name], mastered, closures[name]
+                name, role, frequencies[name], known[name], efforts[name], mastered,
+                closures[name], sim.relations[name], sim.has_anchor,
             ),
+            similarity=sim.scores[name],
         )
         for name in ordered
     ]
-    return LearningPath(role=role, items=items)
+    return LearningPath(role=role, items=items, unrecognized_interests=sim.unrecognized_interests)
 
 
 def _explain(
@@ -112,11 +121,14 @@ def _explain(
     effort: int,
     mastered: set[str],
     closure: set[str],
+    relations: list[similarity.Relation],
+    has_anchor: bool,
 ) -> str:
     if has_data:
         text = f"Aparece en el {frequency:.1f}% de las ofertas de {role}; esfuerzo estimado {effort}."
     else:
         text = f"No aparece en las ofertas de {role} analizadas. Esfuerzo estimado {effort}."
+    text += " " + _explain_similarity(relations, has_anchor)
     missing = _missing_prerequisites(name, mastered)
     prerequisites = catalog.CATALOG[name].prerequisites
     if missing:
@@ -126,3 +138,16 @@ def _explain(
     elif prerequisites:
         text += f" Ya dominas sus prerrequisitos: {', '.join(prerequisites)}."
     return text
+
+
+def _explain_similarity(relations: list[similarity.Relation], has_anchor: bool) -> str:
+    if not has_anchor:
+        return "Sin habilidades ni intereses reconocidos, el orden usa solo frecuencia y esfuerzo."
+    if not relations:
+        return "Sin relación clara con lo que sabes ni con tus intereses."
+    parts = []
+    for kind, intro in (("skill", "lo que ya sabes"), ("interest", "tus intereses")):
+        group = [f"{r.label} ({r.cosine:.2f})" for r in relations if r.kind == kind]
+        if group:
+            parts.append(f"Se relaciona con {intro}: {', '.join(group)}.")
+    return " ".join(parts)

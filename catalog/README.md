@@ -9,6 +9,7 @@ Datos versionados que alimentan la Frequency real por Role. Los datasets origina
 | `frequency_by_role.csv` | Frequency de cada Skill por Role. Columnas: `role, skill, offers_with_skill, role_offers, frequency`. Se genera; no se edita a mano. |
 | `aliases.csv` | Tabla de alias (`alias,skill`) que unifica variantes de una misma Skill. Ambos lados se normalizan al cargar. |
 | `exclusions.txt` | Habilidades blandas y genéricas que se descartan. Una por línea; `#` inicia un comentario. |
+| `cooccurrence.csv` | Co-ocurrencia de Skills del Catalog en las Offers de cada Role. Columnas: `role, skill_a, skill_b, offers_together, closeness`. Se genera; no se edita a mano. Ver la sección Co-ocurrencia. |
 | `skills.csv` | Catalog curado de 64 Skills con categoría, descripción, Difficulty y Prerequisites. Se edita a mano (ver la sección Catalog). |
 
 ## Cómo se calcula
@@ -28,6 +29,18 @@ Un dataset equivale a un Role: Data Analyst, Software Engineer y Data Scientist 
 Opciones: `--datos DIR`, `--out PATH`, `--min-frequency 1.0`, `--top N` (imprime las N Skills más frecuentes por Role, útil para revisar alias y exclusiones) y `--raw` (ignora alias y exclusiones y no escribe el CSV).
 
 Umbral: solo se guardan Skills con Frequency >= 1.0 % (`--min-frequency`) para que el archivo sea pequeño. Excepción: las Skills del Catalog siempre se incluyen, aunque estén por debajo del umbral (con el Catalog de 64 Skills, varias quedan por debajo del 1 % en algún Role, sobre todo en Data Analyst). Una Skill del Catalog sin ninguna Offer en un Role no tiene fila ahí y el recomendador le asigna Frequency 0.0.
+
+## Co-ocurrencia (`cooccurrence.csv`)
+
+Alimenta la similitud entre Skills (`docs/similarity.md`). Para cada Role y cada par de Skills del Catalog que aparecen en la misma Offer (con la misma normalización, alias y exclusiones que la Frequency) se guarda `offers_together` y `closeness = offers_together / sqrt(offers_a × offers_b)` (coeficiente de Ochiai, entre 0 y 1). Cada par aparece una vez, con `skill_a < skill_b` en orden alfabético. Es por Role porque la cercanía entre Skills cambia según el mercado (por ejemplo, `python` con `pandas` frente a `python` con `java`).
+
+Se descartan los pares con menos de 5 Offers juntas (`--min-offers`) para mantener el archivo pequeño: 3.906 filas, unos 163 KB. Solo se usan las Offers de los tres datasets de asaniczka, no arshkon ni rajatraj0502.
+
+```
+.venv/bin/python -m skillpath.build_cooccurrence
+```
+
+Opciones: `--datos DIR`, `--out PATH`, `--min-offers 5`. La salida es determinista: regenerar produce un archivo idéntico byte a byte.
 
 ## Criterios
 

@@ -1,0 +1,3907 @@
+role,skill_a,skill_b,offers_together,closeness
+Data Analyst,a/b testing,agile,8,0.0144
+Data Analyst,a/b testing,algorithms,7,0.0653
+Data Analyst,a/b testing,big data,8,0.0432
+Data Analyst,a/b testing,css,6,0.0335
+Data Analyst,a/b testing,data cleaning,35,0.1179
+Data Analyst,a/b testing,data mining,39,0.0855
+Data Analyst,a/b testing,data modeling,13,0.0301
+Data Analyst,a/b testing,data visualization,170,0.2387
+Data Analyst,a/b testing,data warehousing,19,0.0529
+Data Analyst,a/b testing,etl,55,0.1803
+Data Analyst,a/b testing,excel,33,0.0384
+Data Analyst,a/b testing,gcp,7,0.0384
+Data Analyst,a/b testing,hadoop,6,0.0335
+Data Analyst,a/b testing,html,8,0.0377
+Data Analyst,a/b testing,javascript,10,0.0366
+Data Analyst,a/b testing,looker,22,0.1071
+Data Analyst,a/b testing,machine learning,60,0.1506
+Data Analyst,a/b testing,power bi,132,0.1836
+Data Analyst,a/b testing,python,182,0.2645
+Data Analyst,a/b testing,r,156,0.3004
+Data Analyst,a/b testing,snowflake,6,0.025
+Data Analyst,a/b testing,sql,204,0.2103
+Data Analyst,a/b testing,statistics,31,0.0783
+Data Analyst,a/b testing,tableau,176,0.2553
+Data Analyst,agile,aws,80,0.1163
+Data Analyst,agile,azure,66,0.09
+Data Analyst,agile,big data,22,0.0472
+Data Analyst,agile,c#,34,0.0776
+Data Analyst,agile,c++,36,0.0816
+Data Analyst,agile,ci/cd,6,0.0334
+Data Analyst,agile,css,43,0.0954
+Data Analyst,agile,data cleaning,36,0.0482
+Data Analyst,agile,data mining,65,0.0566
+Data Analyst,agile,data modeling,114,0.1049
+Data Analyst,agile,data structures,17,0.0532
+Data Analyst,agile,data visualization,139,0.0775
+Data Analyst,agile,data warehousing,61,0.0675
+Data Analyst,agile,docker,23,0.0972
+Data Analyst,agile,etl,49,0.0638
+Data Analyst,agile,excel,143,0.0661
+Data Analyst,agile,gcp,38,0.0829
+Data Analyst,agile,git,44,0.1047
+Data Analyst,agile,hadoop,27,0.0599
+Data Analyst,agile,html,58,0.1085
+Data Analyst,agile,java,76,0.1095
+Data Analyst,agile,javascript,71,0.1033
+Data Analyst,agile,jira,313,0.334
+Data Analyst,agile,kafka,9,0.0351
+Data Analyst,agile,kubernetes,26,0.1085
+Data Analyst,agile,linux,34,0.0659
+Data Analyst,agile,looker,12,0.0232
+Data Analyst,agile,machine learning,80,0.0798
+Data Analyst,agile,microservices,8,0.0478
+Data Analyst,agile,mysql,14,0.0367
+Data Analyst,agile,natural language processing,8,0.0288
+Data Analyst,agile,node.js,6,0.0445
+Data Analyst,agile,nosql,35,0.0949
+Data Analyst,agile,numpy,8,0.0378
+Data Analyst,agile,object-oriented programming,9,0.0333
+Data Analyst,agile,oracle,60,0.0773
+Data Analyst,agile,pandas,7,0.0224
+Data Analyst,agile,postgresql,10,0.0326
+Data Analyst,agile,power bi,170,0.0939
+Data Analyst,agile,python,200,0.1155
+Data Analyst,agile,r,80,0.0612
+Data Analyst,agile,react,8,0.0397
+Data Analyst,agile,rest api,20,0.0597
+Data Analyst,agile,sas,23,0.0264
+Data Analyst,agile,scala,7,0.036
+Data Analyst,agile,snowflake,29,0.048
+Data Analyst,agile,spark,40,0.0794
+Data Analyst,agile,sql,540,0.2211
+Data Analyst,agile,sql server,53,0.0647
+Data Analyst,agile,statistics,20,0.0201
+Data Analyst,agile,tableau,148,0.0853
+Data Analyst,agile,tensorflow,5,0.0386
+Data Analyst,agile,unit testing,44,0.1142
+Data Analyst,agile,vba,10,0.0183
+Data Analyst,airflow,aws,5,0.0544
+Data Analyst,airflow,azure,6,0.0612
+Data Analyst,airflow,data modeling,7,0.0482
+Data Analyst,airflow,data visualization,12,0.0501
+Data Analyst,airflow,data warehousing,8,0.0663
+Data Analyst,airflow,etl,6,0.0585
+Data Analyst,airflow,looker,10,0.1447
+Data Analyst,airflow,power bi,10,0.0413
+Data Analyst,airflow,python,15,0.0648
+Data Analyst,airflow,r,5,0.0286
+Data Analyst,airflow,snowflake,13,0.1609
+Data Analyst,airflow,spark,5,0.0743
+Data Analyst,airflow,sql,23,0.0705
+Data Analyst,airflow,tableau,18,0.0776
+Data Analyst,algorithms,data cleaning,10,0.0694
+Data Analyst,algorithms,data mining,7,0.0316
+Data Analyst,algorithms,data modeling,7,0.0334
+Data Analyst,algorithms,data structures,7,0.1136
+Data Analyst,algorithms,data visualization,16,0.0463
+Data Analyst,algorithms,excel,10,0.024
+Data Analyst,algorithms,javascript,14,0.1058
+Data Analyst,algorithms,machine learning,17,0.088
+Data Analyst,algorithms,object-oriented programming,9,0.1731
+Data Analyst,algorithms,power bi,15,0.043
+Data Analyst,algorithms,python,28,0.0839
+Data Analyst,algorithms,r,23,0.0913
+Data Analyst,algorithms,sql,22,0.0468
+Data Analyst,algorithms,statistics,6,0.0312
+Data Analyst,algorithms,tableau,13,0.0389
+Data Analyst,angular,aws,5,0.0593
+Data Analyst,angular,css,5,0.0906
+Data Analyst,angular,html,6,0.0917
+Data Analyst,angular,java,11,0.1294
+Data Analyst,angular,javascript,11,0.1308
+Data Analyst,angular,jira,7,0.061
+Data Analyst,angular,python,6,0.0283
+Data Analyst,angular,sql,11,0.0368
+Data Analyst,angular,typescript,5,0.2916
+Data Analyst,aws,azure,143,0.3969
+Data Analyst,aws,big data,24,0.1049
+Data Analyst,aws,c#,9,0.0418
+Data Analyst,aws,c++,23,0.1061
+Data Analyst,aws,ci/cd,5,0.0567
+Data Analyst,aws,css,18,0.0813
+Data Analyst,aws,data cleaning,13,0.0354
+Data Analyst,aws,data mining,36,0.0638
+Data Analyst,aws,data modeling,40,0.0749
+Data Analyst,aws,data visualization,83,0.0942
+Data Analyst,aws,data warehousing,30,0.0676
+Data Analyst,aws,deep learning,5,0.0555
+Data Analyst,aws,docker,18,0.1548
+Data Analyst,aws,etl,40,0.106
+Data Analyst,aws,excel,45,0.0424
+Data Analyst,aws,gcp,93,0.413
+Data Analyst,aws,git,31,0.1502
+Data Analyst,aws,hadoop,35,0.1581
+Data Analyst,aws,html,22,0.0838
+Data Analyst,aws,java,47,0.1378
+Data Analyst,aws,javascript,30,0.0889
+Data Analyst,aws,jira,57,0.1238
+Data Analyst,aws,kafka,7,0.0555
+Data Analyst,aws,kubernetes,19,0.1614
+Data Analyst,aws,linux,35,0.1381
+Data Analyst,aws,looker,12,0.0472
+Data Analyst,aws,machine learning,56,0.1137
+Data Analyst,aws,mysql,7,0.0373
+Data Analyst,aws,natural language processing,5,0.0367
+Data Analyst,aws,node.js,5,0.0754
+Data Analyst,aws,nosql,29,0.1602
+Data Analyst,aws,numpy,12,0.1154
+Data Analyst,aws,oracle,23,0.0603
+Data Analyst,aws,pandas,13,0.0845
+Data Analyst,aws,postgresql,14,0.093
+Data Analyst,aws,power bi,91,0.1023
+Data Analyst,aws,python,195,0.2292
+Data Analyst,aws,r,68,0.1059
+Data Analyst,aws,react,6,0.0606
+Data Analyst,aws,rest api,9,0.0547
+Data Analyst,aws,sas,20,0.0467
+Data Analyst,aws,scala,6,0.0628
+Data Analyst,aws,snowflake,49,0.165
+Data Analyst,aws,spark,44,0.1779
+Data Analyst,aws,sql,233,0.1942
+Data Analyst,aws,sql server,17,0.0422
+Data Analyst,aws,statistics,22,0.0449
+Data Analyst,aws,tableau,135,0.1583
+Data Analyst,aws,typescript,6,0.0872
+Data Analyst,aws,vba,5,0.0187
+Data Analyst,azure,big data,17,0.0697
+Data Analyst,azure,c#,14,0.061
+Data Analyst,azure,c++,25,0.1082
+Data Analyst,azure,ci/cd,6,0.0638
+Data Analyst,azure,css,19,0.0805
+Data Analyst,azure,data cleaning,9,0.023
+Data Analyst,azure,data mining,32,0.0532
+Data Analyst,azure,data modeling,43,0.0756
+Data Analyst,azure,data visualization,70,0.0746
+Data Analyst,azure,data warehousing,38,0.0803
+Data Analyst,azure,docker,18,0.1452
+Data Analyst,azure,etl,37,0.092
+Data Analyst,azure,excel,53,0.0468
+Data Analyst,azure,gcp,85,0.3542
+Data Analyst,azure,git,33,0.15
+Data Analyst,azure,hadoop,22,0.0932
+Data Analyst,azure,html,23,0.0822
+Data Analyst,azure,java,40,0.1101
+Data Analyst,azure,javascript,28,0.0778
+Data Analyst,azure,jira,39,0.0795
+Data Analyst,azure,kafka,10,0.0744
+Data Analyst,azure,kubernetes,21,0.1674
+Data Analyst,azure,linux,35,0.1296
+Data Analyst,azure,looker,7,0.0258
+Data Analyst,azure,machine learning,48,0.0914
+Data Analyst,azure,mysql,8,0.04
+Data Analyst,azure,natural language processing,6,0.0413
+Data Analyst,azure,nosql,29,0.1503
+Data Analyst,azure,oracle,16,0.0394
+Data Analyst,azure,postgresql,10,0.0623
+Data Analyst,azure,power bi,130,0.1371
+Data Analyst,azure,python,139,0.1533
+Data Analyst,azure,r,49,0.0716
+Data Analyst,azure,react,6,0.0569
+Data Analyst,azure,rest api,8,0.0456
+Data Analyst,azure,sas,16,0.035
+Data Analyst,azure,scala,5,0.0491
+Data Analyst,azure,snowflake,26,0.0821
+Data Analyst,azure,spark,29,0.11
+Data Analyst,azure,sql,197,0.1541
+Data Analyst,azure,sql server,32,0.0746
+Data Analyst,azure,statistics,14,0.0268
+Data Analyst,azure,tableau,84,0.0924
+Data Analyst,azure,unit testing,9,0.0446
+Data Analyst,big data,data cleaning,6,0.0241
+Data Analyst,big data,data mining,58,0.1519
+Data Analyst,big data,data modeling,33,0.0913
+Data Analyst,big data,data visualization,87,0.1459
+Data Analyst,big data,data warehousing,43,0.143
+Data Analyst,big data,etl,31,0.1214
+Data Analyst,big data,excel,32,0.0445
+Data Analyst,big data,gcp,9,0.059
+Data Analyst,big data,git,5,0.0358
+Data Analyst,big data,hadoop,34,0.2268
+Data Analyst,big data,java,7,0.0303
+Data Analyst,big data,javascript,7,0.0306
+Data Analyst,big data,jira,9,0.0289
+Data Analyst,big data,looker,9,0.0523
+Data Analyst,big data,machine learning,65,0.1948
+Data Analyst,big data,natural language processing,8,0.0866
+Data Analyst,big data,nosql,15,0.1223
+Data Analyst,big data,oracle,7,0.0271
+Data Analyst,big data,power bi,51,0.0847
+Data Analyst,big data,python,86,0.1493
+Data Analyst,big data,r,52,0.1196
+Data Analyst,big data,sas,23,0.0793
+Data Analyst,big data,scala,6,0.0927
+Data Analyst,big data,snowflake,12,0.0597
+Data Analyst,big data,spark,28,0.1672
+Data Analyst,big data,sql,117,0.144
+Data Analyst,big data,statistics,23,0.0693
+Data Analyst,big data,tableau,71,0.123
+Data Analyst,c#,c++,25,0.1812
+Data Analyst,c#,css,47,0.3335
+Data Analyst,c#,data modeling,6,0.0177
+Data Analyst,c#,data visualization,7,0.0125
+Data Analyst,c#,data warehousing,10,0.0354
+Data Analyst,c#,etl,5,0.0208
+Data Analyst,c#,excel,42,0.0621
+Data Analyst,c#,gcp,6,0.0419
+Data Analyst,c#,git,12,0.0913
+Data Analyst,c#,html,31,0.1854
+Data Analyst,c#,java,36,0.1658
+Data Analyst,c#,javascript,56,0.2606
+Data Analyst,c#,jira,9,0.0307
+Data Analyst,c#,linux,15,0.093
+Data Analyst,c#,machine learning,10,0.0319
+Data Analyst,c#,mysql,6,0.0503
+Data Analyst,c#,nosql,11,0.0954
+Data Analyst,c#,object-oriented programming,5,0.0592
+Data Analyst,c#,oracle,17,0.07
+Data Analyst,c#,power bi,51,0.0901
+Data Analyst,c#,python,54,0.0997
+Data Analyst,c#,r,14,0.0342
+Data Analyst,c#,rest api,8,0.0764
+Data Analyst,c#,sql,60,0.0786
+Data Analyst,c#,sql server,35,0.1366
+Data Analyst,c#,tableau,12,0.0221
+Data Analyst,c#,unit testing,6,0.0498
+Data Analyst,c#,vba,8,0.0469
+Data Analyst,c++,css,22,0.155
+Data Analyst,c++,data mining,17,0.047
+Data Analyst,c++,data modeling,10,0.0292
+Data Analyst,c++,data visualization,17,0.0301
+Data Analyst,c++,data warehousing,5,0.0176
+Data Analyst,c++,docker,16,0.2146
+Data Analyst,c++,excel,28,0.0411
+Data Analyst,c++,gcp,23,0.1593
+Data Analyst,c++,git,16,0.1209
+Data Analyst,c++,hadoop,20,0.1409
+Data Analyst,c++,html,30,0.1782
+Data Analyst,c++,java,97,0.4436
+Data Analyst,c++,javascript,34,0.1571
+Data Analyst,c++,jira,19,0.0644
+Data Analyst,c++,kafka,7,0.0866
+Data Analyst,c++,kubernetes,15,0.1987
+Data Analyst,c++,linux,34,0.2092
+Data Analyst,c++,machine learning,34,0.1076
+Data Analyst,c++,mysql,8,0.0665
+Data Analyst,c++,natural language processing,5,0.0572
+Data Analyst,c++,nosql,22,0.1895
+Data Analyst,c++,oracle,20,0.0818
+Data Analyst,c++,postgresql,5,0.0518
+Data Analyst,c++,power bi,33,0.0579
+Data Analyst,c++,python,124,0.2273
+Data Analyst,c++,r,47,0.1141
+Data Analyst,c++,rest api,6,0.0569
+Data Analyst,c++,sas,16,0.0582
+Data Analyst,c++,spark,20,0.1261
+Data Analyst,c++,sql,87,0.1131
+Data Analyst,c++,sql server,15,0.0581
+Data Analyst,c++,statistics,15,0.0477
+Data Analyst,c++,tableau,33,0.0604
+Data Analyst,c++,vba,5,0.0291
+Data Analyst,ci/cd,docker,5,0.1648
+Data Analyst,ci/cd,git,8,0.1486
+Data Analyst,ci/cd,hadoop,5,0.0866
+Data Analyst,ci/cd,java,5,0.0562
+Data Analyst,ci/cd,kubernetes,5,0.1628
+Data Analyst,ci/cd,power bi,6,0.0259
+Data Analyst,ci/cd,python,10,0.0451
+Data Analyst,ci/cd,spark,5,0.0775
+Data Analyst,ci/cd,sql,12,0.0383
+Data Analyst,css,data modeling,5,0.0143
+Data Analyst,css,data visualization,13,0.0225
+Data Analyst,css,data warehousing,10,0.0344
+Data Analyst,css,docker,11,0.1444
+Data Analyst,css,excel,46,0.0661
+Data Analyst,css,gcp,16,0.1085
+Data Analyst,css,git,25,0.185
+Data Analyst,css,html,111,0.6454
+Data Analyst,css,java,41,0.1836
+Data Analyst,css,javascript,136,0.6152
+Data Analyst,css,jira,16,0.0531
+Data Analyst,css,kubernetes,11,0.1427
+Data Analyst,css,linux,27,0.1627
+Data Analyst,css,machine learning,9,0.0279
+Data Analyst,css,mysql,13,0.1059
+Data Analyst,css,node.js,5,0.1152
+Data Analyst,css,nosql,18,0.1518
+Data Analyst,css,oracle,9,0.036
+Data Analyst,css,postgresql,6,0.0609
+Data Analyst,css,power bi,43,0.0738
+Data Analyst,css,python,60,0.1077
+Data Analyst,css,r,14,0.0333
+Data Analyst,css,react,12,0.1851
+Data Analyst,css,rest api,9,0.0836
+Data Analyst,css,sql,74,0.0942
+Data Analyst,css,sql server,12,0.0455
+Data Analyst,css,tableau,17,0.0304
+Data Analyst,css,typescript,7,0.1554
+Data Analyst,css,unit testing,8,0.0645
+Data Analyst,data cleaning,data mining,104,0.1697
+Data Analyst,data cleaning,data modeling,82,0.1414
+Data Analyst,data cleaning,data structures,6,0.0352
+Data Analyst,data cleaning,data visualization,233,0.2435
+Data Analyst,data cleaning,data warehousing,58,0.1203
+Data Analyst,data cleaning,etl,41,0.1
+Data Analyst,data cleaning,excel,118,0.1022
+Data Analyst,data cleaning,gcp,6,0.0245
+Data Analyst,data cleaning,hadoop,10,0.0416
+Data Analyst,data cleaning,javascript,9,0.0245
+Data Analyst,data cleaning,jira,9,0.018
+Data Analyst,data cleaning,looker,5,0.0181
+Data Analyst,data cleaning,machine learning,41,0.0766
+Data Analyst,data cleaning,mysql,7,0.0344
+Data Analyst,data cleaning,nosql,7,0.0356
+Data Analyst,data cleaning,oracle,14,0.0338
+Data Analyst,data cleaning,power bi,174,0.1801
+Data Analyst,data cleaning,python,130,0.1406
+Data Analyst,data cleaning,r,102,0.1462
+Data Analyst,data cleaning,sas,26,0.0559
+Data Analyst,data cleaning,snowflake,11,0.0341
+Data Analyst,data cleaning,sql,247,0.1895
+Data Analyst,data cleaning,sql server,14,0.032
+Data Analyst,data cleaning,statistics,44,0.0827
+Data Analyst,data cleaning,tableau,159,0.1716
+Data Analyst,data mining,data modeling,209,0.2347
+Data Analyst,data mining,data structures,6,0.0229
+Data Analyst,data mining,data visualization,627,0.4267
+Data Analyst,data mining,data warehousing,219,0.2957
+Data Analyst,data mining,etl,82,0.1303
+Data Analyst,data mining,excel,314,0.1771
+Data Analyst,data mining,gcp,18,0.0479
+Data Analyst,data mining,git,10,0.029
+Data Analyst,data mining,hadoop,50,0.1354
+Data Analyst,data mining,html,12,0.0274
+Data Analyst,data mining,java,63,0.1107
+Data Analyst,data mining,javascript,26,0.0462
+Data Analyst,data mining,jira,22,0.0286
+Data Analyst,data mining,kafka,11,0.0523
+Data Analyst,data mining,linux,7,0.0166
+Data Analyst,data mining,looker,21,0.0495
+Data Analyst,data mining,machine learning,265,0.3224
+Data Analyst,data mining,mysql,16,0.0511
+Data Analyst,data mining,natural language processing,20,0.0879
+Data Analyst,data mining,nosql,26,0.0861
+Data Analyst,data mining,oracle,38,0.0597
+Data Analyst,data mining,pandas,22,0.0857
+Data Analyst,data mining,postgresql,5,0.0199
+Data Analyst,data mining,power bi,347,0.2338
+Data Analyst,data mining,python,365,0.2571
+Data Analyst,data mining,r,275,0.2567
+Data Analyst,data mining,rest api,5,0.0182
+Data Analyst,data mining,sas,159,0.2224
+Data Analyst,data mining,scala,6,0.0376
+Data Analyst,data mining,snowflake,24,0.0484
+Data Analyst,data mining,spark,45,0.109
+Data Analyst,data mining,sql,667,0.3332
+Data Analyst,data mining,sql server,128,0.1907
+Data Analyst,data mining,statistics,163,0.1994
+Data Analyst,data mining,tableau,436,0.3065
+Data Analyst,data mining,vba,38,0.0851
+Data Analyst,data modeling,data structures,7,0.0282
+Data Analyst,data modeling,data visualization,417,0.2998
+Data Analyst,data modeling,data warehousing,221,0.3152
+Data Analyst,data modeling,etl,110,0.1846
+Data Analyst,data modeling,excel,190,0.1132
+Data Analyst,data modeling,gcp,13,0.0366
+Data Analyst,data modeling,git,11,0.0338
+Data Analyst,data modeling,hadoop,29,0.0829
+Data Analyst,data modeling,html,9,0.0217
+Data Analyst,data modeling,java,19,0.0353
+Data Analyst,data modeling,javascript,17,0.0319
+Data Analyst,data modeling,jira,46,0.0633
+Data Analyst,data modeling,kafka,9,0.0452
+Data Analyst,data modeling,kubernetes,5,0.0269
+Data Analyst,data modeling,linux,6,0.015
+Data Analyst,data modeling,looker,26,0.0648
+Data Analyst,data modeling,machine learning,123,0.1581
+Data Analyst,data modeling,mysql,14,0.0473
+Data Analyst,data modeling,natural language processing,10,0.0464
+Data Analyst,data modeling,nosql,17,0.0594
+Data Analyst,data modeling,numpy,5,0.0304
+Data Analyst,data modeling,oracle,42,0.0698
+Data Analyst,data modeling,pandas,10,0.0412
+Data Analyst,data modeling,postgresql,6,0.0252
+Data Analyst,data modeling,power bi,337,0.2399
+Data Analyst,data modeling,python,253,0.1883
+Data Analyst,data modeling,r,144,0.142
+Data Analyst,data modeling,rest api,6,0.0231
+Data Analyst,data modeling,sas,60,0.0887
+Data Analyst,data modeling,snowflake,54,0.1151
+Data Analyst,data modeling,spark,27,0.0691
+Data Analyst,data modeling,sql,548,0.2892
+Data Analyst,data modeling,sql server,72,0.1133
+Data Analyst,data modeling,statistics,74,0.0957
+Data Analyst,data modeling,tableau,314,0.2332
+Data Analyst,data modeling,unit testing,9,0.0301
+Data Analyst,data modeling,vba,18,0.0426
+Data Analyst,data structures,data visualization,18,0.044
+Data Analyst,data structures,data warehousing,9,0.0436
+Data Analyst,data structures,excel,17,0.0344
+Data Analyst,data structures,javascript,5,0.0319
+Data Analyst,data structures,machine learning,6,0.0262
+Data Analyst,data structures,power bi,16,0.0387
+Data Analyst,data structures,python,16,0.0405
+Data Analyst,data structures,r,7,0.0235
+Data Analyst,data structures,sas,6,0.0301
+Data Analyst,data structures,sql,43,0.0771
+Data Analyst,data structures,statistics,9,0.0395
+Data Analyst,data structures,tableau,19,0.0479
+Data Analyst,data visualization,data warehousing,329,0.2844
+Data Analyst,data visualization,deep learning,5,0.0213
+Data Analyst,data visualization,etl,199,0.2025
+Data Analyst,data visualization,excel,760,0.2745
+Data Analyst,data visualization,gcp,44,0.075
+Data Analyst,data visualization,git,29,0.0539
+Data Analyst,data visualization,hadoop,62,0.1075
+Data Analyst,data visualization,html,21,0.0307
+Data Analyst,data visualization,java,59,0.0664
+Data Analyst,data visualization,javascript,48,0.0546
+Data Analyst,data visualization,jira,57,0.0475
+Data Analyst,data visualization,kafka,15,0.0457
+Data Analyst,data visualization,linux,11,0.0167
+Data Analyst,data visualization,looker,90,0.1359
+Data Analyst,data visualization,machine learning,418,0.3256
+Data Analyst,data visualization,mysql,21,0.043
+Data Analyst,data visualization,natural language processing,29,0.0816
+Data Analyst,data visualization,nosql,38,0.0805
+Data Analyst,data visualization,numpy,14,0.0517
+Data Analyst,data visualization,object-oriented programming,7,0.0203
+Data Analyst,data visualization,oracle,47,0.0473
+Data Analyst,data visualization,pandas,39,0.0973
+Data Analyst,data visualization,postgresql,17,0.0434
+Data Analyst,data visualization,power bi,1000,0.4315
+Data Analyst,data visualization,python,954,0.4303
+Data Analyst,data visualization,r,686,0.41
+Data Analyst,data visualization,rest api,6,0.014
+Data Analyst,data visualization,sas,247,0.2213
+Data Analyst,data visualization,scala,9,0.0362
+Data Analyst,data visualization,scikit-learn,6,0.0323
+Data Analyst,data visualization,snowflake,81,0.1047
+Data Analyst,data visualization,spark,69,0.1071
+Data Analyst,data visualization,sql,1561,0.4994
+Data Analyst,data visualization,sql server,145,0.1383
+Data Analyst,data visualization,statistics,352,0.2758
+Data Analyst,data visualization,tableau,1165,0.5243
+Data Analyst,data visualization,tensorflow,5,0.0301
+Data Analyst,data visualization,unit testing,7,0.0142
+Data Analyst,data visualization,vba,76,0.109
+Data Analyst,data warehousing,etl,108,0.218
+Data Analyst,data warehousing,excel,131,0.0939
+Data Analyst,data warehousing,gcp,12,0.0406
+Data Analyst,data warehousing,git,10,0.0369
+Data Analyst,data warehousing,hadoop,38,0.1307
+Data Analyst,data warehousing,html,13,0.0377
+Data Analyst,data warehousing,java,13,0.029
+Data Analyst,data warehousing,javascript,20,0.0451
+Data Analyst,data warehousing,jira,25,0.0413
+Data Analyst,data warehousing,kafka,9,0.0544
+Data Analyst,data warehousing,looker,28,0.0839
+Data Analyst,data warehousing,machine learning,120,0.1855
+Data Analyst,data warehousing,mysql,9,0.0366
+Data Analyst,data warehousing,natural language processing,17,0.0949
+Data Analyst,data warehousing,nosql,24,0.1009
+Data Analyst,data warehousing,numpy,6,0.0439
+Data Analyst,data warehousing,oracle,33,0.0659
+Data Analyst,data warehousing,pandas,6,0.0297
+Data Analyst,data warehousing,postgresql,11,0.0557
+Data Analyst,data warehousing,power bi,258,0.2209
+Data Analyst,data warehousing,python,192,0.1718
+Data Analyst,data warehousing,r,126,0.1494
+Data Analyst,data warehousing,sas,63,0.112
+Data Analyst,data warehousing,snowflake,38,0.0974
+Data Analyst,data warehousing,spark,35,0.1077
+Data Analyst,data warehousing,sql,443,0.2812
+Data Analyst,data warehousing,sql server,47,0.0889
+Data Analyst,data warehousing,statistics,46,0.0715
+Data Analyst,data warehousing,tableau,255,0.2277
+Data Analyst,data warehousing,unit testing,6,0.0241
+Data Analyst,data warehousing,vba,6,0.0171
+Data Analyst,deep learning,hadoop,6,0.1017
+Data Analyst,deep learning,machine learning,18,0.1371
+Data Analyst,deep learning,python,21,0.0926
+Data Analyst,deep learning,r,8,0.0468
+Data Analyst,deep learning,spark,7,0.1062
+Data Analyst,deep learning,sql,12,0.0375
+Data Analyst,deep learning,statistics,7,0.0536
+Data Analyst,deep learning,tableau,7,0.0308
+Data Analyst,docker,excel,6,0.0164
+Data Analyst,docker,gcp,14,0.1807
+Data Analyst,docker,git,23,0.324
+Data Analyst,docker,hadoop,7,0.0919
+Data Analyst,docker,html,11,0.1218
+Data Analyst,docker,java,16,0.1364
+Data Analyst,docker,javascript,16,0.1378
+Data Analyst,docker,jira,20,0.1263
+Data Analyst,docker,kubernetes,32,0.7902
+Data Analyst,docker,linux,13,0.1491
+Data Analyst,docker,machine learning,8,0.0472
+Data Analyst,docker,nosql,13,0.2087
+Data Analyst,docker,oracle,5,0.0381
+Data Analyst,docker,power bi,6,0.0196
+Data Analyst,docker,python,28,0.0957
+Data Analyst,docker,r,7,0.0317
+Data Analyst,docker,rest api,6,0.1061
+Data Analyst,docker,spark,7,0.0823
+Data Analyst,docker,sql,24,0.0582
+Data Analyst,docker,tableau,5,0.017
+Data Analyst,etl,excel,69,0.0582
+Data Analyst,etl,gcp,14,0.0557
+Data Analyst,etl,git,8,0.0347
+Data Analyst,etl,hadoop,28,0.1133
+Data Analyst,etl,html,9,0.0307
+Data Analyst,etl,java,16,0.042
+Data Analyst,etl,javascript,13,0.0345
+Data Analyst,etl,jira,26,0.0506
+Data Analyst,etl,kafka,7,0.0498
+Data Analyst,etl,looker,22,0.0776
+Data Analyst,etl,machine learning,56,0.1019
+Data Analyst,etl,mysql,12,0.0573
+Data Analyst,etl,natural language processing,5,0.0329
+Data Analyst,etl,nosql,7,0.0346
+Data Analyst,etl,numpy,6,0.0517
+Data Analyst,etl,oracle,37,0.087
+Data Analyst,etl,pandas,6,0.035
+Data Analyst,etl,postgresql,6,0.0357
+Data Analyst,etl,power bi,196,0.1975
+Data Analyst,etl,python,179,0.1885
+Data Analyst,etl,r,106,0.1479
+Data Analyst,etl,sas,34,0.0711
+Data Analyst,etl,scala,6,0.0563
+Data Analyst,etl,snowflake,32,0.0965
+Data Analyst,etl,spark,30,0.1087
+Data Analyst,etl,sql,328,0.245
+Data Analyst,etl,sql server,43,0.0958
+Data Analyst,etl,statistics,34,0.0622
+Data Analyst,etl,tableau,220,0.2312
+Data Analyst,etl,unit testing,6,0.0284
+Data Analyst,etl,vba,9,0.0301
+Data Analyst,excel,gcp,25,0.0353
+Data Analyst,excel,git,11,0.017
+Data Analyst,excel,hadoop,26,0.0374
+Data Analyst,excel,html,39,0.0472
+Data Analyst,excel,java,52,0.0485
+Data Analyst,excel,javascript,86,0.0811
+Data Analyst,excel,jira,131,0.0905
+Data Analyst,excel,kubernetes,5,0.0135
+Data Analyst,excel,linux,14,0.0176
+Data Analyst,excel,looker,40,0.0501
+Data Analyst,excel,machine learning,152,0.0982
+Data Analyst,excel,mysql,29,0.0492
+Data Analyst,excel,natural language processing,10,0.0233
+Data Analyst,excel,nosql,18,0.0316
+Data Analyst,excel,numpy,8,0.0245
+Data Analyst,excel,object-oriented programming,5,0.012
+Data Analyst,excel,oracle,127,0.106
+Data Analyst,excel,pandas,21,0.0434
+Data Analyst,excel,postgresql,20,0.0423
+Data Analyst,excel,power bi,999,0.3573
+Data Analyst,excel,python,544,0.2034
+Data Analyst,excel,r,360,0.1783
+Data Analyst,excel,rest api,5,0.0097
+Data Analyst,excel,sas,224,0.1663
+Data Analyst,excel,snowflake,46,0.0493
+Data Analyst,excel,spark,24,0.0309
+Data Analyst,excel,sql,1302,0.3453
+Data Analyst,excel,sql server,123,0.0972
+Data Analyst,excel,statistics,259,0.1682
+Data Analyst,excel,tableau,827,0.3085
+Data Analyst,excel,unit testing,5,0.0084
+Data Analyst,excel,vba,143,0.1699
+Data Analyst,gcp,git,20,0.1455
+Data Analyst,gcp,hadoop,15,0.1017
+Data Analyst,gcp,html,19,0.1086
+Data Analyst,gcp,java,35,0.1541
+Data Analyst,gcp,javascript,24,0.1067
+Data Analyst,gcp,jira,28,0.0913
+Data Analyst,gcp,kafka,8,0.0953
+Data Analyst,gcp,kubernetes,15,0.1913
+Data Analyst,gcp,linux,19,0.1125
+Data Analyst,gcp,looker,20,0.1182
+Data Analyst,gcp,machine learning,36,0.1097
+Data Analyst,gcp,natural language processing,5,0.055
+Data Analyst,gcp,nosql,16,0.1326
+Data Analyst,gcp,oracle,9,0.0354
+Data Analyst,gcp,postgresql,7,0.0698
+Data Analyst,gcp,power bi,44,0.0743
+Data Analyst,gcp,python,102,0.1799
+Data Analyst,gcp,r,35,0.0818
+Data Analyst,gcp,sas,12,0.042
+Data Analyst,gcp,scala,6,0.0943
+Data Analyst,gcp,snowflake,9,0.0455
+Data Analyst,gcp,spark,19,0.1153
+Data Analyst,gcp,sql,111,0.1389
+Data Analyst,gcp,sql server,7,0.0261
+Data Analyst,gcp,statistics,13,0.0398
+Data Analyst,gcp,tableau,70,0.1232
+Data Analyst,git,hadoop,10,0.074
+Data Analyst,git,html,27,0.1684
+Data Analyst,git,java,32,0.1537
+Data Analyst,git,javascript,39,0.1893
+Data Analyst,git,jira,32,0.1138
+Data Analyst,git,kafka,15,0.1949
+Data Analyst,git,kubernetes,21,0.2922
+Data Analyst,git,linux,17,0.1099
+Data Analyst,git,machine learning,24,0.0798
+Data Analyst,git,mysql,6,0.0524
+Data Analyst,git,node.js,5,0.1235
+Data Analyst,git,nosql,15,0.1357
+Data Analyst,git,numpy,6,0.0945
+Data Analyst,git,object-oriented programming,8,0.0988
+Data Analyst,git,oracle,12,0.0516
+Data Analyst,git,pandas,7,0.0745
+Data Analyst,git,postgresql,5,0.0544
+Data Analyst,git,power bi,31,0.0571
+Data Analyst,git,python,77,0.1482
+Data Analyst,git,r,26,0.0663
+Data Analyst,git,react,9,0.1489
+Data Analyst,git,rest api,18,0.1793
+Data Analyst,git,snowflake,6,0.0331
+Data Analyst,git,spark,13,0.0861
+Data Analyst,git,sql,90,0.1229
+Data Analyst,git,sql server,12,0.0488
+Data Analyst,git,statistics,7,0.0234
+Data Analyst,git,tableau,31,0.0595
+Data Analyst,git,unit testing,5,0.0433
+Data Analyst,go,java,7,0.1009
+Data Analyst,go,javascript,6,0.0874
+Data Analyst,go,python,13,0.0751
+Data Analyst,go,sql,6,0.0246
+Data Analyst,hadoop,java,26,0.1164
+Data Analyst,hadoop,javascript,5,0.0226
+Data Analyst,hadoop,jira,15,0.0497
+Data Analyst,hadoop,kafka,21,0.2544
+Data Analyst,hadoop,kubernetes,6,0.0778
+Data Analyst,hadoop,linux,9,0.0542
+Data Analyst,hadoop,machine learning,62,0.1922
+Data Analyst,hadoop,mysql,6,0.0489
+Data Analyst,hadoop,natural language processing,8,0.0896
+Data Analyst,hadoop,nosql,37,0.312
+Data Analyst,hadoop,numpy,7,0.1028
+Data Analyst,hadoop,oracle,12,0.0481
+Data Analyst,hadoop,pandas,6,0.0596
+Data Analyst,hadoop,power bi,67,0.115
+Data Analyst,hadoop,python,109,0.1956
+Data Analyst,hadoop,r,71,0.1688
+Data Analyst,hadoop,sas,27,0.0962
+Data Analyst,hadoop,scala,6,0.0959
+Data Analyst,hadoop,snowflake,17,0.0874
+Data Analyst,hadoop,spark,94,0.5802
+Data Analyst,hadoop,sql,126,0.1604
+Data Analyst,hadoop,sql server,5,0.019
+Data Analyst,hadoop,statistics,24,0.0748
+Data Analyst,hadoop,tableau,84,0.1504
+Data Analyst,hadoop,tensorflow,6,0.1438
+Data Analyst,html,java,62,0.234
+Data Analyst,html,javascript,129,0.492
+Data Analyst,html,jira,20,0.0559
+Data Analyst,html,kubernetes,11,0.1203
+Data Analyst,html,linux,34,0.1727
+Data Analyst,html,looker,5,0.0253
+Data Analyst,html,machine learning,12,0.0314
+Data Analyst,html,mysql,16,0.1098
+Data Analyst,html,nosql,18,0.128
+Data Analyst,html,oracle,23,0.0777
+Data Analyst,html,postgresql,7,0.0599
+Data Analyst,html,power bi,26,0.0376
+Data Analyst,html,python,87,0.1316
+Data Analyst,html,r,34,0.0682
+Data Analyst,html,react,10,0.13
+Data Analyst,html,rest api,13,0.1018
+Data Analyst,html,sas,21,0.0631
+Data Analyst,html,sql,114,0.1223
+Data Analyst,html,sql server,27,0.0864
+Data Analyst,html,statistics,5,0.0131
+Data Analyst,html,tableau,30,0.0453
+Data Analyst,html,typescript,7,0.131
+Data Analyst,html,unit testing,9,0.0612
+Data Analyst,java,javascript,65,0.1909
+Data Analyst,java,jira,41,0.0883
+Data Analyst,java,kafka,17,0.1337
+Data Analyst,java,kubernetes,16,0.1347
+Data Analyst,java,linux,50,0.1956
+Data Analyst,java,looker,6,0.0234
+Data Analyst,java,machine learning,85,0.171
+Data Analyst,java,microservices,5,0.0603
+Data Analyst,java,mysql,26,0.1375
+Data Analyst,java,natural language processing,8,0.0582
+Data Analyst,java,nosql,32,0.1752
+Data Analyst,java,oracle,45,0.117
+Data Analyst,java,pandas,21,0.1353
+Data Analyst,java,postgresql,6,0.0395
+Data Analyst,java,power bi,90,0.1003
+Data Analyst,java,python,232,0.2703
+Data Analyst,java,r,100,0.1544
+Data Analyst,java,react,8,0.0801
+Data Analyst,java,rest api,24,0.1447
+Data Analyst,java,sas,42,0.0972
+Data Analyst,java,scala,9,0.0934
+Data Analyst,java,snowflake,8,0.0267
+Data Analyst,java,spark,29,0.1162
+Data Analyst,java,sql,225,0.1859
+Data Analyst,java,sql server,59,0.1453
+Data Analyst,java,statistics,47,0.0951
+Data Analyst,java,tableau,105,0.1221
+Data Analyst,java,unit testing,7,0.0367
+Data Analyst,java,vba,25,0.0926
+Data Analyst,javascript,jira,37,0.0805
+Data Analyst,javascript,kubernetes,16,0.1361
+Data Analyst,javascript,linux,44,0.1739
+Data Analyst,javascript,looker,8,0.0315
+Data Analyst,javascript,machine learning,44,0.0894
+Data Analyst,javascript,microservices,5,0.0609
+Data Analyst,javascript,mysql,18,0.0961
+Data Analyst,javascript,natural language processing,13,0.0955
+Data Analyst,javascript,node.js,7,0.1058
+Data Analyst,javascript,nosql,27,0.1493
+Data Analyst,javascript,object-oriented programming,33,0.2493
+Data Analyst,javascript,oracle,27,0.0709
+Data Analyst,javascript,postgresql,9,0.0599
+Data Analyst,javascript,power bi,72,0.0811
+Data Analyst,javascript,python,183,0.2154
+Data Analyst,javascript,r,69,0.1076
+Data Analyst,javascript,react,21,0.2124
+Data Analyst,javascript,rest api,16,0.0974
+Data Analyst,javascript,sas,23,0.0538
+Data Analyst,javascript,snowflake,5,0.0169
+Data Analyst,javascript,spark,11,0.0445
+Data Analyst,javascript,sql,178,0.1486
+Data Analyst,javascript,sql server,32,0.0796
+Data Analyst,javascript,statistics,15,0.0307
+Data Analyst,javascript,tableau,60,0.0705
+Data Analyst,javascript,typescript,11,0.1601
+Data Analyst,javascript,unit testing,12,0.0635
+Data Analyst,javascript,vba,7,0.0262
+Data Analyst,jira,kafka,7,0.0408
+Data Analyst,jira,kubernetes,20,0.1247
+Data Analyst,jira,linux,25,0.0724
+Data Analyst,jira,looker,10,0.0289
+Data Analyst,jira,machine learning,28,0.0417
+Data Analyst,jira,microservices,7,0.0625
+Data Analyst,jira,mysql,9,0.0352
+Data Analyst,jira,nosql,16,0.0649
+Data Analyst,jira,numpy,5,0.0353
+Data Analyst,jira,oracle,19,0.0366
+Data Analyst,jira,pandas,6,0.0286
+Data Analyst,jira,postgresql,8,0.039
+Data Analyst,jira,power bi,83,0.0685
+Data Analyst,jira,python,128,0.1105
+Data Analyst,jira,r,47,0.0537
+Data Analyst,jira,react,9,0.0667
+Data Analyst,jira,rest api,15,0.067
+Data Analyst,jira,sas,12,0.0206
+Data Analyst,jira,scala,5,0.0384
+Data Analyst,jira,snowflake,20,0.0494
+Data Analyst,jira,spark,16,0.0475
+Data Analyst,jira,sql,278,0.1701
+Data Analyst,jira,sql server,18,0.0328
+Data Analyst,jira,statistics,14,0.021
+Data Analyst,jira,tableau,114,0.0982
+Data Analyst,jira,typescript,5,0.0534
+Data Analyst,jira,unit testing,10,0.0388
+Data Analyst,kafka,machine learning,11,0.0599
+Data Analyst,kafka,natural language processing,5,0.0983
+Data Analyst,kafka,nosql,10,0.1481
+Data Analyst,kafka,oracle,7,0.0492
+Data Analyst,kafka,postgresql,7,0.1247
+Data Analyst,kafka,power bi,14,0.0422
+Data Analyst,kafka,python,26,0.0819
+Data Analyst,kafka,r,13,0.0543
+Data Analyst,kafka,rest api,16,0.2609
+Data Analyst,kafka,sas,7,0.0438
+Data Analyst,kafka,scala,5,0.1404
+Data Analyst,kafka,snowflake,5,0.0451
+Data Analyst,kafka,spark,24,0.2602
+Data Analyst,kafka,sql,35,0.0782
+Data Analyst,kafka,statistics,6,0.0328
+Data Analyst,kafka,tableau,16,0.0503
+Data Analyst,kubernetes,linux,14,0.1586
+Data Analyst,kubernetes,machine learning,8,0.0466
+Data Analyst,kubernetes,nosql,14,0.222
+Data Analyst,kubernetes,oracle,5,0.0377
+Data Analyst,kubernetes,power bi,6,0.0194
+Data Analyst,kubernetes,python,27,0.0911
+Data Analyst,kubernetes,r,6,0.0268
+Data Analyst,kubernetes,rest api,6,0.1048
+Data Analyst,kubernetes,spark,6,0.0696
+Data Analyst,kubernetes,sql,24,0.0574
+Data Analyst,linux,machine learning,19,0.0514
+Data Analyst,linux,mysql,10,0.0711
+Data Analyst,linux,nosql,15,0.1105
+Data Analyst,linux,object-oriented programming,5,0.0503
+Data Analyst,linux,oracle,18,0.063
+Data Analyst,linux,postgresql,5,0.0443
+Data Analyst,linux,power bi,14,0.021
+Data Analyst,linux,python,91,0.1426
+Data Analyst,linux,r,16,0.0332
+Data Analyst,linux,sas,6,0.0187
+Data Analyst,linux,spark,9,0.0485
+Data Analyst,linux,sql,77,0.0856
+Data Analyst,linux,sql server,14,0.0464
+Data Analyst,linux,statistics,9,0.0245
+Data Analyst,linux,tableau,15,0.0235
+Data Analyst,linux,unit testing,5,0.0352
+Data Analyst,looker,machine learning,40,0.108
+Data Analyst,looker,mysql,5,0.0355
+Data Analyst,looker,pandas,6,0.0519
+Data Analyst,looker,postgresql,10,0.0884
+Data Analyst,looker,power bi,82,0.1227
+Data Analyst,looker,python,131,0.2048
+Data Analyst,looker,r,75,0.1554
+Data Analyst,looker,sas,15,0.0466
+Data Analyst,looker,snowflake,34,0.1523
+Data Analyst,looker,spark,6,0.0323
+Data Analyst,looker,sql,174,0.1929
+Data Analyst,looker,statistics,37,0.1005
+Data Analyst,looker,tableau,151,0.2356
+Data Analyst,machine learning,mysql,21,0.0768
+Data Analyst,machine learning,natural language processing,43,0.2164
+Data Analyst,machine learning,nosql,33,0.125
+Data Analyst,machine learning,numpy,9,0.0594
+Data Analyst,machine learning,object-oriented programming,19,0.0983
+Data Analyst,machine learning,oracle,23,0.0414
+Data Analyst,machine learning,pandas,36,0.1606
+Data Analyst,machine learning,postgresql,9,0.041
+Data Analyst,machine learning,power bi,268,0.2068
+Data Analyst,machine learning,python,502,0.4048
+Data Analyst,machine learning,pytorch,6,0.0746
+Data Analyst,machine learning,r,330,0.3526
+Data Analyst,machine learning,sas,102,0.1634
+Data Analyst,machine learning,scala,9,0.0646
+Data Analyst,machine learning,scikit-learn,8,0.0771
+Data Analyst,machine learning,snowflake,30,0.0693
+Data Analyst,machine learning,spark,102,0.2829
+Data Analyst,machine learning,sql,523,0.2991
+Data Analyst,machine learning,sql server,61,0.104
+Data Analyst,machine learning,statistics,179,0.2507
+Data Analyst,machine learning,tableau,351,0.2824
+Data Analyst,machine learning,tensorflow,8,0.0862
+Data Analyst,machine learning,unit testing,5,0.0181
+Data Analyst,machine learning,vba,26,0.0666
+Data Analyst,microservices,python,8,0.0387
+Data Analyst,microservices,rest api,7,0.175
+Data Analyst,microservices,sql,6,0.0206
+Data Analyst,mysql,nosql,8,0.0797
+Data Analyst,mysql,oracle,30,0.1419
+Data Analyst,mysql,postgresql,18,0.2156
+Data Analyst,mysql,power bi,24,0.0487
+Data Analyst,mysql,python,40,0.0847
+Data Analyst,mysql,r,28,0.0786
+Data Analyst,mysql,rest api,5,0.0548
+Data Analyst,mysql,sas,6,0.0252
+Data Analyst,mysql,snowflake,5,0.0303
+Data Analyst,mysql,spark,5,0.0364
+Data Analyst,mysql,sql,60,0.0902
+Data Analyst,mysql,sql server,30,0.1344
+Data Analyst,mysql,statistics,9,0.0331
+Data Analyst,mysql,tableau,35,0.074
+Data Analyst,natural language processing,nosql,6,0.0821
+Data Analyst,natural language processing,object-oriented programming,8,0.1496
+Data Analyst,natural language processing,power bi,18,0.0502
+Data Analyst,natural language processing,python,41,0.1195
+Data Analyst,natural language processing,r,28,0.1081
+Data Analyst,natural language processing,sas,13,0.0752
+Data Analyst,natural language processing,spark,7,0.0702
+Data Analyst,natural language processing,sql,25,0.0517
+Data Analyst,natural language processing,statistics,7,0.0354
+Data Analyst,natural language processing,tableau,23,0.0669
+Data Analyst,node.js,python,10,0.0599
+Data Analyst,node.js,sql,9,0.0383
+Data Analyst,nosql,oracle,10,0.049
+Data Analyst,nosql,postgresql,6,0.0744
+Data Analyst,nosql,power bi,38,0.0798
+Data Analyst,nosql,python,76,0.1667
+Data Analyst,nosql,r,37,0.1076
+Data Analyst,nosql,rest api,8,0.0908
+Data Analyst,nosql,sas,15,0.0654
+Data Analyst,nosql,snowflake,8,0.0503
+Data Analyst,nosql,spark,33,0.2491
+Data Analyst,nosql,sql,89,0.1385
+Data Analyst,nosql,sql server,5,0.0232
+Data Analyst,nosql,statistics,14,0.0533
+Data Analyst,nosql,tableau,37,0.081
+Data Analyst,numpy,pandas,30,0.6339
+Data Analyst,numpy,power bi,10,0.0365
+Data Analyst,numpy,python,31,0.1184
+Data Analyst,numpy,scikit-learn,7,0.3195
+Data Analyst,numpy,snowflake,6,0.0657
+Data Analyst,numpy,spark,10,0.1314
+Data Analyst,numpy,sql,29,0.0786
+Data Analyst,numpy,statistics,7,0.0464
+Data Analyst,numpy,tableau,21,0.08
+Data Analyst,numpy,tensorflow,6,0.3062
+Data Analyst,object-oriented programming,power bi,5,0.0143
+Data Analyst,object-oriented programming,python,40,0.1199
+Data Analyst,object-oriented programming,r,25,0.0993
+Data Analyst,object-oriented programming,sql,20,0.0425
+Data Analyst,object-oriented programming,sql server,5,0.0317
+Data Analyst,oracle,postgresql,14,0.0825
+Data Analyst,oracle,power bi,110,0.1097
+Data Analyst,oracle,python,82,0.0854
+Data Analyst,oracle,r,33,0.0456
+Data Analyst,oracle,react,6,0.0537
+Data Analyst,oracle,rest api,6,0.0323
+Data Analyst,oracle,sas,28,0.0579
+Data Analyst,oracle,snowflake,29,0.0866
+Data Analyst,oracle,spark,9,0.0323
+Data Analyst,oracle,sql,251,0.1855
+Data Analyst,oracle,sql server,108,0.238
+Data Analyst,oracle,statistics,14,0.0253
+Data Analyst,oracle,tableau,93,0.0967
+Data Analyst,oracle,unit testing,7,0.0328
+Data Analyst,oracle,vba,10,0.0331
+Data Analyst,pandas,postgresql,5,0.073
+Data Analyst,pandas,power bi,30,0.0741
+Data Analyst,pandas,python,68,0.1756
+Data Analyst,pandas,r,27,0.0924
+Data Analyst,pandas,sas,17,0.0872
+Data Analyst,pandas,scikit-learn,9,0.2777
+Data Analyst,pandas,snowflake,6,0.0444
+Data Analyst,pandas,spark,12,0.1066
+Data Analyst,pandas,sql,65,0.1191
+Data Analyst,pandas,sql server,18,0.0983
+Data Analyst,pandas,statistics,28,0.1256
+Data Analyst,pandas,tableau,48,0.1237
+Data Analyst,pandas,tensorflow,5,0.1725
+Data Analyst,pandas,vba,12,0.0985
+Data Analyst,postgresql,power bi,18,0.0455
+Data Analyst,postgresql,python,42,0.1109
+Data Analyst,postgresql,r,15,0.0525
+Data Analyst,postgresql,sql,53,0.0992
+Data Analyst,postgresql,sql server,17,0.0949
+Data Analyst,postgresql,statistics,8,0.0367
+Data Analyst,postgresql,tableau,26,0.0685
+Data Analyst,power bi,python,814,0.3636
+Data Analyst,power bi,r,552,0.3267
+Data Analyst,power bi,rest api,7,0.0162
+Data Analyst,power bi,sas,164,0.1455
+Data Analyst,power bi,scala,8,0.0318
+Data Analyst,power bi,snowflake,113,0.1446
+Data Analyst,power bi,spark,55,0.0845
+Data Analyst,power bi,sql,1469,0.4654
+Data Analyst,power bi,sql server,164,0.1549
+Data Analyst,power bi,statistics,212,0.1645
+Data Analyst,power bi,tableau,1177,0.5246
+Data Analyst,power bi,tensorflow,5,0.0298
+Data Analyst,power bi,unit testing,5,0.01
+Data Analyst,power bi,vba,90,0.1278
+Data Analyst,python,pytorch,9,0.0648
+Data Analyst,python,r,1100,0.6805
+Data Analyst,python,react,17,0.0682
+Data Analyst,python,rest api,25,0.0604
+Data Analyst,python,sas,286,0.2652
+Data Analyst,python,scala,27,0.1123
+Data Analyst,python,scikit-learn,15,0.0837
+Data Analyst,python,snowflake,119,0.1592
+Data Analyst,python,spark,165,0.265
+Data Analyst,python,sql,1703,0.5639
+Data Analyst,python,sql server,134,0.1323
+Data Analyst,python,statistics,325,0.2635
+Data Analyst,python,tableau,1079,0.5027
+Data Analyst,python,tensorflow,11,0.0686
+Data Analyst,python,typescript,8,0.0462
+Data Analyst,python,unit testing,7,0.0147
+Data Analyst,python,vba,111,0.1647
+Data Analyst,pytorch,spark,5,0.1239
+Data Analyst,pytorch,sql,5,0.0255
+Data Analyst,pytorch,tableau,6,0.0431
+Data Analyst,pytorch,tensorflow,9,0.866
+Data Analyst,r,sas,298,0.3661
+Data Analyst,r,scala,12,0.0661
+Data Analyst,r,snowflake,52,0.0922
+Data Analyst,r,spark,77,0.1639
+Data Analyst,r,sql,979,0.4295
+Data Analyst,r,sql server,85,0.1112
+Data Analyst,r,statistics,243,0.2611
+Data Analyst,r,tableau,749,0.4624
+Data Analyst,r,tensorflow,5,0.0413
+Data Analyst,r,vba,72,0.1416
+Data Analyst,react,sql,19,0.0541
+Data Analyst,react,typescript,7,0.3474
+Data Analyst,rest api,sql,41,0.0702
+Data Analyst,rest api,sql server,6,0.0307
+Data Analyst,rest api,tableau,6,0.0145
+Data Analyst,sas,scala,5,0.0413
+Data Analyst,sas,snowflake,15,0.0398
+Data Analyst,sas,spark,32,0.1021
+Data Analyst,sas,sql,381,0.2506
+Data Analyst,sas,sql server,63,0.1235
+Data Analyst,sas,statistics,126,0.2029
+Data Analyst,sas,tableau,244,0.2258
+Data Analyst,sas,vba,51,0.1503
+Data Analyst,scala,spark,16,0.2289
+Data Analyst,scala,sql,23,0.0678
+Data Analyst,scala,statistics,6,0.0433
+Data Analyst,scala,tableau,18,0.0747
+Data Analyst,scikit-learn,spark,5,0.096
+Data Analyst,scikit-learn,sql,10,0.0396
+Data Analyst,scikit-learn,statistics,6,0.0581
+Data Analyst,scikit-learn,tableau,6,0.0334
+Data Analyst,scikit-learn,tensorflow,5,0.3727
+Data Analyst,snowflake,spark,9,0.0414
+Data Analyst,snowflake,sql,211,0.2002
+Data Analyst,snowflake,sql server,21,0.0594
+Data Analyst,snowflake,statistics,25,0.0581
+Data Analyst,snowflake,tableau,129,0.1722
+Data Analyst,spark,sql,162,0.1845
+Data Analyst,spark,statistics,23,0.0642
+Data Analyst,spark,tableau,86,0.1378
+Data Analyst,spark,tensorflow,7,0.1502
+Data Analyst,sql,sql server,263,0.1842
+Data Analyst,sql,statistics,463,0.2663
+Data Analyst,sql,tableau,1668,0.5512
+Data Analyst,sql,tensorflow,7,0.031
+Data Analyst,sql,typescript,10,0.041
+Data Analyst,sql,unit testing,43,0.064
+Data Analyst,sql,vba,162,0.1705
+Data Analyst,sql server,statistics,56,0.096
+Data Analyst,sql server,tableau,184,0.1813
+Data Analyst,sql server,vba,31,0.0973
+Data Analyst,statistics,tableau,314,0.2541
+Data Analyst,statistics,vba,37,0.0954
+Data Analyst,tableau,tensorflow,8,0.0498
+Data Analyst,tableau,unit testing,6,0.0126
+Data Analyst,tableau,vba,89,0.1318
+Data Scientist,a/b testing,agile,7,0.0236
+Data Scientist,a/b testing,airflow,6,0.0236
+Data Scientist,a/b testing,algorithms,5,0.0296
+Data Scientist,a/b testing,aws,16,0.0373
+Data Scientist,a/b testing,azure,13,0.0369
+Data Scientist,a/b testing,big data,7,0.0287
+Data Scientist,a/b testing,data cleaning,27,0.1211
+Data Scientist,a/b testing,data mining,35,0.1055
+Data Scientist,a/b testing,data modeling,19,0.0595
+Data Scientist,a/b testing,data visualization,108,0.2377
+Data Scientist,a/b testing,data warehousing,9,0.0336
+Data Scientist,a/b testing,deep learning,10,0.0416
+Data Scientist,a/b testing,etl,40,0.1287
+Data Scientist,a/b testing,gcp,14,0.0472
+Data Scientist,a/b testing,git,12,0.0417
+Data Scientist,a/b testing,hadoop,12,0.0402
+Data Scientist,a/b testing,java,7,0.0196
+Data Scientist,a/b testing,linux,9,0.0471
+Data Scientist,a/b testing,looker,7,0.0539
+Data Scientist,a/b testing,machine learning,123,0.2056
+Data Scientist,a/b testing,mysql,5,0.0279
+Data Scientist,a/b testing,natural language processing,19,0.0596
+Data Scientist,a/b testing,nosql,9,0.0384
+Data Scientist,a/b testing,numpy,7,0.0391
+Data Scientist,a/b testing,pandas,8,0.0317
+Data Scientist,a/b testing,power bi,79,0.2158
+Data Scientist,a/b testing,python,170,0.231
+Data Scientist,a/b testing,pytorch,10,0.041
+Data Scientist,a/b testing,r,126,0.2539
+Data Scientist,a/b testing,sas,8,0.0357
+Data Scientist,a/b testing,scikit-learn,10,0.0453
+Data Scientist,a/b testing,snowflake,6,0.0202
+Data Scientist,a/b testing,spark,28,0.0684
+Data Scientist,a/b testing,sql,176,0.2599
+Data Scientist,a/b testing,statistics,51,0.1422
+Data Scientist,a/b testing,tableau,83,0.2079
+Data Scientist,a/b testing,tensorflow,11,0.0423
+Data Scientist,agile,airflow,37,0.0938
+Data Scientist,agile,algorithms,30,0.1146
+Data Scientist,agile,aws,168,0.2528
+Data Scientist,agile,azure,109,0.2001
+Data Scientist,agile,big data,63,0.1668
+Data Scientist,agile,c#,19,0.0777
+Data Scientist,agile,c++,43,0.1538
+Data Scientist,agile,ci/cd,40,0.1582
+Data Scientist,agile,css,9,0.0742
+Data Scientist,agile,data cleaning,19,0.055
+Data Scientist,agile,data mining,67,0.1305
+Data Scientist,agile,data modeling,71,0.1437
+Data Scientist,agile,data structures,16,0.0861
+Data Scientist,agile,data visualization,120,0.1706
+Data Scientist,agile,data warehousing,69,0.1666
+Data Scientist,agile,deep learning,45,0.1209
+Data Scientist,agile,docker,47,0.1187
+Data Scientist,agile,etl,65,0.1351
+Data Scientist,agile,excel,13,0.0337
+Data Scientist,agile,gcp,69,0.1503
+Data Scientist,agile,git,90,0.2019
+Data Scientist,agile,go,9,0.0533
+Data Scientist,agile,hadoop,82,0.1775
+Data Scientist,agile,html,11,0.0791
+Data Scientist,agile,java,111,0.2013
+Data Scientist,agile,javascript,48,0.1509
+Data Scientist,agile,jira,76,0.2884
+Data Scientist,agile,kafka,57,0.1332
+Data Scientist,agile,kubernetes,48,0.1238
+Data Scientist,agile,linux,31,0.1049
+Data Scientist,agile,machine learning,207,0.2235
+Data Scientist,agile,microservices,25,0.1209
+Data Scientist,agile,mysql,22,0.0794
+Data Scientist,agile,natural language processing,65,0.1316
+Data Scientist,agile,node.js,5,0.0486
+Data Scientist,agile,nosql,71,0.1957
+Data Scientist,agile,numpy,15,0.0541
+Data Scientist,agile,object-oriented programming,20,0.0967
+Data Scientist,agile,oracle,24,0.089
+Data Scientist,agile,pandas,22,0.0564
+Data Scientist,agile,postgresql,31,0.1105
+Data Scientist,agile,power bi,90,0.1588
+Data Scientist,agile,python,329,0.2889
+Data Scientist,agile,pytorch,34,0.09
+Data Scientist,agile,r,125,0.1627
+Data Scientist,agile,react,9,0.073
+Data Scientist,agile,rest api,29,0.1205
+Data Scientist,agile,sas,14,0.0404
+Data Scientist,agile,scala,67,0.1545
+Data Scientist,agile,scikit-learn,27,0.079
+Data Scientist,agile,snowflake,61,0.1329
+Data Scientist,agile,spark,134,0.2115
+Data Scientist,agile,sql,279,0.2662
+Data Scientist,agile,sql server,23,0.0806
+Data Scientist,agile,statistics,50,0.0901
+Data Scientist,agile,tableau,87,0.1408
+Data Scientist,agile,tensorflow,43,0.1069
+Data Scientist,agile,typescript,5,0.0647
+Data Scientist,agile,unit testing,23,0.1408
+Data Scientist,airflow,algorithms,5,0.0223
+Data Scientist,airflow,aws,200,0.3511
+Data Scientist,airflow,azure,135,0.2891
+Data Scientist,airflow,big data,25,0.0772
+Data Scientist,airflow,c#,29,0.1383
+Data Scientist,airflow,c++,8,0.0334
+Data Scientist,airflow,ci/cd,19,0.0877
+Data Scientist,airflow,data cleaning,52,0.1757
+Data Scientist,airflow,data mining,82,0.1863
+Data Scientist,airflow,data modeling,106,0.2502
+Data Scientist,airflow,data structures,5,0.0314
+Data Scientist,airflow,data visualization,71,0.1178
+Data Scientist,airflow,data warehousing,34,0.0958
+Data Scientist,airflow,deep learning,7,0.0219
+Data Scientist,airflow,docker,154,0.4536
+Data Scientist,airflow,etl,158,0.3832
+Data Scientist,airflow,gcp,135,0.3431
+Data Scientist,airflow,git,132,0.3454
+Data Scientist,airflow,go,14,0.0967
+Data Scientist,airflow,hadoop,47,0.1187
+Data Scientist,airflow,java,159,0.3364
+Data Scientist,airflow,javascript,8,0.0293
+Data Scientist,airflow,jira,12,0.0531
+Data Scientist,airflow,kafka,170,0.4635
+Data Scientist,airflow,kubernetes,158,0.4753
+Data Scientist,airflow,linux,18,0.071
+Data Scientist,airflow,looker,19,0.1102
+Data Scientist,airflow,machine learning,160,0.2016
+Data Scientist,airflow,microservices,37,0.2087
+Data Scientist,airflow,mysql,16,0.0673
+Data Scientist,airflow,natural language processing,76,0.1796
+Data Scientist,airflow,nosql,63,0.2026
+Data Scientist,airflow,numpy,13,0.0547
+Data Scientist,airflow,object-oriented programming,5,0.0282
+Data Scientist,airflow,oracle,6,0.026
+Data Scientist,airflow,pandas,89,0.2661
+Data Scientist,airflow,postgresql,23,0.0957
+Data Scientist,airflow,power bi,13,0.0268
+Data Scientist,airflow,python,322,0.3298
+Data Scientist,airflow,pytorch,18,0.0556
+Data Scientist,airflow,r,92,0.1397
+Data Scientist,airflow,rest api,11,0.0533
+Data Scientist,airflow,scala,44,0.1183
+Data Scientist,airflow,scikit-learn,19,0.0648
+Data Scientist,airflow,snowflake,180,0.4575
+Data Scientist,airflow,spark,229,0.4216
+Data Scientist,airflow,sql,268,0.2983
+Data Scientist,airflow,sql server,10,0.0409
+Data Scientist,airflow,statistics,14,0.0294
+Data Scientist,airflow,tableau,39,0.0736
+Data Scientist,airflow,tensorflow,29,0.0841
+Data Scientist,airflow,unit testing,9,0.0643
+Data Scientist,algorithms,aws,25,0.0661
+Data Scientist,algorithms,azure,15,0.0484
+Data Scientist,algorithms,big data,21,0.0977
+Data Scientist,algorithms,c++,16,0.1005
+Data Scientist,algorithms,ci/cd,7,0.0486
+Data Scientist,algorithms,data cleaning,11,0.056
+Data Scientist,algorithms,data mining,38,0.1301
+Data Scientist,algorithms,data modeling,15,0.0533
+Data Scientist,algorithms,data structures,29,0.2743
+Data Scientist,algorithms,data visualization,36,0.09
+Data Scientist,algorithms,deep learning,14,0.0661
+Data Scientist,algorithms,docker,7,0.0311
+Data Scientist,algorithms,etl,5,0.0183
+Data Scientist,algorithms,gcp,9,0.0345
+Data Scientist,algorithms,git,13,0.0512
+Data Scientist,algorithms,hadoop,24,0.0913
+Data Scientist,algorithms,java,37,0.1179
+Data Scientist,algorithms,javascript,34,0.1878
+Data Scientist,algorithms,kafka,7,0.0287
+Data Scientist,algorithms,kubernetes,6,0.0272
+Data Scientist,algorithms,linux,5,0.0297
+Data Scientist,algorithms,machine learning,102,0.1935
+Data Scientist,algorithms,microservices,5,0.0425
+Data Scientist,algorithms,natural language processing,27,0.0961
+Data Scientist,algorithms,nosql,12,0.0581
+Data Scientist,algorithms,numpy,6,0.038
+Data Scientist,algorithms,object-oriented programming,20,0.1699
+Data Scientist,algorithms,pandas,9,0.0405
+Data Scientist,algorithms,power bi,11,0.0341
+Data Scientist,algorithms,python,135,0.2083
+Data Scientist,algorithms,pytorch,10,0.0465
+Data Scientist,algorithms,r,65,0.1487
+Data Scientist,algorithms,rest api,7,0.0511
+Data Scientist,algorithms,sas,8,0.0406
+Data Scientist,algorithms,scala,15,0.0608
+Data Scientist,algorithms,scikit-learn,10,0.0514
+Data Scientist,algorithms,snowflake,6,0.023
+Data Scientist,algorithms,spark,32,0.0887
+Data Scientist,algorithms,sql,80,0.1341
+Data Scientist,algorithms,statistics,48,0.1519
+Data Scientist,algorithms,tableau,14,0.0398
+Data Scientist,algorithms,tensorflow,14,0.0611
+Data Scientist,algorithms,unit testing,8,0.0861
+Data Scientist,angular,css,7,0.2638
+Data Scientist,angular,data mining,6,0.0534
+Data Scientist,angular,data visualization,7,0.0455
+Data Scientist,angular,hadoop,12,0.1188
+Data Scientist,angular,html,7,0.2303
+Data Scientist,angular,java,19,0.1576
+Data Scientist,angular,machine learning,13,0.0642
+Data Scientist,angular,python,17,0.0683
+Data Scientist,angular,r,12,0.0714
+Data Scientist,angular,react,6,0.2227
+Data Scientist,angular,scala,14,0.1476
+Data Scientist,angular,snowflake,10,0.0996
+Data Scientist,angular,spark,11,0.0794
+Data Scientist,angular,sql,16,0.0698
+Data Scientist,angular,statistics,6,0.0494
+Data Scientist,angular,tableau,12,0.0888
+Data Scientist,aws,azure,473,0.6011
+Data Scientist,aws,big data,104,0.1906
+Data Scientist,aws,c#,39,0.1104
+Data Scientist,aws,c++,60,0.1485
+Data Scientist,aws,ci/cd,76,0.2081
+Data Scientist,aws,css,11,0.0628
+Data Scientist,aws,data cleaning,73,0.1464
+Data Scientist,aws,data mining,149,0.2009
+Data Scientist,aws,data modeling,171,0.2395
+Data Scientist,aws,data structures,21,0.0783
+Data Scientist,aws,data visualization,185,0.1821
+Data Scientist,aws,data warehousing,117,0.1955
+Data Scientist,aws,deep learning,96,0.1786
+Data Scientist,aws,docker,229,0.4002
+Data Scientist,aws,etl,211,0.3036
+Data Scientist,aws,excel,14,0.0251
+Data Scientist,aws,gcp,388,0.5851
+Data Scientist,aws,git,239,0.3711
+Data Scientist,aws,go,29,0.1189
+Data Scientist,aws,hadoop,195,0.2922
+Data Scientist,aws,html,14,0.0697
+Data Scientist,aws,java,318,0.3992
+Data Scientist,aws,javascript,60,0.1306
+Data Scientist,aws,jira,58,0.1523
+Data Scientist,aws,kafka,230,0.3721
+Data Scientist,aws,kubernetes,231,0.4123
+Data Scientist,aws,linux,78,0.1826
+Data Scientist,aws,looker,24,0.0826
+Data Scientist,aws,machine learning,496,0.3708
+Data Scientist,aws,microservices,51,0.1707
+Data Scientist,aws,mysql,76,0.1898
+Data Scientist,aws,natural language processing,207,0.2902
+Data Scientist,aws,node.js,13,0.0875
+Data Scientist,aws,nosql,169,0.3225
+Data Scientist,aws,numpy,49,0.1224
+Data Scientist,aws,object-oriented programming,22,0.0736
+Data Scientist,aws,oracle,36,0.0924
+Data Scientist,aws,pandas,151,0.2679
+Data Scientist,aws,postgresql,90,0.2221
+Data Scientist,aws,power bi,138,0.1686
+Data Scientist,aws,python,820,0.4984
+Data Scientist,aws,pytorch,119,0.2181
+Data Scientist,aws,r,291,0.2622
+Data Scientist,aws,react,15,0.0843
+Data Scientist,aws,rest api,77,0.2214
+Data Scientist,aws,sas,34,0.0679
+Data Scientist,aws,scala,168,0.2681
+Data Scientist,aws,scikit-learn,76,0.1539
+Data Scientist,aws,snowflake,249,0.3755
+Data Scientist,aws,spark,449,0.4905
+Data Scientist,aws,sql,626,0.4134
+Data Scientist,aws,sql server,31,0.0752
+Data Scientist,aws,statistics,97,0.1209
+Data Scientist,aws,tableau,170,0.1904
+Data Scientist,aws,tensorflow,131,0.2254
+Data Scientist,aws,typescript,6,0.0537
+Data Scientist,aws,unit testing,20,0.0848
+Data Scientist,azure,big data,67,0.1498
+Data Scientist,azure,c#,36,0.1243
+Data Scientist,azure,c++,53,0.1601
+Data Scientist,azure,ci/cd,47,0.157
+Data Scientist,azure,css,5,0.0348
+Data Scientist,azure,data cleaning,62,0.1517
+Data Scientist,azure,data mining,128,0.2105
+Data Scientist,azure,data modeling,148,0.2529
+Data Scientist,azure,data structures,11,0.05
+Data Scientist,azure,data visualization,147,0.1765
+Data Scientist,azure,data warehousing,100,0.2039
+Data Scientist,azure,deep learning,70,0.1589
+Data Scientist,azure,docker,192,0.4094
+Data Scientist,azure,etl,162,0.2844
+Data Scientist,azure,excel,15,0.0328
+Data Scientist,azure,gcp,349,0.6421
+Data Scientist,azure,git,198,0.3751
+Data Scientist,azure,go,12,0.06
+Data Scientist,azure,hadoop,157,0.287
+Data Scientist,azure,html,7,0.0425
+Data Scientist,azure,java,244,0.3737
+Data Scientist,azure,javascript,46,0.1221
+Data Scientist,azure,jira,37,0.1186
+Data Scientist,azure,kafka,172,0.3395
+Data Scientist,azure,kubernetes,193,0.4202
+Data Scientist,azure,linux,45,0.1285
+Data Scientist,azure,looker,6,0.0252
+Data Scientist,azure,machine learning,370,0.3374
+Data Scientist,azure,microservices,34,0.1388
+Data Scientist,azure,mysql,34,0.1036
+Data Scientist,azure,natural language processing,183,0.313
+Data Scientist,azure,nosql,126,0.2934
+Data Scientist,azure,numpy,30,0.0914
+Data Scientist,azure,object-oriented programming,16,0.0653
+Data Scientist,azure,oracle,27,0.0846
+Data Scientist,azure,pandas,118,0.2554
+Data Scientist,azure,postgresql,54,0.1626
+Data Scientist,azure,power bi,142,0.2116
+Data Scientist,azure,python,547,0.4056
+Data Scientist,azure,pytorch,95,0.2125
+Data Scientist,azure,r,238,0.2616
+Data Scientist,azure,react,7,0.048
+Data Scientist,azure,rest api,22,0.0772
+Data Scientist,azure,sas,28,0.0682
+Data Scientist,azure,scala,84,0.1635
+Data Scientist,azure,scikit-learn,55,0.1359
+Data Scientist,azure,snowflake,190,0.3496
+Data Scientist,azure,spark,306,0.4078
+Data Scientist,azure,sql,454,0.3658
+Data Scientist,azure,sql server,39,0.1154
+Data Scientist,azure,statistics,67,0.1019
+Data Scientist,azure,tableau,119,0.1626
+Data Scientist,azure,tensorflow,110,0.2309
+Data Scientist,azure,unit testing,11,0.0569
+Data Scientist,big data,c#,5,0.0249
+Data Scientist,big data,c++,16,0.0697
+Data Scientist,big data,ci/cd,17,0.0819
+Data Scientist,big data,data cleaning,22,0.0776
+Data Scientist,big data,data mining,94,0.223
+Data Scientist,big data,data modeling,49,0.1208
+Data Scientist,big data,data structures,5,0.0328
+Data Scientist,big data,data visualization,108,0.1871
+Data Scientist,big data,data warehousing,66,0.1941
+Data Scientist,big data,deep learning,45,0.1473
+Data Scientist,big data,docker,26,0.08
+Data Scientist,big data,etl,49,0.1241
+Data Scientist,big data,excel,11,0.0347
+Data Scientist,big data,gcp,56,0.1486
+Data Scientist,big data,git,34,0.0929
+Data Scientist,big data,go,8,0.0577
+Data Scientist,big data,hadoop,111,0.2927
+Data Scientist,big data,java,87,0.1922
+Data Scientist,big data,javascript,17,0.0651
+Data Scientist,big data,jira,11,0.0508
+Data Scientist,big data,kafka,43,0.1224
+Data Scientist,big data,kubernetes,28,0.0879
+Data Scientist,big data,linux,12,0.0494
+Data Scientist,big data,machine learning,213,0.2802
+Data Scientist,big data,microservices,9,0.053
+Data Scientist,big data,mysql,11,0.0483
+Data Scientist,big data,natural language processing,76,0.1875
+Data Scientist,big data,nosql,54,0.1814
+Data Scientist,big data,numpy,19,0.0835
+Data Scientist,big data,object-oriented programming,9,0.053
+Data Scientist,big data,oracle,14,0.0633
+Data Scientist,big data,pandas,31,0.0968
+Data Scientist,big data,postgresql,17,0.0738
+Data Scientist,big data,power bi,43,0.0924
+Data Scientist,big data,python,262,0.2802
+Data Scientist,big data,pytorch,31,0.1
+Data Scientist,big data,r,112,0.1776
+Data Scientist,big data,rest api,11,0.0557
+Data Scientist,big data,sas,31,0.109
+Data Scientist,big data,scala,63,0.1769
+Data Scientist,big data,scikit-learn,29,0.1033
+Data Scientist,big data,snowflake,34,0.0902
+Data Scientist,big data,spark,145,0.2787
+Data Scientist,big data,sql,221,0.2569
+Data Scientist,big data,sql server,11,0.047
+Data Scientist,big data,statistics,73,0.1602
+Data Scientist,big data,tableau,64,0.1262
+Data Scientist,big data,tensorflow,35,0.106
+Data Scientist,big data,unit testing,7,0.0522
+Data Scientist,c#,c++,16,0.1076
+Data Scientist,c#,css,12,0.1861
+Data Scientist,c#,data mining,8,0.0293
+Data Scientist,c#,data modeling,37,0.1408
+Data Scientist,c#,data visualization,14,0.0375
+Data Scientist,c#,data warehousing,35,0.1589
+Data Scientist,c#,docker,12,0.057
+Data Scientist,c#,etl,30,0.1173
+Data Scientist,c#,excel,8,0.039
+Data Scientist,c#,gcp,8,0.0328
+Data Scientist,c#,git,37,0.1561
+Data Scientist,c#,hadoop,11,0.0448
+Data Scientist,c#,html,10,0.1353
+Data Scientist,c#,java,54,0.1842
+Data Scientist,c#,javascript,18,0.1064
+Data Scientist,c#,jira,8,0.0571
+Data Scientist,c#,kafka,11,0.0484
+Data Scientist,c#,kubernetes,14,0.0679
+Data Scientist,c#,linux,25,0.1591
+Data Scientist,c#,machine learning,39,0.0792
+Data Scientist,c#,microservices,5,0.0455
+Data Scientist,c#,mysql,9,0.0611
+Data Scientist,c#,nosql,14,0.0726
+Data Scientist,c#,object-oriented programming,5,0.0455
+Data Scientist,c#,oracle,10,0.0698
+Data Scientist,c#,pandas,17,0.082
+Data Scientist,c#,postgresql,11,0.0738
+Data Scientist,c#,power bi,39,0.1295
+Data Scientist,c#,python,103,0.1701
+Data Scientist,c#,r,18,0.0441
+Data Scientist,c#,rest api,10,0.0781
+Data Scientist,c#,scala,26,0.1128
+Data Scientist,c#,snowflake,30,0.1229
+Data Scientist,c#,spark,11,0.0327
+Data Scientist,c#,sql,91,0.1633
+Data Scientist,c#,sql server,29,0.1912
+Data Scientist,c#,tableau,15,0.0457
+Data Scientist,c#,tensorflow,5,0.0234
+Data Scientist,c#,unit testing,9,0.1036
+Data Scientist,c++,ci/cd,5,0.0325
+Data Scientist,c++,data cleaning,6,0.0286
+Data Scientist,c++,data mining,38,0.1218
+Data Scientist,c++,data modeling,9,0.03
+Data Scientist,c++,data structures,7,0.062
+Data Scientist,c++,data visualization,53,0.124
+Data Scientist,c++,data warehousing,19,0.0755
+Data Scientist,c++,deep learning,49,0.2166
+Data Scientist,c++,docker,46,0.1911
+Data Scientist,c++,excel,9,0.0383
+Data Scientist,c++,gcp,46,0.1649
+Data Scientist,c++,git,23,0.0849
+Data Scientist,c++,go,14,0.1364
+Data Scientist,c++,hadoop,57,0.203
+Data Scientist,c++,java,116,0.346
+Data Scientist,c++,javascript,54,0.2792
+Data Scientist,c++,jira,12,0.0749
+Data Scientist,c++,kafka,15,0.0577
+Data Scientist,c++,kubernetes,44,0.1866
+Data Scientist,c++,linux,19,0.1057
+Data Scientist,c++,looker,5,0.0409
+Data Scientist,c++,machine learning,109,0.1936
+Data Scientist,c++,mysql,9,0.0534
+Data Scientist,c++,natural language processing,55,0.1832
+Data Scientist,c++,nosql,51,0.2313
+Data Scientist,c++,numpy,11,0.0653
+Data Scientist,c++,object-oriented programming,5,0.0398
+Data Scientist,c++,oracle,8,0.0488
+Data Scientist,c++,pandas,20,0.0843
+Data Scientist,c++,postgresql,41,0.2405
+Data Scientist,c++,power bi,33,0.0958
+Data Scientist,c++,python,158,0.2282
+Data Scientist,c++,pytorch,48,0.2091
+Data Scientist,c++,r,109,0.2334
+Data Scientist,c++,sas,16,0.076
+Data Scientist,c++,scala,20,0.0758
+Data Scientist,c++,scikit-learn,20,0.0962
+Data Scientist,c++,snowflake,8,0.0287
+Data Scientist,c++,spark,62,0.1609
+Data Scientist,c++,sql,120,0.1883
+Data Scientist,c++,statistics,33,0.0978
+Data Scientist,c++,tableau,42,0.1118
+Data Scientist,c++,tensorflow,57,0.233
+Data Scientist,ci/cd,data mining,8,0.0283
+Data Scientist,ci/cd,data modeling,15,0.0552
+Data Scientist,ci/cd,data visualization,21,0.0543
+Data Scientist,ci/cd,data warehousing,25,0.1098
+Data Scientist,ci/cd,deep learning,9,0.044
+Data Scientist,ci/cd,docker,21,0.0965
+Data Scientist,ci/cd,etl,39,0.1475
+Data Scientist,ci/cd,gcp,39,0.1546
+Data Scientist,ci/cd,git,30,0.1224
+Data Scientist,ci/cd,hadoop,12,0.0473
+Data Scientist,ci/cd,java,31,0.1023
+Data Scientist,ci/cd,javascript,5,0.0286
+Data Scientist,ci/cd,jira,16,0.1104
+Data Scientist,ci/cd,kafka,36,0.1531
+Data Scientist,ci/cd,kubernetes,30,0.1407
+Data Scientist,ci/cd,linux,6,0.0369
+Data Scientist,ci/cd,looker,6,0.0543
+Data Scientist,ci/cd,machine learning,55,0.1081
+Data Scientist,ci/cd,microservices,10,0.088
+Data Scientist,ci/cd,mysql,7,0.0459
+Data Scientist,ci/cd,natural language processing,8,0.0295
+Data Scientist,ci/cd,nosql,29,0.1454
+Data Scientist,ci/cd,numpy,5,0.0328
+Data Scientist,ci/cd,object-oriented programming,15,0.1319
+Data Scientist,ci/cd,oracle,11,0.0742
+Data Scientist,ci/cd,pandas,8,0.0373
+Data Scientist,ci/cd,postgresql,7,0.0454
+Data Scientist,ci/cd,power bi,26,0.0835
+Data Scientist,ci/cd,python,113,0.1805
+Data Scientist,ci/cd,pytorch,6,0.0289
+Data Scientist,ci/cd,r,21,0.0497
+Data Scientist,ci/cd,react,9,0.1329
+Data Scientist,ci/cd,rest api,11,0.0831
+Data Scientist,ci/cd,sas,5,0.0263
+Data Scientist,ci/cd,scala,32,0.1342
+Data Scientist,ci/cd,scikit-learn,8,0.0426
+Data Scientist,ci/cd,snowflake,33,0.1308
+Data Scientist,ci/cd,spark,56,0.1608
+Data Scientist,ci/cd,sql,89,0.1545
+Data Scientist,ci/cd,sql server,12,0.0765
+Data Scientist,ci/cd,statistics,8,0.0262
+Data Scientist,ci/cd,tableau,20,0.0589
+Data Scientist,ci/cd,tensorflow,7,0.0316
+Data Scientist,css,excel,5,0.0491
+Data Scientist,css,git,10,0.0851
+Data Scientist,css,html,24,0.6547
+Data Scientist,css,java,11,0.0756
+Data Scientist,css,javascript,26,0.3099
+Data Scientist,css,machine learning,8,0.0328
+Data Scientist,css,microservices,5,0.0917
+Data Scientist,css,node.js,5,0.1843
+Data Scientist,css,nosql,5,0.0523
+Data Scientist,css,oracle,5,0.0703
+Data Scientist,css,power bi,11,0.0736
+Data Scientist,css,python,17,0.0566
+Data Scientist,css,react,10,0.3077
+Data Scientist,css,rest api,5,0.0787
+Data Scientist,css,spark,7,0.0419
+Data Scientist,css,sql,16,0.0579
+Data Scientist,css,tableau,7,0.043
+Data Scientist,css,typescript,5,0.2451
+Data Scientist,data cleaning,data mining,109,0.2829
+Data Scientist,data cleaning,data modeling,90,0.2427
+Data Scientist,data cleaning,data visualization,141,0.2672
+Data Scientist,data cleaning,data warehousing,35,0.1126
+Data Scientist,data cleaning,deep learning,5,0.0179
+Data Scientist,data cleaning,docker,53,0.1783
+Data Scientist,data cleaning,etl,73,0.2023
+Data Scientist,data cleaning,excel,32,0.1105
+Data Scientist,data cleaning,gcp,56,0.1626
+Data Scientist,data cleaning,git,57,0.1704
+Data Scientist,data cleaning,hadoop,21,0.0606
+Data Scientist,data cleaning,java,74,0.1788
+Data Scientist,data cleaning,javascript,7,0.0293
+Data Scientist,data cleaning,kafka,52,0.162
+Data Scientist,data cleaning,kubernetes,55,0.189
+Data Scientist,data cleaning,machine learning,117,0.1684
+Data Scientist,data cleaning,microservices,15,0.0966
+Data Scientist,data cleaning,mysql,5,0.024
+Data Scientist,data cleaning,natural language processing,48,0.1296
+Data Scientist,data cleaning,nosql,26,0.0955
+Data Scientist,data cleaning,numpy,6,0.0288
+Data Scientist,data cleaning,object-oriented programming,6,0.0387
+Data Scientist,data cleaning,oracle,8,0.0395
+Data Scientist,data cleaning,pandas,43,0.1469
+Data Scientist,data cleaning,postgresql,7,0.0333
+Data Scientist,data cleaning,power bi,76,0.1787
+Data Scientist,data cleaning,python,178,0.2083
+Data Scientist,data cleaning,pytorch,6,0.0212
+Data Scientist,data cleaning,r,111,0.1926
+Data Scientist,data cleaning,react,5,0.0541
+Data Scientist,data cleaning,sas,19,0.0731
+Data Scientist,data cleaning,scala,17,0.0522
+Data Scientist,data cleaning,snowflake,56,0.1626
+Data Scientist,data cleaning,spark,68,0.143
+Data Scientist,data cleaning,sql,191,0.2429
+Data Scientist,data cleaning,sql server,7,0.0327
+Data Scientist,data cleaning,statistics,16,0.0384
+Data Scientist,data cleaning,tableau,80,0.1725
+Data Scientist,data cleaning,tensorflow,5,0.0166
+Data Scientist,data mining,data modeling,135,0.2447
+Data Scientist,data mining,data structures,7,0.0338
+Data Scientist,data mining,data visualization,343,0.437
+Data Scientist,data mining,data warehousing,96,0.2077
+Data Scientist,data mining,deep learning,82,0.1974
+Data Scientist,data mining,docker,96,0.2172
+Data Scientist,data mining,etl,89,0.1658
+Data Scientist,data mining,excel,60,0.1393
+Data Scientist,data mining,gcp,102,0.1991
+Data Scientist,data mining,git,91,0.1829
+Data Scientist,data mining,hadoop,102,0.1978
+Data Scientist,data mining,java,156,0.2535
+Data Scientist,data mining,javascript,32,0.0901
+Data Scientist,data mining,jira,13,0.0442
+Data Scientist,data mining,kafka,80,0.1675
+Data Scientist,data mining,kubernetes,98,0.2264
+Data Scientist,data mining,linux,15,0.0455
+Data Scientist,data mining,looker,10,0.0445
+Data Scientist,data mining,machine learning,425,0.4112
+Data Scientist,data mining,microservices,22,0.0953
+Data Scientist,data mining,mysql,22,0.0711
+Data Scientist,data mining,natural language processing,157,0.2849
+Data Scientist,data mining,nosql,73,0.1803
+Data Scientist,data mining,numpy,27,0.0873
+Data Scientist,data mining,oracle,14,0.0465
+Data Scientist,data mining,pandas,83,0.1906
+Data Scientist,data mining,postgresql,25,0.0799
+Data Scientist,data mining,power bi,129,0.204
+Data Scientist,data mining,python,460,0.3619
+Data Scientist,data mining,pytorch,51,0.121
+Data Scientist,data mining,r,338,0.3942
+Data Scientist,data mining,sas,86,0.2224
+Data Scientist,data mining,scala,46,0.095
+Data Scientist,data mining,scikit-learn,33,0.0865
+Data Scientist,data mining,snowflake,88,0.1718
+Data Scientist,data mining,spark,173,0.2446
+Data Scientist,data mining,sql,427,0.365
+Data Scientist,data mining,sql server,36,0.113
+Data Scientist,data mining,statistics,149,0.2405
+Data Scientist,data mining,tableau,194,0.2813
+Data Scientist,data mining,tensorflow,51,0.1136
+Data Scientist,data mining,vba,6,0.0443
+Data Scientist,data modeling,data structures,17,0.0852
+Data Scientist,data modeling,data visualization,219,0.2899
+Data Scientist,data modeling,data warehousing,140,0.3146
+Data Scientist,data modeling,deep learning,20,0.05
+Data Scientist,data modeling,docker,75,0.1763
+Data Scientist,data modeling,etl,140,0.2709
+Data Scientist,data modeling,excel,24,0.0579
+Data Scientist,data modeling,gcp,94,0.1906
+Data Scientist,data modeling,git,107,0.2234
+Data Scientist,data modeling,go,6,0.0331
+Data Scientist,data modeling,hadoop,68,0.137
+Data Scientist,data modeling,html,5,0.0335
+Data Scientist,data modeling,java,151,0.2549
+Data Scientist,data modeling,javascript,20,0.0585
+Data Scientist,data modeling,jira,18,0.0636
+Data Scientist,data modeling,kafka,92,0.2001
+Data Scientist,data modeling,kubernetes,76,0.1824
+Data Scientist,data modeling,linux,29,0.0913
+Data Scientist,data modeling,looker,20,0.0925
+Data Scientist,data modeling,machine learning,243,0.2443
+Data Scientist,data modeling,microservices,21,0.0945
+Data Scientist,data modeling,mysql,13,0.0437
+Data Scientist,data modeling,natural language processing,64,0.1206
+Data Scientist,data modeling,nosql,54,0.1386
+Data Scientist,data modeling,numpy,17,0.0571
+Data Scientist,data modeling,oracle,19,0.0656
+Data Scientist,data modeling,pandas,83,0.198
+Data Scientist,data modeling,postgresql,20,0.0664
+Data Scientist,data modeling,power bi,124,0.2037
+Data Scientist,data modeling,python,387,0.3163
+Data Scientist,data modeling,pytorch,21,0.0518
+Data Scientist,data modeling,r,168,0.2035
+Data Scientist,data modeling,rest api,15,0.058
+Data Scientist,data modeling,sas,22,0.0591
+Data Scientist,data modeling,scala,64,0.1373
+Data Scientist,data modeling,scikit-learn,21,0.0572
+Data Scientist,data modeling,snowflake,136,0.2758
+Data Scientist,data modeling,spark,135,0.1983
+Data Scientist,data modeling,sql,408,0.3623
+Data Scientist,data modeling,sql server,34,0.1109
+Data Scientist,data modeling,statistics,69,0.1157
+Data Scientist,data modeling,tableau,147,0.2214
+Data Scientist,data modeling,tensorflow,26,0.0601
+Data Scientist,data modeling,unit testing,5,0.0285
+Data Scientist,data structures,data visualization,10,0.0352
+Data Scientist,data structures,data warehousing,6,0.0359
+Data Scientist,data structures,docker,5,0.0313
+Data Scientist,data structures,etl,6,0.0309
+Data Scientist,data structures,excel,5,0.0321
+Data Scientist,data structures,gcp,7,0.0378
+Data Scientist,data structures,git,11,0.0611
+Data Scientist,data structures,go,6,0.088
+Data Scientist,data structures,hadoop,11,0.059
+Data Scientist,data structures,java,22,0.0988
+Data Scientist,data structures,kafka,7,0.0405
+Data Scientist,data structures,kubernetes,6,0.0383
+Data Scientist,data structures,linux,7,0.0586
+Data Scientist,data structures,machine learning,22,0.0588
+Data Scientist,data structures,natural language processing,7,0.0351
+Data Scientist,data structures,nosql,8,0.0546
+Data Scientist,data structures,oracle,5,0.0459
+Data Scientist,data structures,python,49,0.1065
+Data Scientist,data structures,r,12,0.0387
+Data Scientist,data structures,rest api,5,0.0514
+Data Scientist,data structures,scala,8,0.0457
+Data Scientist,data structures,snowflake,7,0.0378
+Data Scientist,data structures,spark,14,0.0547
+Data Scientist,data structures,sql,43,0.1016
+Data Scientist,data structures,statistics,7,0.0312
+Data Scientist,data structures,tableau,7,0.0281
+Data Scientist,data structures,unit testing,7,0.1061
+Data Scientist,data visualization,data warehousing,144,0.2274
+Data Scientist,data visualization,deep learning,76,0.1336
+Data Scientist,data visualization,docker,77,0.1272
+Data Scientist,data visualization,etl,133,0.1809
+Data Scientist,data visualization,excel,112,0.1898
+Data Scientist,data visualization,gcp,111,0.1582
+Data Scientist,data visualization,git,114,0.1673
+Data Scientist,data visualization,go,6,0.0232
+Data Scientist,data visualization,hadoop,136,0.1926
+Data Scientist,data visualization,html,10,0.0471
+Data Scientist,data visualization,java,161,0.191
+Data Scientist,data visualization,javascript,47,0.0966
+Data Scientist,data visualization,jira,29,0.072
+Data Scientist,data visualization,kafka,71,0.1085
+Data Scientist,data visualization,kubernetes,84,0.1417
+Data Scientist,data visualization,linux,23,0.0509
+Data Scientist,data visualization,looker,41,0.1333
+Data Scientist,data visualization,machine learning,650,0.4592
+Data Scientist,data visualization,microservices,23,0.0727
+Data Scientist,data visualization,mysql,34,0.0802
+Data Scientist,data visualization,natural language processing,152,0.2014
+Data Scientist,data visualization,nosql,101,0.1822
+Data Scientist,data visualization,numpy,52,0.1227
+Data Scientist,data visualization,object-oriented programming,14,0.0443
+Data Scientist,data visualization,oracle,27,0.0655
+Data Scientist,data visualization,pandas,117,0.1961
+Data Scientist,data visualization,postgresql,42,0.098
+Data Scientist,data visualization,power bi,324,0.374
+Data Scientist,data visualization,python,808,0.4641
+Data Scientist,data visualization,pytorch,79,0.1368
+Data Scientist,data visualization,r,543,0.4624
+Data Scientist,data visualization,react,9,0.0478
+Data Scientist,data visualization,rest api,10,0.0272
+Data Scientist,data visualization,sas,118,0.2228
+Data Scientist,data visualization,scala,56,0.0845
+Data Scientist,data visualization,scikit-learn,79,0.1512
+Data Scientist,data visualization,snowflake,111,0.1582
+Data Scientist,data visualization,spark,203,0.2095
+Data Scientist,data visualization,sql,815,0.5087
+Data Scientist,data visualization,sql server,43,0.0986
+Data Scientist,data visualization,statistics,274,0.3229
+Data Scientist,data visualization,tableau,427,0.452
+Data Scientist,data visualization,tensorflow,95,0.1544
+Data Scientist,data visualization,unit testing,7,0.028
+Data Scientist,data visualization,vba,18,0.097
+Data Scientist,data warehousing,deep learning,21,0.0627
+Data Scientist,data warehousing,docker,26,0.0729
+Data Scientist,data warehousing,etl,96,0.2216
+Data Scientist,data warehousing,excel,25,0.0719
+Data Scientist,data warehousing,gcp,47,0.1137
+Data Scientist,data warehousing,git,57,0.142
+Data Scientist,data warehousing,hadoop,64,0.1538
+Data Scientist,data warehousing,java,82,0.1651
+Data Scientist,data warehousing,javascript,19,0.0663
+Data Scientist,data warehousing,jira,19,0.0801
+Data Scientist,data warehousing,kafka,40,0.1038
+Data Scientist,data warehousing,kubernetes,27,0.0773
+Data Scientist,data warehousing,linux,27,0.1014
+Data Scientist,data warehousing,looker,20,0.1104
+Data Scientist,data warehousing,machine learning,155,0.1859
+Data Scientist,data warehousing,microservices,8,0.043
+Data Scientist,data warehousing,mysql,19,0.0761
+Data Scientist,data warehousing,natural language processing,30,0.0675
+Data Scientist,data warehousing,nosql,54,0.1653
+Data Scientist,data warehousing,numpy,5,0.02
+Data Scientist,data warehousing,oracle,23,0.0947
+Data Scientist,data warehousing,pandas,23,0.0655
+Data Scientist,data warehousing,postgresql,26,0.1029
+Data Scientist,data warehousing,power bi,123,0.2411
+Data Scientist,data warehousing,python,252,0.2457
+Data Scientist,data warehousing,pytorch,16,0.0471
+Data Scientist,data warehousing,r,87,0.1258
+Data Scientist,data warehousing,rest api,10,0.0461
+Data Scientist,data warehousing,sas,25,0.0801
+Data Scientist,data warehousing,scala,62,0.1587
+Data Scientist,data warehousing,scikit-learn,13,0.0422
+Data Scientist,data warehousing,snowflake,74,0.179
+Data Scientist,data warehousing,spark,91,0.1595
+Data Scientist,data warehousing,sql,283,0.2999
+Data Scientist,data warehousing,sql server,37,0.144
+Data Scientist,data warehousing,statistics,34,0.068
+Data Scientist,data warehousing,tableau,111,0.1995
+Data Scientist,data warehousing,tensorflow,22,0.0607
+Data Scientist,data warehousing,unit testing,5,0.034
+Data Scientist,deep learning,docker,53,0.1654
+Data Scientist,deep learning,etl,14,0.036
+Data Scientist,deep learning,excel,6,0.0192
+Data Scientist,deep learning,gcp,62,0.167
+Data Scientist,deep learning,git,29,0.0804
+Data Scientist,deep learning,hadoop,67,0.1793
+Data Scientist,deep learning,java,56,0.1255
+Data Scientist,deep learning,javascript,36,0.1399
+Data Scientist,deep learning,jira,9,0.0422
+Data Scientist,deep learning,kafka,6,0.0173
+Data Scientist,deep learning,kubernetes,51,0.1626
+Data Scientist,deep learning,linux,18,0.0753
+Data Scientist,deep learning,machine learning,275,0.3671
+Data Scientist,deep learning,microservices,5,0.0299
+Data Scientist,deep learning,mysql,7,0.0312
+Data Scientist,deep learning,natural language processing,180,0.4507
+Data Scientist,deep learning,nosql,49,0.167
+Data Scientist,deep learning,numpy,36,0.1606
+Data Scientist,deep learning,object-oriented programming,6,0.0359
+Data Scientist,deep learning,pandas,41,0.1299
+Data Scientist,deep learning,postgresql,27,0.119
+Data Scientist,deep learning,power bi,36,0.0785
+Data Scientist,deep learning,python,258,0.28
+Data Scientist,deep learning,pytorch,119,0.3896
+Data Scientist,deep learning,r,134,0.2156
+Data Scientist,deep learning,sas,24,0.0856
+Data Scientist,deep learning,scala,31,0.0884
+Data Scientist,deep learning,scikit-learn,63,0.2278
+Data Scientist,deep learning,snowflake,11,0.0296
+Data Scientist,deep learning,spark,102,0.199
+Data Scientist,deep learning,sql,172,0.2029
+Data Scientist,deep learning,statistics,86,0.1915
+Data Scientist,deep learning,tableau,45,0.09
+Data Scientist,deep learning,tensorflow,120,0.3687
+Data Scientist,docker,etl,125,0.3018
+Data Scientist,docker,gcp,173,0.4378
+Data Scientist,docker,git,170,0.4429
+Data Scientist,docker,go,10,0.0688
+Data Scientist,docker,hadoop,73,0.1835
+Data Scientist,docker,java,175,0.3686
+Data Scientist,docker,javascript,41,0.1497
+Data Scientist,docker,jira,19,0.0837
+Data Scientist,docker,kafka,153,0.4153
+Data Scientist,docker,kubernetes,267,0.7996
+Data Scientist,docker,linux,22,0.0864
+Data Scientist,docker,looker,6,0.0346
+Data Scientist,docker,machine learning,226,0.2835
+Data Scientist,docker,microservices,41,0.2302
+Data Scientist,docker,mysql,11,0.0461
+Data Scientist,docker,natural language processing,140,0.3293
+Data Scientist,docker,node.js,8,0.0903
+Data Scientist,docker,nosql,93,0.2978
+Data Scientist,docker,numpy,23,0.0964
+Data Scientist,docker,object-oriented programming,7,0.0393
+Data Scientist,docker,oracle,6,0.0258
+Data Scientist,docker,pandas,96,0.2857
+Data Scientist,docker,postgresql,43,0.1781
+Data Scientist,docker,power bi,39,0.0799
+Data Scientist,docker,python,320,0.3263
+Data Scientist,docker,pytorch,68,0.2091
+Data Scientist,docker,r,139,0.2101
+Data Scientist,docker,rest api,23,0.111
+Data Scientist,docker,sas,10,0.0335
+Data Scientist,docker,scala,21,0.0562
+Data Scientist,docker,scikit-learn,26,0.0883
+Data Scientist,docker,snowflake,143,0.3618
+Data Scientist,docker,spark,210,0.3849
+Data Scientist,docker,sql,241,0.2671
+Data Scientist,docker,sql server,12,0.0488
+Data Scientist,docker,statistics,20,0.0418
+Data Scientist,docker,tableau,55,0.1034
+Data Scientist,docker,tensorflow,65,0.1876
+Data Scientist,docker,unit testing,8,0.0569
+Data Scientist,etl,excel,9,0.0223
+Data Scientist,etl,gcp,131,0.2729
+Data Scientist,etl,git,133,0.2853
+Data Scientist,etl,go,7,0.0396
+Data Scientist,etl,hadoop,57,0.118
+Data Scientist,etl,java,156,0.2705
+Data Scientist,etl,javascript,10,0.0301
+Data Scientist,etl,jira,21,0.0762
+Data Scientist,etl,kafka,152,0.3397
+Data Scientist,etl,kubernetes,121,0.2984
+Data Scientist,etl,linux,22,0.0712
+Data Scientist,etl,looker,21,0.0998
+Data Scientist,etl,machine learning,207,0.2138
+Data Scientist,etl,microservices,29,0.1341
+Data Scientist,etl,mysql,23,0.0794
+Data Scientist,etl,natural language processing,77,0.1491
+Data Scientist,etl,nosql,74,0.1951
+Data Scientist,etl,numpy,8,0.0276
+Data Scientist,etl,oracle,28,0.0993
+Data Scientist,etl,pandas,75,0.1838
+Data Scientist,etl,postgresql,23,0.0784
+Data Scientist,etl,power bi,113,0.1907
+Data Scientist,etl,python,397,0.3333
+Data Scientist,etl,pytorch,15,0.038
+Data Scientist,etl,r,141,0.1755
+Data Scientist,etl,rest api,13,0.0516
+Data Scientist,etl,sas,19,0.0524
+Data Scientist,etl,scala,57,0.1257
+Data Scientist,etl,scikit-learn,8,0.0224
+Data Scientist,etl,snowflake,165,0.3438
+Data Scientist,etl,spark,202,0.3048
+Data Scientist,etl,sql,399,0.3641
+Data Scientist,etl,sql server,30,0.1005
+Data Scientist,etl,statistics,33,0.0568
+Data Scientist,etl,tableau,110,0.1702
+Data Scientist,etl,tensorflow,18,0.0428
+Data Scientist,etl,unit testing,12,0.0703
+Data Scientist,excel,gcp,9,0.0234
+Data Scientist,excel,git,8,0.0214
+Data Scientist,excel,hadoop,15,0.0387
+Data Scientist,excel,java,16,0.0346
+Data Scientist,excel,javascript,14,0.0524
+Data Scientist,excel,jira,12,0.0543
+Data Scientist,excel,linux,8,0.0322
+Data Scientist,excel,machine learning,60,0.0772
+Data Scientist,excel,natural language processing,8,0.0193
+Data Scientist,excel,nosql,5,0.0164
+Data Scientist,excel,numpy,5,0.0215
+Data Scientist,excel,oracle,11,0.0486
+Data Scientist,excel,pandas,12,0.0366
+Data Scientist,excel,power bi,117,0.246
+Data Scientist,excel,python,124,0.1297
+Data Scientist,excel,pytorch,7,0.0221
+Data Scientist,excel,r,91,0.1411
+Data Scientist,excel,sas,42,0.1444
+Data Scientist,excel,scala,7,0.0192
+Data Scientist,excel,scikit-learn,7,0.0244
+Data Scientist,excel,snowflake,12,0.0312
+Data Scientist,excel,spark,12,0.0226
+Data Scientist,excel,sql,187,0.2126
+Data Scientist,excel,sql server,10,0.0418
+Data Scientist,excel,statistics,51,0.1095
+Data Scientist,excel,tableau,123,0.2372
+Data Scientist,excel,tensorflow,9,0.0267
+Data Scientist,excel,vba,21,0.2062
+Data Scientist,gcp,git,171,0.3844
+Data Scientist,gcp,go,13,0.0771
+Data Scientist,gcp,hadoop,136,0.295
+Data Scientist,gcp,html,5,0.0361
+Data Scientist,gcp,java,204,0.3708
+Data Scientist,gcp,javascript,41,0.1292
+Data Scientist,gcp,jira,29,0.1103
+Data Scientist,gcp,kafka,166,0.3888
+Data Scientist,gcp,kubernetes,181,0.4677
+Data Scientist,gcp,linux,24,0.0814
+Data Scientist,gcp,looker,12,0.0598
+Data Scientist,gcp,machine learning,305,0.3301
+Data Scientist,gcp,microservices,32,0.1551
+Data Scientist,gcp,mysql,27,0.0976
+Data Scientist,gcp,natural language processing,155,0.3146
+Data Scientist,gcp,nosql,112,0.3095
+Data Scientist,gcp,numpy,20,0.0723
+Data Scientist,gcp,object-oriented programming,13,0.063
+Data Scientist,gcp,oracle,12,0.0446
+Data Scientist,gcp,pandas,99,0.2543
+Data Scientist,gcp,postgresql,44,0.1572
+Data Scientist,gcp,power bi,73,0.1291
+Data Scientist,gcp,python,414,0.3643
+Data Scientist,gcp,pytorch,79,0.2097
+Data Scientist,gcp,r,193,0.2518
+Data Scientist,gcp,react,5,0.0407
+Data Scientist,gcp,rest api,10,0.0416
+Data Scientist,gcp,sas,20,0.0578
+Data Scientist,gcp,scala,54,0.1248
+Data Scientist,gcp,scikit-learn,43,0.1261
+Data Scientist,gcp,snowflake,151,0.3297
+Data Scientist,gcp,spark,270,0.427
+Data Scientist,gcp,sql,332,0.3175
+Data Scientist,gcp,sql server,12,0.0421
+Data Scientist,gcp,statistics,47,0.0848
+Data Scientist,gcp,tableau,93,0.1508
+Data Scientist,gcp,tensorflow,92,0.2291
+Data Scientist,gcp,unit testing,6,0.0368
+Data Scientist,git,go,6,0.0367
+Data Scientist,git,hadoop,64,0.1429
+Data Scientist,git,html,12,0.0891
+Data Scientist,git,java,193,0.3612
+Data Scientist,git,javascript,24,0.0778
+Data Scientist,git,jira,45,0.1762
+Data Scientist,git,kafka,145,0.3497
+Data Scientist,git,kubernetes,158,0.4204
+Data Scientist,git,linux,66,0.2304
+Data Scientist,git,looker,7,0.0359
+Data Scientist,git,machine learning,276,0.3076
+Data Scientist,git,microservices,32,0.1596
+Data Scientist,git,mysql,16,0.0596
+Data Scientist,git,natural language processing,111,0.232
+Data Scientist,git,node.js,8,0.0803
+Data Scientist,git,nosql,71,0.202
+Data Scientist,git,numpy,22,0.0819
+Data Scientist,git,object-oriented programming,13,0.0649
+Data Scientist,git,oracle,21,0.0804
+Data Scientist,git,pandas,126,0.3332
+Data Scientist,git,postgresql,20,0.0736
+Data Scientist,git,power bi,69,0.1257
+Data Scientist,git,python,388,0.3515
+Data Scientist,git,pytorch,38,0.1038
+Data Scientist,git,r,178,0.2391
+Data Scientist,git,react,6,0.0503
+Data Scientist,git,rest api,19,0.0814
+Data Scientist,git,sas,6,0.0179
+Data Scientist,git,scala,62,0.1475
+Data Scientist,git,scikit-learn,34,0.1026
+Data Scientist,git,snowflake,157,0.353
+Data Scientist,git,spark,207,0.3371
+Data Scientist,git,sql,336,0.3308
+Data Scientist,git,sql server,24,0.0868
+Data Scientist,git,statistics,46,0.0855
+Data Scientist,git,tableau,69,0.1152
+Data Scientist,git,tensorflow,51,0.1308
+Data Scientist,git,typescript,6,0.0801
+Data Scientist,git,unit testing,10,0.0632
+Data Scientist,go,hadoop,7,0.0413
+Data Scientist,go,java,31,0.1531
+Data Scientist,go,javascript,6,0.0514
+Data Scientist,go,jira,5,0.0517
+Data Scientist,go,kafka,28,0.1782
+Data Scientist,go,kubernetes,16,0.1124
+Data Scientist,go,linux,19,0.1751
+Data Scientist,go,machine learning,20,0.0588
+Data Scientist,go,microservices,6,0.079
+Data Scientist,go,mysql,12,0.1179
+Data Scientist,go,nosql,10,0.0751
+Data Scientist,go,postgresql,7,0.068
+Data Scientist,go,power bi,7,0.0336
+Data Scientist,go,python,49,0.1172
+Data Scientist,go,pytorch,6,0.0433
+Data Scientist,go,r,12,0.0425
+Data Scientist,go,scala,13,0.0816
+Data Scientist,go,snowflake,6,0.0356
+Data Scientist,go,spark,18,0.0774
+Data Scientist,go,sql,12,0.0312
+Data Scientist,go,statistics,5,0.0245
+Data Scientist,go,tensorflow,7,0.0474
+Data Scientist,hadoop,java,186,0.3359
+Data Scientist,hadoop,javascript,41,0.1283
+Data Scientist,hadoop,jira,24,0.0907
+Data Scientist,hadoop,kafka,118,0.2746
+Data Scientist,hadoop,kubernetes,78,0.2002
+Data Scientist,hadoop,linux,28,0.0943
+Data Scientist,hadoop,looker,16,0.0792
+Data Scientist,hadoop,machine learning,305,0.328
+Data Scientist,hadoop,microservices,18,0.0867
+Data Scientist,hadoop,mysql,54,0.194
+Data Scientist,hadoop,natural language processing,121,0.244
+Data Scientist,hadoop,nosql,121,0.3322
+Data Scientist,hadoop,numpy,28,0.1006
+Data Scientist,hadoop,object-oriented programming,8,0.0385
+Data Scientist,hadoop,oracle,27,0.0997
+Data Scientist,hadoop,pandas,43,0.1097
+Data Scientist,hadoop,postgresql,55,0.1953
+Data Scientist,hadoop,power bi,96,0.1687
+Data Scientist,hadoop,python,419,0.3663
+Data Scientist,hadoop,pytorch,86,0.2268
+Data Scientist,hadoop,r,224,0.2903
+Data Scientist,hadoop,rest api,19,0.0786
+Data Scientist,hadoop,sas,56,0.1609
+Data Scientist,hadoop,scala,124,0.2846
+Data Scientist,hadoop,scikit-learn,48,0.1398
+Data Scientist,hadoop,snowflake,73,0.1584
+Data Scientist,hadoop,spark,363,0.5703
+Data Scientist,hadoop,sql,334,0.3173
+Data Scientist,hadoop,sql server,15,0.0523
+Data Scientist,hadoop,statistics,110,0.1973
+Data Scientist,hadoop,tableau,144,0.232
+Data Scientist,hadoop,tensorflow,98,0.2425
+Data Scientist,hadoop,unit testing,6,0.0366
+Data Scientist,html,java,14,0.084
+Data Scientist,html,javascript,29,0.3017
+Data Scientist,html,linux,5,0.056
+Data Scientist,html,machine learning,7,0.025
+Data Scientist,html,mysql,5,0.0597
+Data Scientist,html,node.js,5,0.1609
+Data Scientist,html,oracle,7,0.0859
+Data Scientist,html,postgresql,7,0.0826
+Data Scientist,html,power bi,8,0.0467
+Data Scientist,html,python,27,0.0785
+Data Scientist,html,r,7,0.0302
+Data Scientist,html,react,9,0.2417
+Data Scientist,html,rest api,6,0.0825
+Data Scientist,html,spark,6,0.0313
+Data Scientist,html,sql,20,0.0632
+Data Scientist,html,tableau,9,0.0482
+Data Scientist,html,typescript,6,0.2568
+Data Scientist,java,javascript,68,0.1783
+Data Scientist,java,jira,36,0.1139
+Data Scientist,java,kafka,217,0.4231
+Data Scientist,java,kubernetes,185,0.3979
+Data Scientist,java,linux,64,0.1806
+Data Scientist,java,looker,8,0.0332
+Data Scientist,java,machine learning,362,0.3261
+Data Scientist,java,microservices,48,0.1936
+Data Scientist,java,mysql,60,0.1806
+Data Scientist,java,natural language processing,148,0.25
+Data Scientist,java,node.js,12,0.0973
+Data Scientist,java,nosql,133,0.3059
+Data Scientist,java,numpy,15,0.0451
+Data Scientist,java,object-oriented programming,12,0.0484
+Data Scientist,java,oracle,44,0.1362
+Data Scientist,java,pandas,119,0.2544
+Data Scientist,java,postgresql,63,0.1874
+Data Scientist,java,power bi,87,0.1281
+Data Scientist,java,python,599,0.4387
+Data Scientist,java,pytorch,71,0.1568
+Data Scientist,java,r,267,0.2899
+Data Scientist,java,react,10,0.0677
+Data Scientist,java,rest api,36,0.1247
+Data Scientist,java,sas,38,0.0915
+Data Scientist,java,scala,197,0.3789
+Data Scientist,java,scikit-learn,36,0.0879
+Data Scientist,java,snowflake,195,0.3544
+Data Scientist,java,spark,324,0.4265
+Data Scientist,java,sql,459,0.3653
+Data Scientist,java,sql server,42,0.1228
+Data Scientist,java,statistics,78,0.1172
+Data Scientist,java,tableau,128,0.1728
+Data Scientist,java,tensorflow,80,0.1659
+Data Scientist,java,typescript,5,0.0539
+Data Scientist,java,unit testing,19,0.097
+Data Scientist,java,vba,12,0.0825
+Data Scientist,javascript,jira,9,0.0494
+Data Scientist,javascript,kafka,6,0.0203
+Data Scientist,javascript,kubernetes,40,0.1491
+Data Scientist,javascript,linux,9,0.044
+Data Scientist,javascript,machine learning,110,0.1718
+Data Scientist,javascript,microservices,11,0.0769
+Data Scientist,javascript,mysql,7,0.0365
+Data Scientist,javascript,natural language processing,61,0.1786
+Data Scientist,javascript,node.js,5,0.0703
+Data Scientist,javascript,nosql,49,0.1953
+Data Scientist,javascript,numpy,10,0.0522
+Data Scientist,javascript,object-oriented programming,48,0.3356
+Data Scientist,javascript,oracle,12,0.0644
+Data Scientist,javascript,pandas,14,0.0519
+Data Scientist,javascript,postgresql,40,0.2062
+Data Scientist,javascript,power bi,43,0.1097
+Data Scientist,javascript,python,195,0.2476
+Data Scientist,javascript,pytorch,36,0.1379
+Data Scientist,javascript,r,121,0.2278
+Data Scientist,javascript,react,11,0.1291
+Data Scientist,javascript,rest api,10,0.0601
+Data Scientist,javascript,sas,10,0.0417
+Data Scientist,javascript,scala,8,0.0267
+Data Scientist,javascript,scikit-learn,13,0.055
+Data Scientist,javascript,snowflake,9,0.0284
+Data Scientist,javascript,spark,43,0.0981
+Data Scientist,javascript,sql,111,0.1531
+Data Scientist,javascript,sql server,7,0.0355
+Data Scientist,javascript,statistics,21,0.0547
+Data Scientist,javascript,tableau,40,0.0936
+Data Scientist,javascript,tensorflow,42,0.1509
+Data Scientist,javascript,typescript,6,0.1122
+Data Scientist,jira,kafka,15,0.0612
+Data Scientist,jira,kubernetes,21,0.0945
+Data Scientist,jira,linux,24,0.1417
+Data Scientist,jira,machine learning,49,0.0924
+Data Scientist,jira,microservices,6,0.0506
+Data Scientist,jira,mysql,9,0.0567
+Data Scientist,jira,natural language processing,19,0.0672
+Data Scientist,jira,nosql,20,0.0962
+Data Scientist,jira,numpy,6,0.0378
+Data Scientist,jira,object-oriented programming,6,0.0506
+Data Scientist,jira,oracle,14,0.0906
+Data Scientist,jira,pandas,8,0.0358
+Data Scientist,jira,postgresql,14,0.0871
+Data Scientist,jira,power bi,29,0.0893
+Data Scientist,jira,python,101,0.1548
+Data Scientist,jira,pytorch,13,0.0601
+Data Scientist,jira,r,38,0.0863
+Data Scientist,jira,rest api,12,0.087
+Data Scientist,jira,sas,7,0.0353
+Data Scientist,jira,scala,11,0.0443
+Data Scientist,jira,scikit-learn,9,0.046
+Data Scientist,jira,snowflake,33,0.1255
+Data Scientist,jira,spark,32,0.0881
+Data Scientist,jira,sql,85,0.1416
+Data Scientist,jira,sql server,13,0.0795
+Data Scientist,jira,statistics,9,0.0283
+Data Scientist,jira,tableau,42,0.1186
+Data Scientist,jira,tensorflow,11,0.0477
+Data Scientist,kafka,kubernetes,160,0.4435
+Data Scientist,kafka,linux,42,0.1527
+Data Scientist,kafka,looker,10,0.0534
+Data Scientist,kafka,machine learning,182,0.2113
+Data Scientist,kafka,microservices,40,0.2079
+Data Scientist,kafka,mysql,61,0.2366
+Data Scientist,kafka,natural language processing,77,0.1677
+Data Scientist,kafka,nosql,87,0.2579
+Data Scientist,kafka,object-oriented programming,13,0.0676
+Data Scientist,kafka,oracle,29,0.1156
+Data Scientist,kafka,pandas,76,0.2094
+Data Scientist,kafka,postgresql,33,0.1265
+Data Scientist,kafka,power bi,31,0.0588
+Data Scientist,kafka,python,353,0.3332
+Data Scientist,kafka,pytorch,20,0.0569
+Data Scientist,kafka,r,113,0.1581
+Data Scientist,kafka,rest api,30,0.134
+Data Scientist,kafka,sas,6,0.0186
+Data Scientist,kafka,scala,80,0.1983
+Data Scientist,kafka,scikit-learn,6,0.0189
+Data Scientist,kafka,snowflake,183,0.4286
+Data Scientist,kafka,spark,292,0.4954
+Data Scientist,kafka,sql,264,0.2708
+Data Scientist,kafka,sql server,15,0.0565
+Data Scientist,kafka,statistics,8,0.0155
+Data Scientist,kafka,tableau,51,0.0887
+Data Scientist,kafka,tensorflow,26,0.0695
+Data Scientist,kafka,unit testing,9,0.0592
+Data Scientist,kubernetes,linux,22,0.0883
+Data Scientist,kubernetes,looker,5,0.0295
+Data Scientist,kubernetes,machine learning,205,0.2626
+Data Scientist,kubernetes,microservices,39,0.2236
+Data Scientist,kubernetes,mysql,15,0.0642
+Data Scientist,kubernetes,natural language processing,129,0.3099
+Data Scientist,kubernetes,nosql,98,0.3205
+Data Scientist,kubernetes,numpy,19,0.0813
+Data Scientist,kubernetes,object-oriented programming,9,0.0516
+Data Scientist,kubernetes,oracle,10,0.044
+Data Scientist,kubernetes,pandas,94,0.2857
+Data Scientist,kubernetes,postgresql,49,0.2072
+Data Scientist,kubernetes,power bi,46,0.0963
+Data Scientist,kubernetes,python,304,0.3166
+Data Scientist,kubernetes,pytorch,58,0.1822
+Data Scientist,kubernetes,r,134,0.2069
+Data Scientist,kubernetes,react,10,0.0963
+Data Scientist,kubernetes,rest api,22,0.1084
+Data Scientist,kubernetes,sas,7,0.024
+Data Scientist,kubernetes,scala,20,0.0547
+Data Scientist,kubernetes,scikit-learn,21,0.0729
+Data Scientist,kubernetes,snowflake,148,0.3824
+Data Scientist,kubernetes,spark,223,0.4174
+Data Scientist,kubernetes,sql,254,0.2874
+Data Scientist,kubernetes,sql server,11,0.0457
+Data Scientist,kubernetes,statistics,15,0.032
+Data Scientist,kubernetes,tableau,53,0.1017
+Data Scientist,kubernetes,tensorflow,56,0.1651
+Data Scientist,kubernetes,unit testing,8,0.0581
+Data Scientist,linux,machine learning,74,0.1243
+Data Scientist,linux,microservices,5,0.0376
+Data Scientist,linux,mysql,24,0.1347
+Data Scientist,linux,natural language processing,19,0.0599
+Data Scientist,linux,nosql,24,0.103
+Data Scientist,linux,numpy,14,0.0786
+Data Scientist,linux,object-oriented programming,7,0.0527
+Data Scientist,linux,oracle,14,0.0808
+Data Scientist,linux,pandas,27,0.1077
+Data Scientist,linux,postgresql,14,0.0777
+Data Scientist,linux,power bi,30,0.0824
+Data Scientist,linux,python,152,0.2077
+Data Scientist,linux,pytorch,16,0.0659
+Data Scientist,linux,r,39,0.079
+Data Scientist,linux,rest api,10,0.0646
+Data Scientist,linux,scala,40,0.1435
+Data Scientist,linux,scikit-learn,11,0.0501
+Data Scientist,linux,snowflake,23,0.078
+Data Scientist,linux,spark,49,0.1203
+Data Scientist,linux,sql,112,0.1663
+Data Scientist,linux,sql server,13,0.0709
+Data Scientist,linux,statistics,18,0.0504
+Data Scientist,linux,tableau,28,0.0705
+Data Scientist,linux,tensorflow,23,0.0889
+Data Scientist,looker,machine learning,48,0.1185
+Data Scientist,looker,nosql,8,0.0504
+Data Scientist,looker,numpy,13,0.1072
+Data Scientist,looker,pandas,14,0.082
+Data Scientist,looker,power bi,38,0.1533
+Data Scientist,looker,python,77,0.1546
+Data Scientist,looker,pytorch,6,0.0363
+Data Scientist,looker,r,40,0.119
+Data Scientist,looker,sas,14,0.0924
+Data Scientist,looker,scala,6,0.0316
+Data Scientist,looker,scikit-learn,7,0.0468
+Data Scientist,looker,snowflake,26,0.1295
+Data Scientist,looker,spark,20,0.0722
+Data Scientist,looker,sql,77,0.168
+Data Scientist,looker,statistics,22,0.0906
+Data Scientist,looker,tableau,70,0.259
+Data Scientist,looker,tensorflow,13,0.0739
+Data Scientist,machine learning,microservices,52,0.1249
+Data Scientist,machine learning,mysql,70,0.1255
+Data Scientist,machine learning,natural language processing,474,0.4769
+Data Scientist,machine learning,node.js,7,0.0338
+Data Scientist,machine learning,nosql,177,0.2424
+Data Scientist,machine learning,numpy,129,0.2312
+Data Scientist,machine learning,object-oriented programming,45,0.1081
+Data Scientist,machine learning,oracle,35,0.0645
+Data Scientist,machine learning,pandas,255,0.3246
+Data Scientist,machine learning,postgresql,68,0.1204
+Data Scientist,machine learning,power bi,301,0.2639
+Data Scientist,machine learning,python,1612,0.7031
+Data Scientist,machine learning,pytorch,254,0.3341
+Data Scientist,machine learning,r,863,0.5581
+Data Scientist,machine learning,react,14,0.0564
+Data Scientist,machine learning,rest api,23,0.0475
+Data Scientist,machine learning,sas,145,0.2079
+Data Scientist,machine learning,scala,207,0.2371
+Data Scientist,machine learning,scikit-learn,213,0.3096
+Data Scientist,machine learning,snowflake,206,0.223
+Data Scientist,machine learning,spark,530,0.4155
+Data Scientist,machine learning,sql,1192,0.565
+Data Scientist,machine learning,sql server,41,0.0714
+Data Scientist,machine learning,statistics,505,0.4519
+Data Scientist,machine learning,tableau,399,0.3208
+Data Scientist,machine learning,tensorflow,290,0.358
+Data Scientist,machine learning,unit testing,13,0.0395
+Data Scientist,machine learning,vba,12,0.0491
+Data Scientist,microservices,mysql,9,0.0722
+Data Scientist,microservices,natural language processing,25,0.1126
+Data Scientist,microservices,node.js,8,0.173
+Data Scientist,microservices,nosql,22,0.1349
+Data Scientist,microservices,object-oriented programming,6,0.0645
+Data Scientist,microservices,oracle,5,0.0412
+Data Scientist,microservices,pandas,20,0.114
+Data Scientist,microservices,postgresql,6,0.0476
+Data Scientist,microservices,power bi,5,0.0196
+Data Scientist,microservices,python,81,0.1582
+Data Scientist,microservices,pytorch,9,0.053
+Data Scientist,microservices,r,23,0.0666
+Data Scientist,microservices,react,9,0.1625
+Data Scientist,microservices,rest api,17,0.157
+Data Scientist,microservices,scala,15,0.0769
+Data Scientist,microservices,scikit-learn,6,0.039
+Data Scientist,microservices,snowflake,30,0.1454
+Data Scientist,microservices,spark,48,0.1685
+Data Scientist,microservices,sql,55,0.1167
+Data Scientist,microservices,sql server,7,0.0546
+Data Scientist,microservices,tableau,8,0.0288
+Data Scientist,mysql,natural language processing,15,0.0504
+Data Scientist,mysql,nosql,34,0.1556
+Data Scientist,mysql,numpy,8,0.0479
+Data Scientist,mysql,oracle,42,0.2586
+Data Scientist,mysql,pandas,16,0.0681
+Data Scientist,mysql,postgresql,59,0.3491
+Data Scientist,mysql,power bi,24,0.0703
+Data Scientist,mysql,python,147,0.2142
+Data Scientist,mysql,pytorch,13,0.0571
+Data Scientist,mysql,r,49,0.1059
+Data Scientist,mysql,react,5,0.0674
+Data Scientist,mysql,rest api,5,0.0345
+Data Scientist,mysql,sas,12,0.0575
+Data Scientist,mysql,scala,30,0.1148
+Data Scientist,mysql,scikit-learn,14,0.068
+Data Scientist,mysql,snowflake,43,0.1555
+Data Scientist,mysql,spark,69,0.1807
+Data Scientist,mysql,sql,99,0.1568
+Data Scientist,mysql,sql server,30,0.1745
+Data Scientist,mysql,statistics,21,0.0628
+Data Scientist,mysql,tableau,36,0.0967
+Data Scientist,mysql,tensorflow,14,0.0577
+Data Scientist,natural language processing,nosql,84,0.2158
+Data Scientist,natural language processing,numpy,47,0.158
+Data Scientist,natural language processing,object-oriented programming,20,0.0901
+Data Scientist,natural language processing,oracle,8,0.0276
+Data Scientist,natural language processing,pandas,121,0.2889
+Data Scientist,natural language processing,postgresql,33,0.1096
+Data Scientist,natural language processing,power bi,56,0.0921
+Data Scientist,natural language processing,python,482,0.3943
+Data Scientist,natural language processing,pytorch,152,0.375
+Data Scientist,natural language processing,r,247,0.2995
+Data Scientist,natural language processing,rest api,6,0.0232
+Data Scientist,natural language processing,sas,27,0.0726
+Data Scientist,natural language processing,scala,64,0.1375
+Data Scientist,natural language processing,scikit-learn,98,0.2671
+Data Scientist,natural language processing,snowflake,85,0.1725
+Data Scientist,natural language processing,spark,221,0.3249
+Data Scientist,natural language processing,sql,340,0.3022
+Data Scientist,natural language processing,statistics,114,0.1913
+Data Scientist,natural language processing,tableau,81,0.1221
+Data Scientist,natural language processing,tensorflow,162,0.3751
+Data Scientist,node.js,python,21,0.0825
+Data Scientist,node.js,react,8,0.2904
+Data Scientist,node.js,rest api,5,0.0929
+Data Scientist,node.js,scala,8,0.0825
+Data Scientist,node.js,sql,9,0.0384
+Data Scientist,nosql,numpy,23,0.1052
+Data Scientist,nosql,object-oriented programming,9,0.0552
+Data Scientist,nosql,oracle,18,0.0847
+Data Scientist,nosql,pandas,51,0.1658
+Data Scientist,nosql,postgresql,49,0.2216
+Data Scientist,nosql,power bi,58,0.1298
+Data Scientist,nosql,python,257,0.2862
+Data Scientist,nosql,pytorch,52,0.1746
+Data Scientist,nosql,r,129,0.213
+Data Scientist,nosql,react,8,0.0823
+Data Scientist,nosql,rest api,22,0.1159
+Data Scientist,nosql,sas,18,0.0659
+Data Scientist,nosql,scala,47,0.1374
+Data Scientist,nosql,scikit-learn,26,0.0965
+Data Scientist,nosql,snowflake,67,0.1851
+Data Scientist,nosql,spark,165,0.3302
+Data Scientist,nosql,sql,256,0.3098
+Data Scientist,nosql,sql server,14,0.0622
+Data Scientist,nosql,statistics,30,0.0685
+Data Scientist,nosql,tableau,66,0.1355
+Data Scientist,nosql,tensorflow,58,0.1828
+Data Scientist,nosql,unit testing,10,0.0776
+Data Scientist,numpy,pandas,154,0.655
+Data Scientist,numpy,postgresql,20,0.1184
+Data Scientist,numpy,power bi,33,0.0967
+Data Scientist,numpy,python,157,0.2288
+Data Scientist,numpy,pytorch,74,0.3252
+Data Scientist,numpy,r,55,0.1188
+Data Scientist,numpy,rest api,6,0.0414
+Data Scientist,numpy,scikit-learn,114,0.5535
+Data Scientist,numpy,snowflake,12,0.0434
+Data Scientist,numpy,spark,42,0.11
+Data Scientist,numpy,sql,110,0.1742
+Data Scientist,numpy,sql server,8,0.0465
+Data Scientist,numpy,statistics,53,0.1584
+Data Scientist,numpy,tableau,51,0.137
+Data Scientist,numpy,tensorflow,85,0.3506
+Data Scientist,object-oriented programming,power bi,11,0.0432
+Data Scientist,object-oriented programming,python,82,0.1601
+Data Scientist,object-oriented programming,r,42,0.1216
+Data Scientist,object-oriented programming,react,9,0.1625
+Data Scientist,object-oriented programming,scala,6,0.0308
+Data Scientist,object-oriented programming,spark,17,0.0597
+Data Scientist,object-oriented programming,sql,40,0.0849
+Data Scientist,object-oriented programming,statistics,5,0.02
+Data Scientist,object-oriented programming,tableau,12,0.0432
+Data Scientist,oracle,postgresql,51,0.3103
+Data Scientist,oracle,power bi,32,0.0964
+Data Scientist,oracle,python,102,0.1528
+Data Scientist,oracle,r,39,0.0866
+Data Scientist,oracle,sas,20,0.0985
+Data Scientist,oracle,scala,16,0.0629
+Data Scientist,oracle,snowflake,42,0.1561
+Data Scientist,oracle,spark,31,0.0835
+Data Scientist,oracle,sql,121,0.197
+Data Scientist,oracle,sql server,70,0.4186
+Data Scientist,oracle,statistics,8,0.0246
+Data Scientist,oracle,tableau,37,0.1022
+Data Scientist,pandas,postgresql,22,0.0925
+Data Scientist,pandas,power bi,59,0.1227
+Data Scientist,pandas,python,319,0.3302
+Data Scientist,pandas,pytorch,88,0.2747
+Data Scientist,pandas,r,147,0.2256
+Data Scientist,pandas,rest api,9,0.0441
+Data Scientist,pandas,sas,10,0.034
+Data Scientist,pandas,scala,23,0.0625
+Data Scientist,pandas,scikit-learn,152,0.5242
+Data Scientist,pandas,snowflake,89,0.2286
+Data Scientist,pandas,spark,136,0.253
+Data Scientist,pandas,sql,249,0.2801
+Data Scientist,pandas,sql server,20,0.0826
+Data Scientist,pandas,statistics,62,0.1317
+Data Scientist,pandas,tableau,84,0.1603
+Data Scientist,pandas,tensorflow,107,0.3135
+Data Scientist,postgresql,power bi,38,0.11
+Data Scientist,postgresql,python,148,0.2131
+Data Scientist,postgresql,pytorch,40,0.1737
+Data Scientist,postgresql,r,56,0.1196
+Data Scientist,postgresql,react,6,0.0799
+Data Scientist,postgresql,sas,8,0.0379
+Data Scientist,postgresql,scala,10,0.0378
+Data Scientist,postgresql,scikit-learn,15,0.072
+Data Scientist,postgresql,snowflake,37,0.1322
+Data Scientist,postgresql,spark,65,0.1682
+Data Scientist,postgresql,sql,133,0.2081
+Data Scientist,postgresql,sql server,28,0.1609
+Data Scientist,postgresql,statistics,17,0.0502
+Data Scientist,postgresql,tableau,42,0.1115
+Data Scientist,postgresql,tensorflow,36,0.1467
+Data Scientist,postgresql,typescript,5,0.106
+Data Scientist,power bi,python,487,0.3471
+Data Scientist,power bi,pytorch,48,0.1032
+Data Scientist,power bi,r,308,0.3255
+Data Scientist,power bi,react,13,0.0857
+Data Scientist,power bi,rest api,9,0.0303
+Data Scientist,power bi,sas,77,0.1804
+Data Scientist,power bi,scala,50,0.0936
+Data Scientist,power bi,scikit-learn,31,0.0736
+Data Scientist,power bi,snowflake,78,0.138
+Data Scientist,power bi,spark,116,0.1486
+Data Scientist,power bi,sql,545,0.4221
+Data Scientist,power bi,sql server,57,0.1622
+Data Scientist,power bi,statistics,110,0.1609
+Data Scientist,power bi,tableau,454,0.5965
+Data Scientist,power bi,tensorflow,59,0.119
+Data Scientist,power bi,vba,11,0.0736
+Data Scientist,python,pytorch,290,0.3102
+Data Scientist,python,r,1248,0.6561
+Data Scientist,python,react,27,0.0885
+Data Scientist,python,rest api,67,0.1124
+Data Scientist,python,sas,217,0.2529
+Data Scientist,python,scala,357,0.3324
+Data Scientist,python,scikit-learn,238,0.2812
+Data Scientist,python,snowflake,385,0.3388
+Data Scientist,python,spark,769,0.4901
+Data Scientist,python,sql,1916,0.7383
+Data Scientist,python,sql server,108,0.1529
+Data Scientist,python,statistics,561,0.4081
+Data Scientist,python,tableau,635,0.4151
+Data Scientist,python,tensorflow,332,0.3332
+Data Scientist,python,typescript,10,0.0522
+Data Scientist,python,unit testing,36,0.089
+Data Scientist,python,vba,27,0.0899
+Data Scientist,pytorch,r,124,0.1966
+Data Scientist,pytorch,sas,20,0.0703
+Data Scientist,pytorch,scala,27,0.0758
+Data Scientist,pytorch,scikit-learn,147,0.5239
+Data Scientist,pytorch,snowflake,18,0.0478
+Data Scientist,pytorch,spark,119,0.2287
+Data Scientist,pytorch,sql,165,0.1918
+Data Scientist,pytorch,statistics,71,0.1558
+Data Scientist,pytorch,tableau,66,0.1301
+Data Scientist,pytorch,tensorflow,252,0.7629
+Data Scientist,r,rest api,8,0.0199
+Data Scientist,r,sas,197,0.3404
+Data Scientist,r,scala,124,0.1712
+Data Scientist,r,scikit-learn,108,0.1892
+Data Scientist,r,snowflake,139,0.1813
+Data Scientist,r,spark,325,0.3071
+Data Scientist,r,sql,950,0.5427
+Data Scientist,r,sql server,42,0.0881
+Data Scientist,r,statistics,367,0.3958
+Data Scientist,r,tableau,443,0.4293
+Data Scientist,r,tensorflow,166,0.247
+Data Scientist,r,vba,21,0.1036
+Data Scientist,react,spark,6,0.0353
+Data Scientist,react,sql,23,0.0819
+Data Scientist,react,tableau,10,0.0604
+Data Scientist,react,typescript,6,0.2897
+Data Scientist,rest api,scala,37,0.163
+Data Scientist,rest api,scikit-learn,5,0.0279
+Data Scientist,rest api,snowflake,10,0.0416
+Data Scientist,rest api,spark,59,0.1779
+Data Scientist,rest api,sql,51,0.093
+Data Scientist,rest api,sql server,8,0.0536
+Data Scientist,rest api,tableau,11,0.034
+Data Scientist,rest api,unit testing,11,0.1287
+Data Scientist,sas,scala,9,0.0275
+Data Scientist,sas,scikit-learn,21,0.0816
+Data Scientist,sas,snowflake,14,0.0405
+Data Scientist,sas,spark,42,0.088
+Data Scientist,sas,sql,192,0.2432
+Data Scientist,sas,sql server,19,0.0884
+Data Scientist,sas,statistics,85,0.2033
+Data Scientist,sas,tableau,126,0.2707
+Data Scientist,sas,tensorflow,27,0.0891
+Data Scientist,sas,vba,14,0.1532
+Data Scientist,scala,scikit-learn,18,0.0558
+Data Scientist,scala,snowflake,66,0.1525
+Data Scientist,scala,spark,238,0.3983
+Data Scientist,scala,sql,262,0.2651
+Data Scientist,scala,sql server,17,0.0632
+Data Scientist,scala,statistics,80,0.1528
+Data Scientist,scala,tableau,63,0.1081
+Data Scientist,scala,tensorflow,34,0.0896
+Data Scientist,scala,unit testing,14,0.0909
+Data Scientist,scikit-learn,snowflake,15,0.044
+Data Scientist,scikit-learn,spark,82,0.1741
+Data Scientist,scikit-learn,sql,162,0.208
+Data Scientist,scikit-learn,statistics,76,0.1842
+Data Scientist,scikit-learn,tableau,55,0.1198
+Data Scientist,scikit-learn,tensorflow,168,0.5619
+Data Scientist,snowflake,spark,212,0.3353
+Data Scientist,snowflake,sql,362,0.3461
+Data Scientist,snowflake,sql server,30,0.1054
+Data Scientist,snowflake,statistics,29,0.0524
+Data Scientist,snowflake,tableau,100,0.1622
+Data Scientist,snowflake,tensorflow,18,0.0448
+Data Scientist,snowflake,unit testing,12,0.0736
+Data Scientist,spark,sql,609,0.4218
+Data Scientist,spark,sql server,27,0.0687
+Data Scientist,spark,statistics,123,0.1608
+Data Scientist,spark,tableau,175,0.2056
+Data Scientist,spark,tensorflow,143,0.258
+Data Scientist,spark,unit testing,17,0.0755
+Data Scientist,sql,sql server,122,0.1877
+Data Scientist,sql,statistics,470,0.3716
+Data Scientist,sql,tableau,693,0.4922
+Data Scientist,sql,tensorflow,200,0.2181
+Data Scientist,sql,typescript,8,0.0454
+Data Scientist,sql,unit testing,28,0.0752
+Data Scientist,sql,vba,29,0.1049
+Data Scientist,sql server,statistics,24,0.0697
+Data Scientist,sql server,tableau,64,0.167
+Data Scientist,sql server,vba,5,0.0664
+Data Scientist,statistics,tableau,167,0.2239
+Data Scientist,statistics,tensorflow,79,0.1627
+Data Scientist,statistics,vba,14,0.0956
+Data Scientist,tableau,tensorflow,91,0.1684
+Data Scientist,tableau,vba,18,0.1104
+Software Engineer,a/b testing,agile,13,0.0344
+Software Engineer,a/b testing,angular,5,0.0226
+Software Engineer,a/b testing,aws,22,0.0642
+Software Engineer,a/b testing,azure,15,0.0616
+Software Engineer,a/b testing,ci/cd,8,0.0445
+Software Engineer,a/b testing,css,7,0.0303
+Software Engineer,a/b testing,html,7,0.0288
+Software Engineer,a/b testing,java,8,0.0212
+Software Engineer,a/b testing,javascript,10,0.0287
+Software Engineer,a/b testing,kubernetes,5,0.0183
+Software Engineer,a/b testing,machine learning,22,0.1266
+Software Engineer,a/b testing,natural language processing,20,0.2981
+Software Engineer,a/b testing,node.js,5,0.0225
+Software Engineer,a/b testing,python,23,0.0575
+Software Engineer,a/b testing,react,14,0.0489
+Software Engineer,a/b testing,rest api,5,0.0195
+Software Engineer,a/b testing,sql,10,0.0315
+Software Engineer,a/b testing,typescript,9,0.0351
+Software Engineer,a/b testing,unit testing,5,0.0237
+Software Engineer,agile,airflow,13,0.0296
+Software Engineer,agile,algorithms,111,0.0987
+Software Engineer,agile,angular,511,0.2754
+Software Engineer,agile,aws,1300,0.4521
+Software Engineer,agile,azure,737,0.3603
+Software Engineer,agile,big data,82,0.1144
+Software Engineer,agile,c#,655,0.2743
+Software Engineer,agile,c++,447,0.1932
+Software Engineer,agile,ci/cd,302,0.2003
+Software Engineer,agile,css,481,0.2478
+Software Engineer,agile,data mining,11,0.0326
+Software Engineer,agile,data modeling,42,0.0678
+Software Engineer,agile,data structures,103,0.0899
+Software Engineer,agile,data visualization,34,0.0598
+Software Engineer,agile,data warehousing,26,0.0617
+Software Engineer,agile,docker,666,0.3029
+Software Engineer,agile,etl,31,0.0577
+Software Engineer,agile,excel,13,0.0337
+Software Engineer,agile,gcp,519,0.311
+Software Engineer,agile,git,795,0.3335
+Software Engineer,agile,go,712,0.3382
+Software Engineer,agile,hadoop,38,0.0682
+Software Engineer,agile,html,521,0.255
+Software Engineer,agile,java,1559,0.4913
+Software Engineer,agile,javascript,1231,0.4212
+Software Engineer,agile,jira,501,0.2933
+Software Engineer,agile,kafka,224,0.1784
+Software Engineer,agile,kubernetes,687,0.3
+Software Engineer,agile,linux,416,0.1973
+Software Engineer,agile,machine learning,205,0.1405
+Software Engineer,agile,microservices,459,0.268
+Software Engineer,agile,mysql,163,0.1298
+Software Engineer,agile,natural language processing,29,0.0515
+Software Engineer,agile,node.js,521,0.2788
+Software Engineer,agile,nosql,319,0.2393
+Software Engineer,agile,numpy,12,0.0377
+Software Engineer,agile,object-oriented programming,218,0.1697
+Software Engineer,agile,oracle,123,0.1242
+Software Engineer,agile,pandas,12,0.0346
+Software Engineer,agile,postgresql,284,0.1713
+Software Engineer,agile,power bi,28,0.0603
+Software Engineer,agile,python,1465,0.4366
+Software Engineer,agile,pytorch,8,0.0188
+Software Engineer,agile,r,17,0.0419
+Software Engineer,agile,react,689,0.2867
+Software Engineer,agile,rest api,619,0.2878
+Software Engineer,agile,scala,273,0.243
+Software Engineer,agile,snowflake,16,0.0328
+Software Engineer,agile,spark,108,0.1259
+Software Engineer,agile,sql,1189,0.4457
+Software Engineer,agile,sql server,238,0.1674
+Software Engineer,agile,statistics,7,0.0192
+Software Engineer,agile,tableau,23,0.0532
+Software Engineer,agile,tensorflow,13,0.0282
+Software Engineer,agile,typescript,717,0.3329
+Software Engineer,agile,unit testing,467,0.2634
+Software Engineer,airflow,aws,32,0.0802
+Software Engineer,airflow,azure,10,0.0353
+Software Engineer,airflow,c++,8,0.0249
+Software Engineer,airflow,ci/cd,5,0.0239
+Software Engineer,airflow,docker,23,0.0754
+Software Engineer,airflow,etl,8,0.1074
+Software Engineer,airflow,gcp,11,0.0475
+Software Engineer,airflow,git,12,0.0363
+Software Engineer,airflow,go,10,0.0343
+Software Engineer,airflow,hadoop,7,0.0905
+Software Engineer,airflow,java,36,0.0818
+Software Engineer,airflow,javascript,8,0.0197
+Software Engineer,airflow,jira,10,0.0422
+Software Engineer,airflow,kafka,26,0.1493
+Software Engineer,airflow,kubernetes,26,0.0819
+Software Engineer,airflow,linux,5,0.0171
+Software Engineer,airflow,machine learning,8,0.0395
+Software Engineer,airflow,microservices,7,0.0295
+Software Engineer,airflow,node.js,6,0.0232
+Software Engineer,airflow,postgresql,23,0.1
+Software Engineer,airflow,python,45,0.0967
+Software Engineer,airflow,react,7,0.021
+Software Engineer,airflow,rest api,8,0.0268
+Software Engineer,airflow,scala,13,0.0834
+Software Engineer,airflow,snowflake,15,0.2218
+Software Engineer,airflow,spark,16,0.1345
+Software Engineer,airflow,sql,24,0.0649
+Software Engineer,airflow,tableau,6,0.1
+Software Engineer,airflow,typescript,7,0.0234
+Software Engineer,airflow,unit testing,10,0.0407
+Software Engineer,algorithms,angular,32,0.0486
+Software Engineer,algorithms,aws,107,0.1049
+Software Engineer,algorithms,azure,41,0.0565
+Software Engineer,algorithms,big data,13,0.0511
+Software Engineer,algorithms,c#,73,0.0862
+Software Engineer,algorithms,c++,128,0.156
+Software Engineer,algorithms,ci/cd,36,0.0673
+Software Engineer,algorithms,css,39,0.0566
+Software Engineer,algorithms,data modeling,6,0.0273
+Software Engineer,algorithms,data structures,312,0.7677
+Software Engineer,algorithms,data visualization,11,0.0545
+Software Engineer,algorithms,deep learning,10,0.0646
+Software Engineer,algorithms,docker,59,0.0757
+Software Engineer,algorithms,gcp,38,0.0642
+Software Engineer,algorithms,git,82,0.097
+Software Engineer,algorithms,go,73,0.0978
+Software Engineer,algorithms,hadoop,5,0.0253
+Software Engineer,algorithms,html,44,0.0607
+Software Engineer,algorithms,java,176,0.1564
+Software Engineer,algorithms,javascript,108,0.1042
+Software Engineer,algorithms,jira,22,0.0363
+Software Engineer,algorithms,kafka,23,0.0516
+Software Engineer,algorithms,kubernetes,62,0.0763
+Software Engineer,algorithms,linux,72,0.0963
+Software Engineer,algorithms,machine learning,50,0.0966
+Software Engineer,algorithms,microservices,54,0.0889
+Software Engineer,algorithms,mysql,31,0.0696
+Software Engineer,algorithms,natural language processing,8,0.0401
+Software Engineer,algorithms,node.js,39,0.0588
+Software Engineer,algorithms,nosql,29,0.0614
+Software Engineer,algorithms,object-oriented programming,53,0.1164
+Software Engineer,algorithms,oracle,10,0.0285
+Software Engineer,algorithms,postgresql,39,0.0663
+Software Engineer,algorithms,python,187,0.1571
+Software Engineer,algorithms,react,69,0.0809
+Software Engineer,algorithms,rest api,72,0.0944
+Software Engineer,algorithms,scala,30,0.0753
+Software Engineer,algorithms,spark,13,0.0427
+Software Engineer,algorithms,sql,75,0.0793
+Software Engineer,algorithms,sql server,13,0.0258
+Software Engineer,algorithms,statistics,10,0.0772
+Software Engineer,algorithms,tensorflow,6,0.0367
+Software Engineer,algorithms,typescript,46,0.0602
+Software Engineer,algorithms,unit testing,68,0.1081
+Software Engineer,angular,aws,375,0.223
+Software Engineer,angular,azure,259,0.2165
+Software Engineer,angular,big data,16,0.0382
+Software Engineer,angular,c#,415,0.2972
+Software Engineer,angular,c++,86,0.0636
+Software Engineer,angular,ci/cd,131,0.1485
+Software Engineer,angular,css,360,0.3171
+Software Engineer,angular,data mining,5,0.0253
+Software Engineer,angular,data modeling,12,0.0331
+Software Engineer,angular,data structures,35,0.0522
+Software Engineer,angular,data visualization,8,0.024
+Software Engineer,angular,docker,226,0.1758
+Software Engineer,angular,etl,15,0.0477
+Software Engineer,angular,gcp,121,0.124
+Software Engineer,angular,git,368,0.264
+Software Engineer,angular,go,112,0.091
+Software Engineer,angular,hadoop,9,0.0276
+Software Engineer,angular,html,388,0.3247
+Software Engineer,angular,java,485,0.2614
+Software Engineer,angular,javascript,633,0.3703
+Software Engineer,angular,jira,173,0.1732
+Software Engineer,angular,kafka,116,0.158
+Software Engineer,angular,kubernetes,256,0.1912
+Software Engineer,angular,linux,80,0.0649
+Software Engineer,angular,machine learning,76,0.0891
+Software Engineer,angular,microservices,188,0.1877
+Software Engineer,angular,mysql,88,0.1198
+Software Engineer,angular,natural language processing,7,0.0213
+Software Engineer,angular,node.js,204,0.1866
+Software Engineer,angular,nosql,98,0.1257
+Software Engineer,angular,object-oriented programming,66,0.0879
+Software Engineer,angular,oracle,85,0.1468
+Software Engineer,angular,postgresql,146,0.1505
+Software Engineer,angular,power bi,13,0.0479
+Software Engineer,angular,python,333,0.1697
+Software Engineer,angular,r,7,0.0295
+Software Engineer,angular,react,582,0.4141
+Software Engineer,angular,rest api,317,0.252
+Software Engineer,angular,scala,23,0.035
+Software Engineer,angular,snowflake,9,0.0315
+Software Engineer,angular,spark,29,0.0578
+Software Engineer,angular,sql,411,0.2634
+Software Engineer,angular,sql server,174,0.2093
+Software Engineer,angular,typescript,410,0.3255
+Software Engineer,angular,unit testing,179,0.1726
+Software Engineer,aws,azure,962,0.5188
+Software Engineer,aws,big data,86,0.1323
+Software Engineer,aws,c#,349,0.1612
+Software Engineer,aws,c++,245,0.1168
+Software Engineer,aws,ci/cd,272,0.1989
+Software Engineer,aws,css,388,0.2205
+Software Engineer,aws,data mining,8,0.0261
+Software Engineer,aws,data modeling,38,0.0677
+Software Engineer,aws,data structures,106,0.102
+Software Engineer,aws,data visualization,26,0.0504
+Software Engineer,aws,data warehousing,21,0.055
+Software Engineer,aws,deep learning,9,0.0228
+Software Engineer,aws,docker,820,0.4114
+Software Engineer,aws,etl,44,0.0903
+Software Engineer,aws,excel,6,0.0171
+Software Engineer,aws,gcp,728,0.4812
+Software Engineer,aws,git,534,0.2471
+Software Engineer,aws,go,791,0.4145
+Software Engineer,aws,hadoop,50,0.0989
+Software Engineer,aws,html,417,0.2251
+Software Engineer,aws,java,1447,0.503
+Software Engineer,aws,javascript,1021,0.3853
+Software Engineer,aws,jira,303,0.1956
+Software Engineer,aws,kafka,246,0.2161
+Software Engineer,aws,kubernetes,856,0.4124
+Software Engineer,aws,linux,270,0.1412
+Software Engineer,aws,machine learning,225,0.1701
+Software Engineer,aws,microservices,461,0.2969
+Software Engineer,aws,mysql,212,0.1862
+Software Engineer,aws,natural language processing,42,0.0823
+Software Engineer,aws,node.js,580,0.3423
+Software Engineer,aws,nosql,325,0.269
+Software Engineer,aws,numpy,9,0.0312
+Software Engineer,aws,object-oriented programming,109,0.0936
+Software Engineer,aws,oracle,90,0.1003
+Software Engineer,aws,pandas,13,0.0413
+Software Engineer,aws,postgresql,353,0.2348
+Software Engineer,aws,power bi,18,0.0428
+Software Engineer,aws,python,1468,0.4825
+Software Engineer,aws,pytorch,14,0.0363
+Software Engineer,aws,r,14,0.038
+Software Engineer,aws,react,762,0.3497
+Software Engineer,aws,rest api,496,0.2544
+Software Engineer,aws,scala,303,0.2975
+Software Engineer,aws,snowflake,49,0.1108
+Software Engineer,aws,spark,119,0.153
+Software Engineer,aws,sql,1077,0.4453
+Software Engineer,aws,sql server,124,0.0962
+Software Engineer,aws,statistics,9,0.0272
+Software Engineer,aws,tableau,14,0.0357
+Software Engineer,aws,tensorflow,15,0.0359
+Software Engineer,aws,typescript,708,0.3627
+Software Engineer,aws,unit testing,255,0.1586
+Software Engineer,azure,big data,47,0.1017
+Software Engineer,azure,c#,390,0.2533
+Software Engineer,azure,c++,145,0.0972
+Software Engineer,azure,ci/cd,143,0.147
+Software Engineer,azure,css,259,0.2069
+Software Engineer,azure,data mining,5,0.0229
+Software Engineer,azure,data modeling,21,0.0526
+Software Engineer,azure,data structures,39,0.0528
+Software Engineer,azure,data visualization,13,0.0354
+Software Engineer,azure,data warehousing,11,0.0405
+Software Engineer,azure,deep learning,5,0.0178
+Software Engineer,azure,docker,370,0.261
+Software Engineer,azure,etl,26,0.075
+Software Engineer,azure,gcp,666,0.6189
+Software Engineer,azure,git,274,0.1783
+Software Engineer,azure,go,378,0.2785
+Software Engineer,azure,hadoop,24,0.0668
+Software Engineer,azure,html,292,0.2216
+Software Engineer,azure,java,669,0.327
+Software Engineer,azure,javascript,590,0.313
+Software Engineer,azure,jira,139,0.1262
+Software Engineer,azure,kafka,96,0.1186
+Software Engineer,azure,kubernetes,417,0.2824
+Software Engineer,azure,linux,124,0.0912
+Software Engineer,azure,machine learning,104,0.1105
+Software Engineer,azure,microservices,242,0.2191
+Software Engineer,azure,mysql,71,0.0877
+Software Engineer,azure,natural language processing,27,0.0743
+Software Engineer,azure,node.js,245,0.2033
+Software Engineer,azure,nosql,172,0.2001
+Software Engineer,azure,object-oriented programming,51,0.0616
+Software Engineer,azure,oracle,39,0.0611
+Software Engineer,azure,pandas,7,0.0313
+Software Engineer,azure,postgresql,104,0.0973
+Software Engineer,azure,power bi,28,0.0935
+Software Engineer,azure,python,663,0.3064
+Software Engineer,azure,pytorch,10,0.0365
+Software Engineer,azure,r,12,0.0458
+Software Engineer,azure,react,340,0.2194
+Software Engineer,azure,rest api,257,0.1853
+Software Engineer,azure,scala,155,0.2139
+Software Engineer,azure,snowflake,21,0.0668
+Software Engineer,azure,spark,58,0.1048
+Software Engineer,azure,sql,581,0.3377
+Software Engineer,azure,sql server,172,0.1876
+Software Engineer,azure,statistics,5,0.0212
+Software Engineer,azure,tableau,12,0.043
+Software Engineer,azure,tensorflow,11,0.037
+Software Engineer,azure,typescript,332,0.2391
+Software Engineer,azure,unit testing,133,0.1163
+Software Engineer,big data,c#,22,0.0408
+Software Engineer,big data,c++,39,0.0746
+Software Engineer,big data,ci/cd,21,0.0616
+Software Engineer,big data,css,17,0.0388
+Software Engineer,big data,data mining,5,0.0655
+Software Engineer,big data,data modeling,6,0.0429
+Software Engineer,big data,data structures,7,0.027
+Software Engineer,big data,data visualization,7,0.0545
+Software Engineer,big data,data warehousing,13,0.1365
+Software Engineer,big data,docker,25,0.0503
+Software Engineer,big data,etl,7,0.0577
+Software Engineer,big data,gcp,41,0.1087
+Software Engineer,big data,git,27,0.0501
+Software Engineer,big data,go,50,0.1051
+Software Engineer,big data,hadoop,20,0.1587
+Software Engineer,big data,html,15,0.0325
+Software Engineer,big data,java,107,0.1492
+Software Engineer,big data,javascript,33,0.05
+Software Engineer,big data,jira,17,0.044
+Software Engineer,big data,kafka,25,0.0881
+Software Engineer,big data,kubernetes,56,0.1082
+Software Engineer,big data,linux,11,0.0231
+Software Engineer,big data,machine learning,67,0.2032
+Software Engineer,big data,microservices,26,0.0672
+Software Engineer,big data,mysql,7,0.0247
+Software Engineer,big data,natural language processing,9,0.0707
+Software Engineer,big data,node.js,17,0.0403
+Software Engineer,big data,nosql,22,0.073
+Software Engineer,big data,object-oriented programming,6,0.0207
+Software Engineer,big data,oracle,7,0.0313
+Software Engineer,big data,postgresql,11,0.0294
+Software Engineer,big data,python,91,0.12
+Software Engineer,big data,r,5,0.0545
+Software Engineer,big data,react,24,0.0442
+Software Engineer,big data,rest api,18,0.037
+Software Engineer,big data,scala,17,0.0669
+Software Engineer,big data,spark,32,0.1651
+Software Engineer,big data,sql,54,0.0896
+Software Engineer,big data,sql server,5,0.0156
+Software Engineer,big data,typescript,20,0.0411
+Software Engineer,big data,unit testing,19,0.0474
+Software Engineer,c#,c++,411,0.2361
+Software Engineer,c#,ci/cd,175,0.1542
+Software Engineer,c#,css,377,0.258
+Software Engineer,c#,data mining,5,0.0197
+Software Engineer,c#,data modeling,22,0.0472
+Software Engineer,c#,data structures,82,0.0951
+Software Engineer,c#,data visualization,14,0.0327
+Software Engineer,c#,data warehousing,16,0.0504
+Software Engineer,c#,deep learning,8,0.0244
+Software Engineer,c#,docker,246,0.1487
+Software Engineer,c#,etl,20,0.0495
+Software Engineer,c#,excel,14,0.0482
+Software Engineer,c#,gcp,78,0.0621
+Software Engineer,c#,git,445,0.248
+Software Engineer,c#,go,133,0.0839
+Software Engineer,c#,html,429,0.279
+Software Engineer,c#,java,520,0.2177
+Software Engineer,c#,javascript,730,0.3318
+Software Engineer,c#,jira,175,0.1361
+Software Engineer,c#,kafka,83,0.0878
+Software Engineer,c#,kubernetes,228,0.1323
+Software Engineer,c#,linux,152,0.0958
+Software Engineer,c#,machine learning,91,0.0829
+Software Engineer,c#,microservices,209,0.1621
+Software Engineer,c#,mysql,73,0.0772
+Software Engineer,c#,natural language processing,6,0.0142
+Software Engineer,c#,node.js,157,0.1116
+Software Engineer,c#,nosql,112,0.1116
+Software Engineer,c#,object-oriented programming,155,0.1603
+Software Engineer,c#,oracle,73,0.098
+Software Engineer,c#,postgresql,98,0.0785
+Software Engineer,c#,power bi,26,0.0744
+Software Engineer,c#,python,507,0.2007
+Software Engineer,c#,r,12,0.0393
+Software Engineer,c#,react,374,0.2067
+Software Engineer,c#,rest api,352,0.2175
+Software Engineer,c#,scala,31,0.0367
+Software Engineer,c#,snowflake,5,0.0136
+Software Engineer,c#,spark,8,0.0124
+Software Engineer,c#,sql,538,0.2679
+Software Engineer,c#,sql server,428,0.4
+Software Engineer,c#,statistics,5,0.0182
+Software Engineer,c#,tableau,10,0.0307
+Software Engineer,c#,typescript,245,0.1512
+Software Engineer,c#,unit testing,250,0.1873
+Software Engineer,c++,ci/cd,94,0.0855
+Software Engineer,c++,css,91,0.0643
+Software Engineer,c++,data structures,123,0.1472
+Software Engineer,c++,data visualization,22,0.053
+Software Engineer,c++,data warehousing,6,0.0195
+Software Engineer,c++,deep learning,33,0.1037
+Software Engineer,c++,docker,266,0.1659
+Software Engineer,c++,excel,11,0.0391
+Software Engineer,c++,gcp,107,0.0879
+Software Engineer,c++,git,373,0.2146
+Software Engineer,c++,go,226,0.1472
+Software Engineer,c++,hadoop,15,0.0369
+Software Engineer,c++,html,127,0.0852
+Software Engineer,c++,java,643,0.2779
+Software Engineer,c++,javascript,286,0.1342
+Software Engineer,c++,jira,184,0.1477
+Software Engineer,c++,kafka,41,0.0448
+Software Engineer,c++,kubernetes,308,0.1844
+Software Engineer,c++,linux,543,0.3531
+Software Engineer,c++,machine learning,152,0.1429
+Software Engineer,c++,microservices,75,0.06
+Software Engineer,c++,mysql,43,0.047
+Software Engineer,c++,natural language processing,13,0.0317
+Software Engineer,c++,node.js,83,0.0609
+Software Engineer,c++,nosql,75,0.0772
+Software Engineer,c++,numpy,8,0.0344
+Software Engineer,c++,object-oriented programming,142,0.1516
+Software Engineer,c++,oracle,36,0.0499
+Software Engineer,c++,pandas,6,0.0237
+Software Engineer,c++,postgresql,123,0.1017
+Software Engineer,c++,power bi,6,0.0177
+Software Engineer,c++,python,918,0.3751
+Software Engineer,c++,pytorch,19,0.0613
+Software Engineer,c++,r,15,0.0506
+Software Engineer,c++,react,142,0.081
+Software Engineer,c++,rest api,124,0.0791
+Software Engineer,c++,scala,26,0.0317
+Software Engineer,c++,snowflake,10,0.0281
+Software Engineer,c++,spark,25,0.04
+Software Engineer,c++,sql,251,0.129
+Software Engineer,c++,sql server,47,0.0453
+Software Engineer,c++,statistics,10,0.0376
+Software Engineer,c++,tensorflow,26,0.0773
+Software Engineer,c++,typescript,84,0.0535
+Software Engineer,c++,unit testing,146,0.1129
+Software Engineer,ci/cd,css,113,0.1224
+Software Engineer,ci/cd,data modeling,8,0.0272
+Software Engineer,ci/cd,data structures,41,0.0753
+Software Engineer,ci/cd,data visualization,6,0.0222
+Software Engineer,ci/cd,docker,217,0.2076
+Software Engineer,ci/cd,etl,12,0.047
+Software Engineer,ci/cd,gcp,110,0.1386
+Software Engineer,ci/cd,git,222,0.1959
+Software Engineer,ci/cd,go,105,0.1049
+Software Engineer,ci/cd,hadoop,12,0.0453
+Software Engineer,ci/cd,html,129,0.1328
+Software Engineer,ci/cd,java,316,0.2095
+Software Engineer,ci/cd,javascript,251,0.1806
+Software Engineer,ci/cd,jira,115,0.1416
+Software Engineer,ci/cd,kafka,86,0.1441
+Software Engineer,ci/cd,kubernetes,205,0.1883
+Software Engineer,ci/cd,linux,85,0.0848
+Software Engineer,ci/cd,machine learning,49,0.0706
+Software Engineer,ci/cd,microservices,143,0.1756
+Software Engineer,ci/cd,mysql,42,0.0704
+Software Engineer,ci/cd,natural language processing,7,0.0261
+Software Engineer,ci/cd,node.js,137,0.1542
+Software Engineer,ci/cd,nosql,91,0.1436
+Software Engineer,ci/cd,object-oriented programming,65,0.1065
+Software Engineer,ci/cd,oracle,27,0.0574
+Software Engineer,ci/cd,postgresql,97,0.123
+Software Engineer,ci/cd,power bi,6,0.0272
+Software Engineer,ci/cd,python,274,0.1717
+Software Engineer,ci/cd,react,214,0.1873
+Software Engineer,ci/cd,rest api,190,0.1858
+Software Engineer,ci/cd,scala,32,0.0599
+Software Engineer,ci/cd,snowflake,14,0.0604
+Software Engineer,ci/cd,spark,31,0.076
+Software Engineer,ci/cd,sql,200,0.1577
+Software Engineer,ci/cd,sql server,54,0.0799
+Software Engineer,ci/cd,tableau,7,0.034
+Software Engineer,ci/cd,typescript,141,0.1377
+Software Engineer,ci/cd,unit testing,137,0.1625
+Software Engineer,css,data modeling,18,0.0475
+Software Engineer,css,data structures,33,0.0471
+Software Engineer,css,data visualization,20,0.0575
+Software Engineer,css,data warehousing,5,0.0194
+Software Engineer,css,docker,233,0.1732
+Software Engineer,css,etl,11,0.0335
+Software Engineer,css,excel,11,0.0466
+Software Engineer,css,gcp,114,0.1116
+Software Engineer,css,git,366,0.2509
+Software Engineer,css,go,104,0.0807
+Software Engineer,css,html,1102,0.8813
+Software Engineer,css,java,456,0.2348
+Software Engineer,css,javascript,1001,0.5596
+Software Engineer,css,jira,149,0.1425
+Software Engineer,css,kafka,46,0.0599
+Software Engineer,css,kubernetes,184,0.1313
+Software Engineer,css,linux,112,0.0868
+Software Engineer,css,machine learning,76,0.0851
+Software Engineer,css,microservices,136,0.1297
+Software Engineer,css,mysql,122,0.1588
+Software Engineer,css,natural language processing,21,0.0609
+Software Engineer,css,node.js,251,0.2195
+Software Engineer,css,nosql,105,0.1287
+Software Engineer,css,object-oriented programming,69,0.0878
+Software Engineer,css,oracle,65,0.1073
+Software Engineer,css,pandas,5,0.0235
+Software Engineer,css,postgresql,126,0.1242
+Software Engineer,css,power bi,18,0.0633
+Software Engineer,css,python,361,0.1758
+Software Engineer,css,react,537,0.3651
+Software Engineer,css,rest api,358,0.272
+Software Engineer,css,scala,9,0.0131
+Software Engineer,css,snowflake,6,0.0201
+Software Engineer,css,spark,8,0.0152
+Software Engineer,css,sql,424,0.2597
+Software Engineer,css,sql server,183,0.2104
+Software Engineer,css,tableau,7,0.0264
+Software Engineer,css,typescript,344,0.261
+Software Engineer,css,unit testing,192,0.177
+Software Engineer,data cleaning,python,6,0.0356
+Software Engineer,data cleaning,react,5,0.0414
+Software Engineer,data mining,data warehousing,8,0.1782
+Software Engineer,data mining,java,15,0.0444
+Software Engineer,data mining,javascript,11,0.0353
+Software Engineer,data mining,kafka,5,0.0374
+Software Engineer,data mining,linux,5,0.0223
+Software Engineer,data mining,machine learning,22,0.1416
+Software Engineer,data mining,python,20,0.0559
+Software Engineer,data mining,react,6,0.0234
+Software Engineer,data mining,spark,5,0.0547
+Software Engineer,data mining,sql,16,0.0563
+Software Engineer,data mining,typescript,6,0.0262
+Software Engineer,data mining,unit testing,8,0.0424
+Software Engineer,data modeling,data structures,9,0.0402
+Software Engineer,data modeling,data visualization,7,0.063
+Software Engineer,data modeling,data warehousing,9,0.1093
+Software Engineer,data modeling,docker,23,0.0536
+Software Engineer,data modeling,etl,9,0.0858
+Software Engineer,data modeling,gcp,13,0.0399
+Software Engineer,data modeling,git,21,0.0451
+Software Engineer,data modeling,go,6,0.0146
+Software Engineer,data modeling,hadoop,5,0.0459
+Software Engineer,data modeling,html,21,0.0526
+Software Engineer,data modeling,java,44,0.071
+Software Engineer,data modeling,javascript,33,0.0578
+Software Engineer,data modeling,kafka,7,0.0285
+Software Engineer,data modeling,kubernetes,18,0.0402
+Software Engineer,data modeling,linux,9,0.0219
+Software Engineer,data modeling,machine learning,16,0.0562
+Software Engineer,data modeling,microservices,16,0.0478
+Software Engineer,data modeling,mysql,6,0.0245
+Software Engineer,data modeling,node.js,9,0.0247
+Software Engineer,data modeling,nosql,8,0.0307
+Software Engineer,data modeling,object-oriented programming,6,0.0239
+Software Engineer,data modeling,oracle,7,0.0362
+Software Engineer,data modeling,postgresql,10,0.0309
+Software Engineer,data modeling,python,61,0.0931
+Software Engineer,data modeling,react,26,0.0554
+Software Engineer,data modeling,rest api,16,0.0381
+Software Engineer,data modeling,scala,11,0.0501
+Software Engineer,data modeling,spark,10,0.0597
+Software Engineer,data modeling,sql,56,0.1075
+Software Engineer,data modeling,sql server,12,0.0432
+Software Engineer,data modeling,typescript,16,0.038
+Software Engineer,data modeling,unit testing,17,0.0491
+Software Engineer,data structures,data visualization,10,0.0487
+Software Engineer,data structures,deep learning,8,0.0508
+Software Engineer,data structures,docker,65,0.0818
+Software Engineer,data structures,gcp,37,0.0614
+Software Engineer,data structures,git,84,0.0976
+Software Engineer,data structures,go,83,0.1091
+Software Engineer,data structures,hadoop,7,0.0348
+Software Engineer,data structures,html,42,0.0569
+Software Engineer,data structures,java,187,0.1631
+Software Engineer,data structures,javascript,106,0.1004
+Software Engineer,data structures,jira,19,0.0308
+Software Engineer,data structures,kafka,21,0.0463
+Software Engineer,data structures,kubernetes,71,0.0858
+Software Engineer,data structures,linux,78,0.1024
+Software Engineer,data structures,machine learning,60,0.1138
+Software Engineer,data structures,microservices,57,0.0921
+Software Engineer,data structures,mysql,31,0.0683
+Software Engineer,data structures,natural language processing,8,0.0393
+Software Engineer,data structures,node.js,43,0.0637
+Software Engineer,data structures,nosql,32,0.0665
+Software Engineer,data structures,object-oriented programming,60,0.1293
+Software Engineer,data structures,oracle,14,0.0391
+Software Engineer,data structures,postgresql,38,0.0634
+Software Engineer,data structures,python,172,0.1419
+Software Engineer,data structures,react,58,0.0668
+Software Engineer,data structures,rest api,76,0.0978
+Software Engineer,data structures,scala,28,0.069
+Software Engineer,data structures,spark,13,0.0419
+Software Engineer,data structures,sql,91,0.0944
+Software Engineer,data structures,sql server,15,0.0292
+Software Engineer,data structures,statistics,9,0.0683
+Software Engineer,data structures,tensorflow,5,0.03
+Software Engineer,data structures,typescript,45,0.0578
+Software Engineer,data structures,unit testing,60,0.0937
+Software Engineer,data visualization,data warehousing,7,0.0926
+Software Engineer,data visualization,docker,17,0.0431
+Software Engineer,data visualization,gcp,9,0.0301
+Software Engineer,data visualization,git,16,0.0374
+Software Engineer,data visualization,go,7,0.0185
+Software Engineer,data visualization,html,22,0.06
+Software Engineer,data visualization,java,34,0.0598
+Software Engineer,data visualization,javascript,36,0.0687
+Software Engineer,data visualization,jira,6,0.0196
+Software Engineer,data visualization,kafka,6,0.0266
+Software Engineer,data visualization,kubernetes,20,0.0487
+Software Engineer,data visualization,linux,17,0.045
+Software Engineer,data visualization,machine learning,44,0.1682
+Software Engineer,data visualization,microservices,10,0.0326
+Software Engineer,data visualization,mysql,8,0.0355
+Software Engineer,data visualization,natural language processing,5,0.0495
+Software Engineer,data visualization,node.js,11,0.0328
+Software Engineer,data visualization,nosql,11,0.046
+Software Engineer,data visualization,object-oriented programming,5,0.0217
+Software Engineer,data visualization,postgresql,8,0.0269
+Software Engineer,data visualization,power bi,9,0.1081
+Software Engineer,data visualization,python,63,0.1047
+Software Engineer,data visualization,react,26,0.0603
+Software Engineer,data visualization,rest api,14,0.0363
+Software Engineer,data visualization,scala,7,0.0347
+Software Engineer,data visualization,spark,8,0.052
+Software Engineer,data visualization,sql,30,0.0627
+Software Engineer,data visualization,sql server,5,0.0196
+Software Engineer,data visualization,statistics,6,0.0917
+Software Engineer,data visualization,tableau,10,0.1289
+Software Engineer,data visualization,typescript,14,0.0363
+Software Engineer,data visualization,unit testing,10,0.0315
+Software Engineer,data warehousing,docker,8,0.0274
+Software Engineer,data warehousing,etl,11,0.1541
+Software Engineer,data warehousing,gcp,7,0.0316
+Software Engineer,data warehousing,git,12,0.0379
+Software Engineer,data warehousing,go,9,0.0322
+Software Engineer,data warehousing,hadoop,5,0.0675
+Software Engineer,data warehousing,html,6,0.0221
+Software Engineer,data warehousing,java,26,0.0617
+Software Engineer,data warehousing,javascript,14,0.0361
+Software Engineer,data warehousing,kafka,9,0.0539
+Software Engineer,data warehousing,kubernetes,13,0.0427
+Software Engineer,data warehousing,linux,5,0.0178
+Software Engineer,data warehousing,machine learning,21,0.1083
+Software Engineer,data warehousing,microservices,11,0.0483
+Software Engineer,data warehousing,node.js,6,0.0242
+Software Engineer,data warehousing,nosql,10,0.0565
+Software Engineer,data warehousing,object-oriented programming,5,0.0293
+Software Engineer,data warehousing,oracle,5,0.038
+Software Engineer,data warehousing,python,27,0.0606
+Software Engineer,data warehousing,react,14,0.0438
+Software Engineer,data warehousing,rest api,10,0.035
+Software Engineer,data warehousing,scala,12,0.0804
+Software Engineer,data warehousing,spark,11,0.0965
+Software Engineer,data warehousing,sql,30,0.0846
+Software Engineer,data warehousing,typescript,6,0.021
+Software Engineer,data warehousing,unit testing,7,0.0297
+Software Engineer,deep learning,gcp,6,0.0261
+Software Engineer,deep learning,java,13,0.0298
+Software Engineer,deep learning,javascript,7,0.0174
+Software Engineer,deep learning,linux,16,0.0552
+Software Engineer,deep learning,machine learning,45,0.2243
+Software Engineer,deep learning,natural language processing,14,0.1807
+Software Engineer,deep learning,object-oriented programming,7,0.0396
+Software Engineer,deep learning,python,46,0.0997
+Software Engineer,deep learning,pytorch,12,0.2052
+Software Engineer,deep learning,rest api,6,0.0203
+Software Engineer,deep learning,sql,6,0.0164
+Software Engineer,deep learning,tensorflow,14,0.2208
+Software Engineer,docker,etl,17,0.0456
+Software Engineer,docker,excel,6,0.0224
+Software Engineer,docker,gcp,277,0.2395
+Software Engineer,docker,git,464,0.2809
+Software Engineer,docker,go,460,0.3153
+Software Engineer,docker,hadoop,25,0.0647
+Software Engineer,docker,html,252,0.1779
+Software Engineer,docker,java,748,0.3401
+Software Engineer,docker,javascript,559,0.2759
+Software Engineer,docker,jira,201,0.1697
+Software Engineer,docker,kafka,182,0.2091
+Software Engineer,docker,kubernetes,1095,0.6899
+Software Engineer,docker,linux,321,0.2196
+Software Engineer,docker,machine learning,116,0.1147
+Software Engineer,docker,microservices,294,0.2476
+Software Engineer,docker,mysql,133,0.1528
+Software Engineer,docker,natural language processing,11,0.0282
+Software Engineer,docker,node.js,323,0.2494
+Software Engineer,docker,nosql,230,0.249
+Software Engineer,docker,numpy,13,0.0589
+Software Engineer,docker,object-oriented programming,62,0.0696
+Software Engineer,docker,oracle,52,0.0758
+Software Engineer,docker,pandas,13,0.054
+Software Engineer,docker,postgresql,265,0.2305
+Software Engineer,docker,power bi,5,0.0155
+Software Engineer,docker,python,811,0.3487
+Software Engineer,docker,pytorch,7,0.0238
+Software Engineer,docker,r,13,0.0462
+Software Engineer,docker,react,431,0.2587
+Software Engineer,docker,rest api,343,0.2301
+Software Engineer,docker,scala,146,0.1875
+Software Engineer,docker,snowflake,19,0.0562
+Software Engineer,docker,spark,50,0.0841
+Software Engineer,docker,sql,574,0.3104
+Software Engineer,docker,sql server,90,0.0913
+Software Engineer,docker,tableau,7,0.0233
+Software Engineer,docker,tensorflow,9,0.0282
+Software Engineer,docker,typescript,377,0.2526
+Software Engineer,docker,unit testing,157,0.1278
+Software Engineer,etl,gcp,12,0.0425
+Software Engineer,etl,git,16,0.0396
+Software Engineer,etl,go,11,0.0309
+Software Engineer,etl,hadoop,5,0.0529
+Software Engineer,etl,html,13,0.0376
+Software Engineer,etl,java,40,0.0744
+Software Engineer,etl,javascript,30,0.0606
+Software Engineer,etl,jira,11,0.038
+Software Engineer,etl,kafka,16,0.0752
+Software Engineer,etl,kubernetes,16,0.0413
+Software Engineer,etl,linux,9,0.0252
+Software Engineer,etl,machine learning,10,0.0405
+Software Engineer,etl,microservices,11,0.0379
+Software Engineer,etl,mysql,11,0.0517
+Software Engineer,etl,node.js,12,0.0379
+Software Engineer,etl,nosql,14,0.062
+Software Engineer,etl,object-oriented programming,6,0.0276
+Software Engineer,etl,oracle,13,0.0775
+Software Engineer,etl,postgresql,19,0.0676
+Software Engineer,etl,power bi,6,0.0763
+Software Engineer,etl,python,53,0.0932
+Software Engineer,etl,react,19,0.0467
+Software Engineer,etl,rest api,24,0.0659
+Software Engineer,etl,snowflake,9,0.1089
+Software Engineer,etl,spark,18,0.1239
+Software Engineer,etl,sql,66,0.1461
+Software Engineer,etl,sql server,15,0.0623
+Software Engineer,etl,tableau,5,0.0682
+Software Engineer,etl,typescript,23,0.0631
+Software Engineer,etl,unit testing,14,0.0466
+Software Engineer,excel,git,6,0.0207
+Software Engineer,excel,html,10,0.0402
+Software Engineer,excel,java,21,0.0544
+Software Engineer,excel,javascript,12,0.0337
+Software Engineer,excel,jira,10,0.0481
+Software Engineer,excel,linux,8,0.0312
+Software Engineer,excel,power bi,6,0.1061
+Software Engineer,excel,python,14,0.0343
+Software Engineer,excel,rest api,5,0.0191
+Software Engineer,excel,sql,13,0.04
+Software Engineer,excel,sql server,7,0.0405
+Software Engineer,gcp,git,177,0.1411
+Software Engineer,gcp,go,419,0.3783
+Software Engineer,gcp,hadoop,29,0.0989
+Software Engineer,gcp,html,122,0.1135
+Software Engineer,gcp,java,589,0.3528
+Software Engineer,gcp,javascript,386,0.251
+Software Engineer,gcp,jira,118,0.1313
+Software Engineer,gcp,kafka,69,0.1045
+Software Engineer,gcp,kubernetes,335,0.2781
+Software Engineer,gcp,linux,77,0.0694
+Software Engineer,gcp,machine learning,79,0.1029
+Software Engineer,gcp,microservices,151,0.1676
+Software Engineer,gcp,mysql,62,0.0939
+Software Engineer,gcp,natural language processing,12,0.0405
+Software Engineer,gcp,node.js,221,0.2248
+Software Engineer,gcp,nosql,130,0.1854
+Software Engineer,gcp,object-oriented programming,41,0.0607
+Software Engineer,gcp,oracle,23,0.0442
+Software Engineer,gcp,postgresql,92,0.1054
+Software Engineer,gcp,power bi,7,0.0286
+Software Engineer,gcp,python,558,0.3161
+Software Engineer,gcp,pytorch,10,0.0447
+Software Engineer,gcp,r,6,0.0281
+Software Engineer,gcp,react,223,0.1764
+Software Engineer,gcp,rest api,148,0.1308
+Software Engineer,gcp,scala,147,0.2487
+Software Engineer,gcp,snowflake,16,0.0624
+Software Engineer,gcp,spark,52,0.1152
+Software Engineer,gcp,sql,415,0.2957
+Software Engineer,gcp,sql server,22,0.0294
+Software Engineer,gcp,statistics,5,0.026
+Software Engineer,gcp,tableau,6,0.0264
+Software Engineer,gcp,tensorflow,12,0.0495
+Software Engineer,gcp,typescript,253,0.2233
+Software Engineer,gcp,unit testing,62,0.0665
+Software Engineer,git,go,213,0.1347
+Software Engineer,git,hadoop,26,0.0621
+Software Engineer,git,html,391,0.2547
+Software Engineer,git,java,710,0.2978
+Software Engineer,git,javascript,656,0.2987
+Software Engineer,git,jira,517,0.4028
+Software Engineer,git,kafka,139,0.1473
+Software Engineer,git,kubernetes,454,0.2639
+Software Engineer,git,linux,434,0.2739
+Software Engineer,git,machine learning,112,0.1022
+Software Engineer,git,microservices,226,0.1756
+Software Engineer,git,mysql,130,0.1378
+Software Engineer,git,natural language processing,14,0.0331
+Software Engineer,git,node.js,261,0.1859
+Software Engineer,git,nosql,169,0.1688
+Software Engineer,git,numpy,6,0.0251
+Software Engineer,git,object-oriented programming,159,0.1648
+Software Engineer,git,oracle,105,0.1411
+Software Engineer,git,pandas,8,0.0307
+Software Engineer,git,postgresql,275,0.2207
+Software Engineer,git,power bi,9,0.0258
+Software Engineer,git,python,712,0.2824
+Software Engineer,git,pytorch,12,0.0376
+Software Engineer,git,r,14,0.0459
+Software Engineer,git,react,481,0.2663
+Software Engineer,git,rest api,470,0.2909
+Software Engineer,git,scala,56,0.0663
+Software Engineer,git,snowflake,12,0.0327
+Software Engineer,git,spark,44,0.0683
+Software Engineer,git,sql,551,0.2748
+Software Engineer,git,sql server,173,0.162
+Software Engineer,git,statistics,6,0.0219
+Software Engineer,git,tableau,14,0.0431
+Software Engineer,git,tensorflow,16,0.0462
+Software Engineer,git,typescript,325,0.2008
+Software Engineer,git,unit testing,290,0.2177
+Software Engineer,go,hadoop,18,0.0486
+Software Engineer,go,html,107,0.0789
+Software Engineer,go,java,888,0.4217
+Software Engineer,go,javascript,533,0.2748
+Software Engineer,go,jira,87,0.0767
+Software Engineer,go,kafka,103,0.1236
+Software Engineer,go,kubernetes,564,0.3711
+Software Engineer,go,linux,286,0.2044
+Software Engineer,go,machine learning,72,0.0744
+Software Engineer,go,microservices,209,0.1839
+Software Engineer,go,mysql,62,0.0744
+Software Engineer,go,natural language processing,8,0.0214
+Software Engineer,go,node.js,288,0.2322
+Software Engineer,go,nosql,129,0.1458
+Software Engineer,go,object-oriented programming,55,0.0645
+Software Engineer,go,oracle,8,0.0122
+Software Engineer,go,postgresql,171,0.1554
+Software Engineer,go,python,1079,0.4845
+Software Engineer,go,react,215,0.1348
+Software Engineer,go,rest api,177,0.124
+Software Engineer,go,scala,262,0.3514
+Software Engineer,go,snowflake,7,0.0216
+Software Engineer,go,spark,39,0.0685
+Software Engineer,go,sql,602,0.34
+Software Engineer,go,sql server,16,0.017
+Software Engineer,go,statistics,6,0.0248
+Software Engineer,go,tensorflow,5,0.0163
+Software Engineer,go,typescript,410,0.2869
+Software Engineer,go,unit testing,85,0.0722
+Software Engineer,hadoop,java,72,0.1291
+Software Engineer,hadoop,javascript,19,0.037
+Software Engineer,hadoop,jira,11,0.0366
+Software Engineer,hadoop,kafka,44,0.1994
+Software Engineer,hadoop,kubernetes,29,0.0721
+Software Engineer,hadoop,linux,18,0.0486
+Software Engineer,hadoop,machine learning,19,0.0741
+Software Engineer,hadoop,microservices,10,0.0332
+Software Engineer,hadoop,mysql,11,0.0498
+Software Engineer,hadoop,node.js,6,0.0183
+Software Engineer,hadoop,nosql,24,0.1024
+Software Engineer,hadoop,oracle,10,0.0575
+Software Engineer,hadoop,postgresql,11,0.0377
+Software Engineer,hadoop,python,60,0.1017
+Software Engineer,hadoop,r,5,0.07
+Software Engineer,hadoop,react,12,0.0284
+Software Engineer,hadoop,rest api,13,0.0344
+Software Engineer,hadoop,scala,26,0.1316
+Software Engineer,hadoop,snowflake,8,0.0933
+Software Engineer,hadoop,spark,72,0.4775
+Software Engineer,hadoop,sql,52,0.1109
+Software Engineer,hadoop,tableau,6,0.0789
+Software Engineer,hadoop,tensorflow,6,0.074
+Software Engineer,hadoop,typescript,5,0.0132
+Software Engineer,hadoop,unit testing,7,0.0225
+Software Engineer,html,java,506,0.2476
+Software Engineer,html,javascript,1105,0.587
+Software Engineer,html,jira,180,0.1636
+Software Engineer,html,kafka,56,0.0692
+Software Engineer,html,kubernetes,198,0.1342
+Software Engineer,html,linux,135,0.0994
+Software Engineer,html,machine learning,83,0.0883
+Software Engineer,html,microservices,146,0.1323
+Software Engineer,html,mysql,126,0.1558
+Software Engineer,html,natural language processing,22,0.0606
+Software Engineer,html,node.js,259,0.2152
+Software Engineer,html,nosql,115,0.134
+Software Engineer,html,object-oriented programming,78,0.0943
+Software Engineer,html,oracle,77,0.1207
+Software Engineer,html,pandas,5,0.0224
+Software Engineer,html,postgresql,131,0.1226
+Software Engineer,html,power bi,21,0.0702
+Software Engineer,html,python,398,0.1841
+Software Engineer,html,r,6,0.0229
+Software Engineer,html,react,564,0.3643
+Software Engineer,html,rest api,400,0.2888
+Software Engineer,html,scala,9,0.0124
+Software Engineer,html,snowflake,6,0.0191
+Software Engineer,html,spark,10,0.0181
+Software Engineer,html,sql,465,0.2706
+Software Engineer,html,sql server,212,0.2315
+Software Engineer,html,tableau,9,0.0323
+Software Engineer,html,typescript,356,0.2567
+Software Engineer,html,unit testing,204,0.1786
+Software Engineer,java,javascript,1198,0.4098
+Software Engineer,java,jira,440,0.2575
+Software Engineer,java,kafka,332,0.2643
+Software Engineer,java,kubernetes,823,0.3593
+Software Engineer,java,linux,489,0.2318
+Software Engineer,java,machine learning,237,0.1624
+Software Engineer,java,microservices,492,0.2871
+Software Engineer,java,mysql,207,0.1648
+Software Engineer,java,natural language processing,23,0.0408
+Software Engineer,java,node.js,473,0.253
+Software Engineer,java,nosql,345,0.2588
+Software Engineer,java,numpy,9,0.0282
+Software Engineer,java,object-oriented programming,168,0.1308
+Software Engineer,java,oracle,202,0.204
+Software Engineer,java,pandas,8,0.023
+Software Engineer,java,postgresql,321,0.1935
+Software Engineer,java,power bi,12,0.0258
+Software Engineer,java,python,1778,0.5297
+Software Engineer,java,pytorch,19,0.0447
+Software Engineer,java,r,30,0.0738
+Software Engineer,java,react,661,0.2749
+Software Engineer,java,rest api,583,0.271
+Software Engineer,java,scala,353,0.3141
+Software Engineer,java,scikit-learn,8,0.0318
+Software Engineer,java,snowflake,40,0.082
+Software Engineer,java,spark,145,0.169
+Software Engineer,java,sql,1279,0.4792
+Software Engineer,java,sql server,134,0.0942
+Software Engineer,java,statistics,13,0.0356
+Software Engineer,java,tableau,16,0.037
+Software Engineer,java,tensorflow,27,0.0585
+Software Engineer,java,typescript,611,0.2836
+Software Engineer,java,unit testing,321,0.181
+Software Engineer,java,vba,5,0.0256
+Software Engineer,javascript,jira,327,0.2077
+Software Engineer,javascript,kafka,103,0.089
+Software Engineer,javascript,kubernetes,453,0.2147
+Software Engineer,javascript,linux,270,0.139
+Software Engineer,javascript,machine learning,201,0.1495
+Software Engineer,javascript,microservices,329,0.2085
+Software Engineer,javascript,mysql,186,0.1608
+Software Engineer,javascript,natural language processing,34,0.0655
+Software Engineer,javascript,node.js,585,0.3397
+Software Engineer,javascript,nosql,232,0.1889
+Software Engineer,javascript,numpy,7,0.0238
+Software Engineer,javascript,object-oriented programming,164,0.1386
+Software Engineer,javascript,oracle,115,0.1261
+Software Engineer,javascript,pandas,10,0.0313
+Software Engineer,javascript,postgresql,283,0.1852
+Software Engineer,javascript,power bi,28,0.0654
+Software Engineer,javascript,python,1083,0.3503
+Software Engineer,javascript,pytorch,5,0.0128
+Software Engineer,javascript,r,25,0.0668
+Software Engineer,javascript,react,1038,0.4687
+Software Engineer,javascript,rest api,668,0.3371
+Software Engineer,javascript,scala,49,0.0473
+Software Engineer,javascript,snowflake,15,0.0334
+Software Engineer,javascript,spark,36,0.0455
+Software Engineer,javascript,sql,947,0.3852
+Software Engineer,javascript,sql server,327,0.2497
+Software Engineer,javascript,statistics,11,0.0327
+Software Engineer,javascript,tableau,14,0.0351
+Software Engineer,javascript,tensorflow,9,0.0212
+Software Engineer,javascript,typescript,979,0.4934
+Software Engineer,javascript,unit testing,380,0.2326
+Software Engineer,javascript,vba,9,0.0501
+Software Engineer,jira,kafka,91,0.1346
+Software Engineer,jira,kubernetes,224,0.1816
+Software Engineer,jira,linux,192,0.1691
+Software Engineer,jira,machine learning,48,0.0611
+Software Engineer,jira,microservices,134,0.1453
+Software Engineer,jira,mysql,54,0.0799
+Software Engineer,jira,natural language processing,9,0.0297
+Software Engineer,jira,node.js,167,0.1659
+Software Engineer,jira,nosql,80,0.1115
+Software Engineer,jira,object-oriented programming,92,0.133
+Software Engineer,jira,oracle,80,0.15
+Software Engineer,jira,postgresql,138,0.1545
+Software Engineer,jira,power bi,7,0.028
+Software Engineer,jira,python,321,0.1776
+Software Engineer,jira,r,8,0.0366
+Software Engineer,jira,react,225,0.1738
+Software Engineer,jira,rest api,233,0.2012
+Software Engineer,jira,scala,17,0.0281
+Software Engineer,jira,snowflake,9,0.0343
+Software Engineer,jira,spark,26,0.0563
+Software Engineer,jira,sql,291,0.2025
+Software Engineer,jira,sql server,65,0.0849
+Software Engineer,jira,tableau,11,0.0472
+Software Engineer,jira,tensorflow,5,0.0201
+Software Engineer,jira,typescript,185,0.1595
+Software Engineer,jira,unit testing,144,0.1508
+Software Engineer,kafka,kubernetes,234,0.2582
+Software Engineer,kafka,linux,42,0.0503
+Software Engineer,kafka,machine learning,36,0.0623
+Software Engineer,kafka,microservices,129,0.1903
+Software Engineer,kafka,mysql,59,0.1187
+Software Engineer,kafka,node.js,51,0.0689
+Software Engineer,kafka,nosql,93,0.1763
+Software Engineer,kafka,object-oriented programming,25,0.0492
+Software Engineer,kafka,oracle,65,0.1659
+Software Engineer,kafka,postgresql,138,0.2102
+Software Engineer,kafka,python,205,0.1543
+Software Engineer,kafka,react,160,0.1682
+Software Engineer,kafka,rest api,124,0.1457
+Software Engineer,kafka,scala,54,0.1214
+Software Engineer,kafka,snowflake,29,0.1502
+Software Engineer,kafka,spark,99,0.2915
+Software Engineer,kafka,sql,192,0.1818
+Software Engineer,kafka,sql server,30,0.0533
+Software Engineer,kafka,tableau,7,0.0409
+Software Engineer,kafka,tensorflow,5,0.0274
+Software Engineer,kafka,typescript,91,0.1068
+Software Engineer,kafka,unit testing,55,0.0784
+Software Engineer,kubernetes,linux,399,0.2621
+Software Engineer,kubernetes,machine learning,116,0.1101
+Software Engineer,kubernetes,microservices,332,0.2685
+Software Engineer,kubernetes,mysql,153,0.1688
+Software Engineer,kubernetes,natural language processing,14,0.0344
+Software Engineer,kubernetes,node.js,258,0.1912
+Software Engineer,kubernetes,nosql,244,0.2536
+Software Engineer,kubernetes,numpy,10,0.0435
+Software Engineer,kubernetes,object-oriented programming,77,0.0831
+Software Engineer,kubernetes,oracle,83,0.1161
+Software Engineer,kubernetes,pandas,10,0.0399
+Software Engineer,kubernetes,postgresql,359,0.2999
+Software Engineer,kubernetes,power bi,10,0.0298
+Software Engineer,kubernetes,python,884,0.3649
+Software Engineer,kubernetes,pytorch,7,0.0228
+Software Engineer,kubernetes,r,11,0.0375
+Software Engineer,kubernetes,react,437,0.2519
+Software Engineer,kubernetes,rest api,306,0.1971
+Software Engineer,kubernetes,scala,151,0.1862
+Software Engineer,kubernetes,snowflake,18,0.0511
+Software Engineer,kubernetes,spark,69,0.1114
+Software Engineer,kubernetes,sql,592,0.3074
+Software Engineer,kubernetes,sql server,74,0.0721
+Software Engineer,kubernetes,tableau,13,0.0416
+Software Engineer,kubernetes,tensorflow,8,0.024
+Software Engineer,kubernetes,typescript,383,0.2464
+Software Engineer,kubernetes,unit testing,160,0.125
+Software Engineer,linux,machine learning,89,0.0918
+Software Engineer,linux,microservices,71,0.0623
+Software Engineer,linux,mysql,135,0.1617
+Software Engineer,linux,natural language processing,9,0.024
+Software Engineer,linux,node.js,80,0.0644
+Software Engineer,linux,nosql,89,0.1004
+Software Engineer,linux,numpy,9,0.0425
+Software Engineer,linux,object-oriented programming,96,0.1124
+Software Engineer,linux,oracle,45,0.0684
+Software Engineer,linux,pandas,7,0.0303
+Software Engineer,linux,postgresql,204,0.185
+Software Engineer,linux,power bi,5,0.0162
+Software Engineer,linux,python,755,0.3384
+Software Engineer,linux,pytorch,10,0.0354
+Software Engineer,linux,r,8,0.0296
+Software Engineer,linux,react,127,0.0795
+Software Engineer,linux,rest api,176,0.1231
+Software Engineer,linux,scala,25,0.0335
+Software Engineer,linux,spark,33,0.0579
+Software Engineer,linux,sql,277,0.1562
+Software Engineer,linux,sql server,31,0.0328
+Software Engineer,linux,statistics,6,0.0247
+Software Engineer,linux,tableau,5,0.0174
+Software Engineer,linux,tensorflow,14,0.0457
+Software Engineer,linux,typescript,65,0.0454
+Software Engineer,linux,unit testing,123,0.1044
+Software Engineer,looker,tableau,6,0.2952
+Software Engineer,machine learning,microservices,73,0.0927
+Software Engineer,machine learning,mysql,27,0.0468
+Software Engineer,machine learning,natural language processing,88,0.3397
+Software Engineer,machine learning,node.js,100,0.1163
+Software Engineer,machine learning,nosql,88,0.1436
+Software Engineer,machine learning,numpy,16,0.1092
+Software Engineer,machine learning,object-oriented programming,31,0.0525
+Software Engineer,machine learning,oracle,8,0.0176
+Software Engineer,machine learning,pandas,18,0.1127
+Software Engineer,machine learning,postgresql,41,0.0538
+Software Engineer,machine learning,power bi,8,0.0375
+Software Engineer,machine learning,python,415,0.2689
+Software Engineer,machine learning,pytorch,26,0.1329
+Software Engineer,machine learning,r,17,0.091
+Software Engineer,machine learning,react,161,0.1456
+Software Engineer,machine learning,rest api,91,0.092
+Software Engineer,machine learning,scala,34,0.0658
+Software Engineer,machine learning,scikit-learn,14,0.1209
+Software Engineer,machine learning,spark,48,0.1217
+Software Engineer,machine learning,sql,164,0.1337
+Software Engineer,machine learning,sql server,21,0.0321
+Software Engineer,machine learning,statistics,18,0.1072
+Software Engineer,machine learning,tableau,7,0.0352
+Software Engineer,machine learning,tensorflow,34,0.1604
+Software Engineer,machine learning,typescript,97,0.0979
+Software Engineer,machine learning,unit testing,57,0.0699
+Software Engineer,microservices,mysql,66,0.0973
+Software Engineer,microservices,natural language processing,12,0.0395
+Software Engineer,microservices,node.js,165,0.1635
+Software Engineer,microservices,nosql,136,0.189
+Software Engineer,microservices,object-oriented programming,68,0.098
+Software Engineer,microservices,oracle,56,0.1047
+Software Engineer,microservices,pandas,8,0.0427
+Software Engineer,microservices,postgresql,133,0.1485
+Software Engineer,microservices,power bi,5,0.0199
+Software Engineer,microservices,python,356,0.1965
+Software Engineer,microservices,react,268,0.2065
+Software Engineer,microservices,rest api,307,0.2644
+Software Engineer,microservices,scala,59,0.0972
+Software Engineer,microservices,snowflake,7,0.0266
+Software Engineer,microservices,spark,22,0.0475
+Software Engineer,microservices,sql,348,0.2415
+Software Engineer,microservices,sql server,89,0.1159
+Software Engineer,microservices,tableau,6,0.0257
+Software Engineer,microservices,typescript,234,0.2012
+Software Engineer,microservices,unit testing,168,0.1755
+Software Engineer,mysql,natural language processing,5,0.0224
+Software Engineer,mysql,node.js,83,0.1122
+Software Engineer,mysql,nosql,49,0.0929
+Software Engineer,mysql,object-oriented programming,33,0.0649
+Software Engineer,mysql,oracle,65,0.1659
+Software Engineer,mysql,postgresql,217,0.3306
+Software Engineer,mysql,python,184,0.1385
+Software Engineer,mysql,react,151,0.1587
+Software Engineer,mysql,rest api,120,0.141
+Software Engineer,mysql,scala,14,0.0315
+Software Engineer,mysql,snowflake,10,0.0518
+Software Engineer,mysql,spark,15,0.0442
+Software Engineer,mysql,sql,136,0.1288
+Software Engineer,mysql,sql server,71,0.1262
+Software Engineer,mysql,tableau,6,0.035
+Software Engineer,mysql,typescript,81,0.095
+Software Engineer,mysql,unit testing,65,0.0926
+Software Engineer,natural language processing,node.js,25,0.0753
+Software Engineer,natural language processing,nosql,12,0.0507
+Software Engineer,natural language processing,numpy,6,0.1061
+Software Engineer,natural language processing,pandas,6,0.0973
+Software Engineer,natural language processing,python,81,0.1359
+Software Engineer,natural language processing,pytorch,12,0.1589
+Software Engineer,natural language processing,react,17,0.0398
+Software Engineer,natural language processing,rest api,6,0.0157
+Software Engineer,natural language processing,scala,6,0.0301
+Software Engineer,natural language processing,scikit-learn,9,0.2012
+Software Engineer,natural language processing,sql,19,0.0401
+Software Engineer,natural language processing,tensorflow,13,0.1588
+Software Engineer,natural language processing,typescript,9,0.0235
+Software Engineer,natural language processing,unit testing,6,0.0191
+Software Engineer,node.js,nosql,120,0.1528
+Software Engineer,node.js,object-oriented programming,68,0.0899
+Software Engineer,node.js,oracle,23,0.0394
+Software Engineer,node.js,pandas,6,0.0293
+Software Engineer,node.js,postgresql,162,0.1658
+Software Engineer,node.js,python,487,0.2463
+Software Engineer,node.js,r,6,0.0251
+Software Engineer,node.js,react,538,0.38
+Software Engineer,node.js,rest api,298,0.2352
+Software Engineer,node.js,scala,120,0.1813
+Software Engineer,node.js,snowflake,10,0.0348
+Software Engineer,node.js,spark,17,0.0336
+Software Engineer,node.js,sql,359,0.2284
+Software Engineer,node.js,sql server,67,0.08
+Software Engineer,node.js,tensorflow,6,0.0221
+Software Engineer,node.js,typescript,416,0.3279
+Software Engineer,node.js,unit testing,127,0.1216
+Software Engineer,nosql,object-oriented programming,43,0.0797
+Software Engineer,nosql,oracle,34,0.0817
+Software Engineer,nosql,postgresql,47,0.0675
+Software Engineer,nosql,power bi,12,0.0615
+Software Engineer,nosql,python,313,0.222
+Software Engineer,nosql,r,9,0.0527
+Software Engineer,nosql,react,174,0.1723
+Software Engineer,nosql,rest api,173,0.1915
+Software Engineer,nosql,scala,65,0.1377
+Software Engineer,nosql,snowflake,8,0.039
+Software Engineer,nosql,spark,49,0.1359
+Software Engineer,nosql,sql,411,0.3666
+Software Engineer,nosql,sql server,19,0.0318
+Software Engineer,nosql,tableau,12,0.066
+Software Engineer,nosql,typescript,131,0.1448
+Software Engineer,nosql,unit testing,80,0.1074
+Software Engineer,numpy,pandas,28,0.803
+Software Engineer,numpy,python,31,0.092
+Software Engineer,numpy,react,6,0.0249
+Software Engineer,numpy,rest api,8,0.037
+Software Engineer,numpy,scikit-learn,8,0.3162
+Software Engineer,numpy,sql,10,0.0373
+Software Engineer,numpy,tensorflow,7,0.1512
+Software Engineer,object-oriented programming,oracle,22,0.0549
+Software Engineer,object-oriented programming,postgresql,42,0.0626
+Software Engineer,object-oriented programming,power bi,7,0.0372
+Software Engineer,object-oriented programming,python,161,0.1185
+Software Engineer,object-oriented programming,r,7,0.0426
+Software Engineer,object-oriented programming,react,74,0.076
+Software Engineer,object-oriented programming,rest api,112,0.1286
+Software Engineer,object-oriented programming,scala,20,0.044
+Software Engineer,object-oriented programming,spark,12,0.0345
+Software Engineer,object-oriented programming,sql,127,0.1176
+Software Engineer,object-oriented programming,sql server,46,0.0799
+Software Engineer,object-oriented programming,tableau,6,0.0343
+Software Engineer,object-oriented programming,typescript,63,0.0723
+Software Engineer,object-oriented programming,unit testing,119,0.1658
+Software Engineer,oracle,postgresql,105,0.2029
+Software Engineer,oracle,python,78,0.0745
+Software Engineer,oracle,react,81,0.108
+Software Engineer,oracle,rest api,75,0.1117
+Software Engineer,oracle,scala,8,0.0228
+Software Engineer,oracle,snowflake,7,0.046
+Software Engineer,oracle,spark,10,0.0373
+Software Engineer,oracle,sql,150,0.1801
+Software Engineer,oracle,sql server,93,0.2096
+Software Engineer,oracle,tableau,5,0.037
+Software Engineer,oracle,typescript,65,0.0967
+Software Engineer,oracle,unit testing,38,0.0687
+Software Engineer,pandas,postgresql,5,0.0275
+Software Engineer,pandas,python,36,0.098
+Software Engineer,pandas,react,10,0.038
+Software Engineer,pandas,rest api,9,0.0382
+Software Engineer,pandas,scikit-learn,8,0.2902
+Software Engineer,pandas,sql,14,0.0479
+Software Engineer,postgresql,power bi,6,0.0247
+Software Engineer,postgresql,python,379,0.216
+Software Engineer,postgresql,react,315,0.2507
+Software Engineer,postgresql,rest api,233,0.2072
+Software Engineer,postgresql,scala,24,0.0409
+Software Engineer,postgresql,snowflake,17,0.0667
+Software Engineer,postgresql,spark,35,0.078
+Software Engineer,postgresql,sql,225,0.1613
+Software Engineer,postgresql,sql server,76,0.1023
+Software Engineer,postgresql,tableau,12,0.0531
+Software Engineer,postgresql,typescript,256,0.2274
+Software Engineer,postgresql,unit testing,91,0.0982
+Software Engineer,power bi,python,29,0.059
+Software Engineer,power bi,r,5,0.0841
+Software Engineer,power bi,react,20,0.0568
+Software Engineer,power bi,rest api,13,0.0413
+Software Engineer,power bi,spark,9,0.0717
+Software Engineer,power bi,sql,34,0.087
+Software Engineer,power bi,sql server,21,0.1009
+Software Engineer,power bi,tableau,22,0.3473
+Software Engineer,power bi,typescript,5,0.0159
+Software Engineer,power bi,unit testing,5,0.0193
+Software Engineer,python,pytorch,44,0.0978
+Software Engineer,python,r,52,0.121
+Software Engineer,python,react,640,0.2517
+Software Engineer,python,rest api,436,0.1916
+Software Engineer,python,scala,335,0.2818
+Software Engineer,python,scikit-learn,17,0.0638
+Software Engineer,python,snowflake,43,0.0833
+Software Engineer,python,spark,159,0.1752
+Software Engineer,python,sql,1189,0.4213
+Software Engineer,python,sql server,104,0.0692
+Software Engineer,python,statistics,26,0.0673
+Software Engineer,python,tableau,33,0.0721
+Software Engineer,python,tensorflow,55,0.1128
+Software Engineer,python,typescript,580,0.2546
+Software Engineer,python,unit testing,280,0.1493
+Software Engineer,python,vba,7,0.0339
+Software Engineer,pytorch,rest api,5,0.0173
+Software Engineer,pytorch,scikit-learn,11,0.3258
+Software Engineer,pytorch,sql,11,0.0308
+Software Engineer,pytorch,tensorflow,47,0.7605
+Software Engineer,pytorch,unit testing,6,0.0252
+Software Engineer,r,react,9,0.0292
+Software Engineer,r,scala,5,0.0348
+Software Engineer,r,sql,33,0.0966
+Software Engineer,r,tableau,5,0.0903
+Software Engineer,r,unit testing,5,0.022
+Software Engineer,react,rest api,443,0.2719
+Software Engineer,react,scala,49,0.0576
+Software Engineer,react,snowflake,13,0.0352
+Software Engineer,react,spark,41,0.0631
+Software Engineer,react,sql,457,0.2261
+Software Engineer,react,sql server,174,0.1616
+Software Engineer,react,statistics,6,0.0217
+Software Engineer,react,tableau,15,0.0458
+Software Engineer,react,tensorflow,6,0.0172
+Software Engineer,react,typescript,727,0.4456
+Software Engineer,react,unit testing,253,0.1883
+Software Engineer,rest api,scala,32,0.042
+Software Engineer,rest api,snowflake,16,0.0484
+Software Engineer,rest api,spark,31,0.0533
+Software Engineer,rest api,sql,452,0.2499
+Software Engineer,rest api,sql server,146,0.1515
+Software Engineer,rest api,tableau,7,0.0239
+Software Engineer,rest api,tensorflow,6,0.0192
+Software Engineer,rest api,typescript,331,0.2267
+Software Engineer,rest api,unit testing,272,0.2263
+Software Engineer,sas,sql,8,0.0563
+Software Engineer,scala,snowflake,7,0.0405
+Software Engineer,scala,spark,55,0.181
+Software Engineer,scala,sql,256,0.2709
+Software Engineer,scala,sql server,8,0.0159
+Software Engineer,scala,tableau,8,0.0522
+Software Engineer,scala,typescript,18,0.0236
+Software Engineer,scala,unit testing,13,0.0207
+Software Engineer,scikit-learn,sql,9,0.0425
+Software Engineer,scikit-learn,tensorflow,12,0.3278
+Software Engineer,snowflake,spark,25,0.1895
+Software Engineer,snowflake,sql,36,0.0878
+Software Engineer,snowflake,sql server,10,0.0458
+Software Engineer,snowflake,tableau,7,0.1052
+Software Engineer,snowflake,typescript,10,0.0302
+Software Engineer,snowflake,unit testing,7,0.0257
+Software Engineer,spark,sql,122,0.1691
+Software Engineer,spark,tableau,10,0.0855
+Software Engineer,spark,tensorflow,7,0.0561
+Software Engineer,spark,typescript,36,0.0618
+Software Engineer,spark,unit testing,17,0.0355
+Software Engineer,sql,sql server,115,0.0962
+Software Engineer,sql,statistics,9,0.0293
+Software Engineer,sql,tableau,34,0.0934
+Software Engineer,sql,tensorflow,13,0.0335
+Software Engineer,sql,typescript,572,0.3158
+Software Engineer,sql,unit testing,244,0.1636
+Software Engineer,sql,vba,6,0.0366
+Software Engineer,sql server,tableau,11,0.0567
+Software Engineer,sql server,typescript,96,0.0995
+Software Engineer,sql server,unit testing,94,0.1183
+Software Engineer,statistics,typescript,6,0.0242
+Software Engineer,tableau,unit testing,7,0.0289
+Software Engineer,tensorflow,typescript,6,0.0192
+Software Engineer,tensorflow,unit testing,5,0.0194
+Software Engineer,typescript,unit testing,226,0.1878

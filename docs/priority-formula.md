@@ -151,3 +151,34 @@ Compuerta humana del ticket 04: quien revisa este documento lo firma aquí.
 - **Nombre:** Oscar
 - **Fecha:** 2026-10-20
 - **Comentarios:** Aprobada tal cual, sin cambios. Las limitaciones listadas arriba quedan abiertas para que Gabriel las revise si quiere.
+
+---
+
+## Extensión con similitud (ticket 05)
+
+> **Esta sección es POSTERIOR a la firma de arriba y fue aprobada por Oscar el 2026-10-20 (ver el último punto de esta sección).** Lo firmado (fórmula, Effort, desempate y ajuste topológico) no se modificó; esta sección solo agrega un factor. La viñeta de Limitaciones "Todavía no hay similitud..." queda **superada** por esta extensión; se dejó intacta por estar en el texto firmado. El criterio de similitud se explica en `docs/similarity.md`.
+
+Con la similitud `sim(s) ∈ [0, 1]` entre la Skill candidata y lo que el Learner ya sabe o le interesa:
+
+```
+Prioridad(s) = Frequency(s, r) × (1 + sim(s)) / Effort(s)
+```
+
+- Sin Skills conocidas ni intereses reconocidos, `sim = 0` para todas y la fórmula es exactamente la firmada (`Frequency / Effort`); el orden no cambia.
+- La similitud puede aumentar la prioridad hasta el doble (`sim = 1`). Es una extensión mínima: la Frequency y el Effort siguen mandando y la similitud desempata a favor de lo cercano.
+- Desempate (prioridad, Frequency, nombre) y ajuste topológico por Prerequisites: sin cambios.
+
+Ejemplo real (Data Scientist con `python` avanzado; Frequency en %):
+
+| Skill | Frequency | Effort | sim | Prioridad firmada (`F/E`) | Prioridad con similitud |
+|---|---|---|---|---|---|
+| sql | 55.07 | 2 | 0.69 | 27.54 | 46.53 |
+| r | 29.59 | 3 | 0.66 | 9.86 | 16.37 |
+| agile | 10.61 | 1 | 0.39 | 10.61 | 14.75 |
+| aws | 22.14 | 3 | 0.24 | 7.38 | 9.18 |
+
+`r` pasa del puesto 4 al 3 y `agile` del 3 al 4: `r` está más cerca de `python` que `agile`, y como `r` tiene mucha más Frequency la diferencia de similitud (0.66 frente a 0.39) basta para invertir el orden.
+
+**Alternativas no elegidas:** `Frequency / Effort + λ·sim` (mezcla unidades distintas y exige elegir λ según el Role) y `Frequency × sim / Effort` (por construcción llevaría a 0 la prioridad de toda Skill sin relación, aunque sea muy frecuente; no se midió, es razonamiento). No se encontró evidencia con ejemplos reales de que otra forma fuera claramente mejor.
+
+- **Aprobación humana de la extensión:** Oscar, 2026-10-20 (reconocida tal cual, sin cambios).
