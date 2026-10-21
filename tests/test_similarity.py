@@ -98,14 +98,14 @@ def test_every_item_has_explanation_and_mentions_relation(role):
 
 def test_explanation_without_anchor_does_not_invent_relations():
     for item in recommend(LearnerProfile(ROLE)).items:
-        assert "Sin habilidades ni intereses" in item.explanation
+        assert "Sin Skills ni intereses" in item.explanation
         assert "Se relaciona" not in item.explanation
 
 
 def test_explanation_mentions_interest_and_prerequisites():
     items = by_skill(LearnerProfile("Data Analyst", {"excel": "advanced"}, ["visualización"]))
     assert "Se relaciona con tus intereses: visualización" in items["tableau"].explanation
-    assert "Ya dominas sus prerrequisitos: excel" in items["power bi"].explanation
+    assert "Ya dominas sus Prerequisites: excel" in items["power bi"].explanation
     assert "Conviene aprender antes: python" in items["pandas"].explanation
 
 

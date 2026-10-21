@@ -64,7 +64,7 @@ def test_skill_without_data_gets_zero_and_stays_candidate(monkeypatch):
     items = recommend(LearnerProfile(ROLE)).items
     tableau = next(i for i in items if i.skill == "tableau")
     assert tableau.frequency == 0.0
-    assert "No aparece en las ofertas de Data Analyst analizadas." in tableau.explanation
+    assert "No aparece en las Offers de Data Analyst analizadas" in tableau.explanation
     # After every Skill with Frequency > 0 that does not depend on it.
     position = {i.skill: n for n, i in enumerate(items)}
     for item in items:

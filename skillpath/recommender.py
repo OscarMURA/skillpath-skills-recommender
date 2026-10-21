@@ -192,11 +192,11 @@ def _explain(
 ) -> str:
     note = _explain_source(source, weight, sample)
     if has_data or source == "mix":
-        text = f"Aparece en el {frequency:.1f}% de las ofertas de {role}{note}; esfuerzo estimado {effort}."
+        text = f"Aparece en el {frequency:.1f}% de las Offers de {role}{note}; Effort {effort}."
     else:
         text = (
-            f"No aparece en las ofertas de {role} analizadas. Frequency 0 %, así que va "
-            f"al final de la ruta; esfuerzo estimado {effort}."
+            f"No aparece en las Offers de {role} analizadas (Frequency 0 %), así que va "
+            f"al final del Learning path; Effort {effort}."
         )
     text += " " + _explain_similarity(relations, has_anchor)
     missing = _missing_prerequisites(name, mastered)
@@ -204,9 +204,9 @@ def _explain(
     if missing:
         text += f" Conviene aprender antes: {', '.join(missing)}."
         if len(closure) > len(missing):
-            text += f" El esfuerzo incluye {len(closure)} prerrequisitos pendientes en total."
+            text += f" El Effort incluye {len(closure)} Prerequisites pendientes en total."
     elif prerequisites:
-        text += f" Ya dominas sus prerrequisitos: {', '.join(prerequisites)}."
+        text += f" Ya dominas sus Prerequisites: {', '.join(prerequisites)}."
     return text
 
 
@@ -214,24 +214,24 @@ def _explain_source(source: str | None, weight: float, sample: int | None) -> st
     """Parenthetical about where the Frequency comes from (entry-level Learners only)."""
     if source == "mix":
         return (
-            f" (mezcla: {weight:.0%} de {sample} ofertas de nivel inicial de arshkon, una muestra "
-            f"pequeña, y {1 - weight:.0%} de las ofertas base)"
+            f" (mezcla: {weight:.0%} de {sample} Offers de nivel inicial de arshkon, una muestra "
+            f"pequeña, y {1 - weight:.0%} de las Offers base)"
         )
     if source == "excluded":
-        return " (solo ofertas base: la detección en el texto no fue fiable para esta habilidad)"
+        return " (solo Offers base: la detección en el texto no fue fiable para esta Skill)"
     if source == "small":
         return (
-            f" (solo ofertas base: hay apenas {sample} ofertas de nivel inicial, menos del mínimo "
+            f" (solo Offers base: hay apenas {sample} Offers de nivel inicial, menos del mínimo "
             f"de {MIN_ENTRY_OFFERS})"
         )
     if source == "nodata":
-        return " (solo ofertas base: no hay datos de nivel inicial para este rol)"
+        return " (solo Offers base: no hay datos de nivel inicial para este Role)"
     return ""
 
 
 def _explain_similarity(relations: list[similarity.Relation], has_anchor: bool) -> str:
     if not has_anchor:
-        return "Sin habilidades ni intereses reconocidos, el orden usa solo frecuencia y esfuerzo."
+        return "Sin Skills ni intereses reconocidos, el orden usa solo Frequency y Effort."
     if not relations:
         return "Sin relación clara con lo que sabes ni con tus intereses."
     parts = []

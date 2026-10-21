@@ -130,7 +130,7 @@ def test_stopping_at_mastered_skill_drops_deeper_requirements():
     profile = LearnerProfile("Data Scientist", {"deep learning": "intermediate"})
     items = by_name(recommend(profile))
     assert items["tensorflow"].effort == 4  # no missing Prerequisites at all
-    assert "Ya dominas sus prerrequisitos" in items["tensorflow"].explanation
+    assert "Ya dominas sus Prerequisites" in items["tensorflow"].explanation
 
 
 # --- Transitive Effort ---------------------------------------------------
@@ -141,7 +141,7 @@ def test_transitive_effort_real_catalog():
     assert catalog.CATALOG["tensorflow"].difficulty == 4
     items = by_name(recommend(LearnerProfile("Data Scientist")))
     assert items["tensorflow"].effort == 4 + 4
-    assert "4 prerrequisitos pendientes en total" in items["tensorflow"].explanation
+    assert "4 Prerequisites pendientes en total" in items["tensorflow"].explanation
     advanced_ml = by_name(
         recommend(LearnerProfile("Data Scientist", {"machine learning": "advanced"}))
     )

@@ -32,7 +32,7 @@ def test_empty_profile_is_cold_start_and_deterministic(role):
     assert len(path.items) == len(CATALOG)
     for item in path.items:
         assert item.explanation.strip()
-        assert "Sin habilidades ni intereses reconocidos" in item.explanation
+        assert "Sin Skills ni intereses reconocidos" in item.explanation
 
 
 @pytest.mark.parametrize("role", ROLES)
@@ -110,7 +110,7 @@ def test_new_skill_is_recommended_without_history(catalog_with_sqlmesh, role):
     sqlmesh = find(path, "sqlmesh")
     assert sqlmesh.frequency == 0.0
     assert sqlmesh.effort == 2 + 1
-    assert "No aparece en las ofertas" in sqlmesh.explanation
+    assert "No aparece en las Offers" in sqlmesh.explanation
     names = [i.skill for i in path.items]
     assert names.index("sql") < names.index("sqlmesh")
     assert "sqlmesh" not in [i.skill for i in path.most_frequent(len(names))]

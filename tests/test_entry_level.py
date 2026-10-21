@@ -66,7 +66,7 @@ def test_excluded_skill_uses_base(monkeypatch):
     monkeypatch.setattr(catalog, "ENTRY_SAMPLE_SIZE", {"Data Analyst": 100})
     items = _by_skill(LearnerProfile("Data Analyst", experience_level="entry"))
     assert items["statistics"].frequency == 8.0
-    assert "solo ofertas base" in items["statistics"].explanation
+    assert "solo Offers base" in items["statistics"].explanation
     assert items["sql"].frequency == pytest.approx(50.0)  # w = 0.5
 
 
@@ -94,7 +94,7 @@ def test_entry_explanation_mentions_sample(role):
     assert mixed
     for item in mixed:
         assert "nivel inicial" in item.explanation
-        assert f"{n} ofertas" in item.explanation
+        assert f"{n} Offers" in item.explanation
         assert "muestra pequeña" in item.explanation
 
 
