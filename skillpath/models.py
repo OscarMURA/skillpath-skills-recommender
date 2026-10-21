@@ -15,6 +15,7 @@ class Skill:
     description: str
     difficulty: int  # Difficulty, 1 to 5
     prerequisites: tuple[str, ...] = ()  # names of Prerequisite Skills
+    reviewed: bool = False  # True once a human reviewed the row
 
 
 @dataclass

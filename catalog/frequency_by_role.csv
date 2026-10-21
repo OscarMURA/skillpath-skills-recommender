@@ -158,7 +158,34 @@ Data Analyst,manufacturing,130,12705,1.02
 Data Analyst,database design,129,12705,1.02
 Data Analyst,data profiling,128,12705,1.01
 Data Analyst,functional specifications,128,12705,1.01
+Data Analyst,git,126,12705,0.99
+Data Analyst,unit testing,106,12705,0.83
+Data Analyst,mysql,104,12705,0.82
+Data Analyst,nosql,97,12705,0.76
+Data Analyst,rest api,80,12705,0.63
+Data Analyst,data structures,73,12705,0.57
 Data Analyst,pandas,70,12705,0.55
+Data Analyst,postgresql,67,12705,0.53
+Data Analyst,natural language processing,55,12705,0.43
+Data Analyst,algorithms,52,12705,0.41
+Data Analyst,object-oriented programming,52,12705,0.41
+Data Analyst,kafka,47,12705,0.37
+Data Analyst,kubernetes,41,12705,0.32
+Data Analyst,docker,40,12705,0.31
+Data Analyst,numpy,32,12705,0.25
+Data Analyst,react,29,12705,0.23
+Data Analyst,scala,27,12705,0.21
+Data Analyst,airflow,25,12705,0.2
+Data Analyst,deep learning,24,12705,0.19
+Data Analyst,ci/cd,23,12705,0.18
+Data Analyst,angular,21,12705,0.17
+Data Analyst,microservices,20,12705,0.16
+Data Analyst,scikit-learn,15,12705,0.12
+Data Analyst,go,14,12705,0.11
+Data Analyst,typescript,14,12705,0.11
+Data Analyst,node.js,13,12705,0.1
+Data Analyst,tensorflow,12,12705,0.09
+Data Analyst,pytorch,9,12705,0.07
 Data Scientist,python,2820,4336,65.04
 Data Scientist,sql,2388,4336,55.07
 Data Scientist,machine learning,1864,4336,42.99
@@ -389,6 +416,13 @@ Data Scientist,database management,44,4336,1.01
 Data Scientist,econometrics,44,4336,1.01
 Data Scientist,presto,44,4336,1.01
 Data Scientist,windows,44,4336,1.01
+Data Scientist,html,42,4336,0.97
+Data Scientist,react,33,4336,0.76
+Data Scientist,css,32,4336,0.74
+Data Scientist,vba,32,4336,0.74
+Data Scientist,node.js,23,4336,0.53
+Data Scientist,angular,22,4336,0.51
+Data Scientist,typescript,13,4336,0.3
 Software Engineer,python,3550,9367,37.9
 Software Engineer,java,3174,9367,33.88
 Software Engineer,agile,3172,9367,33.86
@@ -613,6 +647,24 @@ Software Engineer,mobile development,96,9367,1.02
 Software Engineer,people management,96,9367,1.02
 Software Engineer,wifi,95,9367,1.01
 Software Engineer,data pipelines,94,9367,1.0
+Software Engineer,etl,91,9367,0.97
+Software Engineer,snowflake,75,9367,0.8
+Software Engineer,power bi,68,9367,0.73
+Software Engineer,tensorflow,67,9367,0.72
+Software Engineer,airflow,61,9367,0.65
+Software Engineer,deep learning,60,9367,0.64
 Software Engineer,tableau,59,9367,0.63
+Software Engineer,pytorch,57,9367,0.61
+Software Engineer,data warehousing,56,9367,0.6
+Software Engineer,r,52,9367,0.56
 Software Engineer,excel,47,9367,0.5
+Software Engineer,a/b testing,45,9367,0.48
+Software Engineer,statistics,42,9367,0.45
 Software Engineer,pandas,38,9367,0.41
+Software Engineer,data mining,36,9367,0.38
+Software Engineer,numpy,32,9367,0.34
+Software Engineer,scikit-learn,20,9367,0.21
+Software Engineer,vba,12,9367,0.13
+Software Engineer,sas,9,9367,0.1
+Software Engineer,data cleaning,8,9367,0.09
+Software Engineer,looker,7,9367,0.07

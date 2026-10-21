@@ -1,31 +1,50 @@
-"""Mini Catalog (placeholder) and real Frequency per Role.
+"""Catalog curado de Skills (catalog/skills.csv) y Frequency real por Role.
 
-PLACEHOLDER: the 5-Skill Catalog below is still hand-written; ticket 03
-replaces it with the curated Catalog. Ticket 02 replaced the invented Frequency
-with the real one, read from catalog/frequency_by_role.csv.
+El Catalog se carga desde el CSV versionado; la Frequency (% de las Offers del
+Role que mencionan la Skill) se lee de catalog/frequency_by_role.csv.
 """
+
+import csv
+from pathlib import Path
+
 
 from skillpath.frequency import (
     ALIASES_CSV,
     FREQUENCY_CSV,
     ROLES,
+    SKILLS_CSV,
     load_aliases,
     load_frequency_table,
 )
 from skillpath.models import Skill
 
-__all__ = ["CATALOG", "FREQUENCY", "ALIASES", "ROLES"]
+__all__ = ["CATALOG", "FREQUENCY", "ALIASES", "ROLES", "SKILLS_CSV", "load_catalog"]
 
-CATALOG: dict[str, Skill] = {
-    s.name: s
-    for s in [
-        Skill("SQL", "Datos", "Lenguaje para consultar bases de datos relacionales.", 2),
-        Skill("Excel", "Herramientas", "Hojas de cálculo para analizar y resumir datos.", 1),
-        Skill("Python", "Lenguajes", "Lenguaje de programación de propósito general.", 2),
-        Skill("Pandas", "Librerías", "Librería de Python para manipular datos tabulares.", 3, ("Python",)),
-        Skill("Tableau", "Visualización", "Herramienta para crear tableros de visualización.", 2),
-    ]
-}
+def load_catalog(path: Path) -> dict[str, Skill]:
+    """Read the Catalog CSV (name,category,description,difficulty,prerequisites,reviewed).
+
+    Prerequisites are separated by ``;`` (empty -> no Prerequisites).
+    """
+    catalog: dict[str, Skill] = {}
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            prerequisites = tuple(
+                p.strip() for p in row["prerequisites"].split(";") if p.strip()
+            )
+            catalog[row["name"]] = Skill(
+                name=row["name"],
+                category=row["category"],
+                description=row["description"],
+                difficulty=int(row["difficulty"]),
+                prerequisites=prerequisites,
+                reviewed=row["reviewed"].strip().lower() == "true",
+            )
+    return catalog
+
+
+# Curated Catalog (~60 Skills), read from catalog/skills.csv. Names are already
+# normalized, as in the Frequency table.
+CATALOG: dict[str, Skill] = load_catalog(SKILLS_CSV)
 
 # Frequency (% of the Role's Offers mentioning the Skill), read once from the
 # versioned table. Empty if the table has not been generated yet (the build

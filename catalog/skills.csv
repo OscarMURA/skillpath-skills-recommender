@@ -1,0 +1,65 @@
+name,category,description,difficulty,prerequisites,reviewed
+python,programación,"Lenguaje de propósito general muy usado en análisis de datos, automatización y machine learning. Su sintaxis legible lo hace buena puerta de entrada a la programación.",2,,true
+sql,bases de datos,"Lenguaje estándar para consultar y manipular datos en bases de datos relacionales. Es la base de casi todo trabajo con datos.",2,,true
+excel,análisis de datos,"Hoja de cálculo para organizar, calcular y resumir datos con fórmulas y tablas dinámicas. Es la herramienta de análisis más extendida en entornos de negocio.",2,,true
+pandas,análisis de datos,"Biblioteca de Python para cargar, limpiar, transformar y analizar datos tabulares con DataFrames.",3,python,true
+tableau,visualización,"Herramienta de inteligencia de negocio para crear dashboards interactivos arrastrando campos, sin programar.",2,,true
+power bi,visualización,"Plataforma de Microsoft para modelar datos y crear informes y dashboards interactivos.",2,excel,true
+looker,visualización,"Plataforma de Google Cloud para explorar datos y construir dashboards sobre un modelo semántico definido en código.",3,sql,true
+data visualization,visualización,"Práctica de representar datos con gráficos claros para comunicar patrones y decisiones, independiente de la herramienta.",2,,true
+r,programación,"Lenguaje orientado a estadística y análisis de datos, con un amplio ecosistema de paquetes para modelado y gráficos.",3,,true
+sas,análisis de datos,"Software comercial de análisis estadístico y manejo de datos, común en banca, salud y farmacéutica.",3,,true
+vba,programación,"Lenguaje de macros de Microsoft Office para automatizar tareas repetitivas en Excel.",3,excel,true
+statistics,análisis de datos,"Conjunto de métodos para describir datos, estimar, contrastar hipótesis y cuantificar incertidumbre. Es el fundamento del análisis de datos y del machine learning.",3,,true
+a/b testing,análisis de datos,"Diseño y análisis de experimentos controlados que comparan dos variantes para decidir cuál funciona mejor.",3,statistics,true
+data cleaning,análisis de datos,"Detección y corrección de valores faltantes, duplicados y errores para dejar los datos listos para analizar.",2,,true
+data mining,análisis de datos,"Descubrimiento de patrones y relaciones en grandes volúmenes de datos con técnicas estadísticas y algorítmicas.",3,statistics;sql,true
+machine learning,machine learning,"Técnicas que permiten a un sistema aprender patrones a partir de datos para predecir o clasificar sin reglas explícitas.",4,python;statistics,true
+scikit-learn,machine learning,"Biblioteca de Python con algoritmos clásicos de machine learning, preprocesamiento y evaluación de modelos.",3,machine learning;pandas,true
+numpy,análisis de datos,"Biblioteca de Python para cálculo numérico con arreglos multidimensionales; es la base de pandas y de scikit-learn.",3,python,true
+deep learning,machine learning,"Rama del machine learning que usa redes neuronales profundas para tareas como visión, voz y lenguaje.",5,machine learning,true
+natural language processing,machine learning,"Técnicas para que los sistemas procesen y comprendan texto y lenguaje humano: clasificación, traducción y búsqueda semántica.",5,machine learning,true
+tensorflow,machine learning,"Framework de Google para construir y entrenar redes neuronales y desplegarlas en producción.",4,deep learning,true
+pytorch,machine learning,"Framework de redes neuronales de Meta, muy usado en investigación por su ejecución dinámica.",4,deep learning,true
+data modeling,ingeniería de datos,"Diseño de la estructura de los datos (entidades, relaciones, esquemas) para almacenarlos y consultarlos bien.",3,sql,true
+etl,ingeniería de datos,"Proceso de extraer datos de varias fuentes, transformarlos y cargarlos en un destino analítico.",3,sql,true
+data warehousing,ingeniería de datos,"Diseño de repositorios centrales y optimizados para análisis, con esquemas dimensionales como estrella y copo de nieve.",4,data modeling,true
+big data,ingeniería de datos,"Conceptos y arquitecturas para procesar volúmenes de datos que no caben en una sola máquina.",3,,true
+spark,ingeniería de datos,"Motor de procesamiento distribuido para análisis de datos a gran escala, con APIs en Python, Scala y SQL.",4,big data;sql,true
+hadoop,ingeniería de datos,"Ecosistema de almacenamiento (HDFS) y procesamiento distribuido por lotes de datos masivos.",4,big data;linux,true
+snowflake,ingeniería de datos,"Almacén de datos en la nube que separa almacenamiento y cómputo y se consulta con SQL.",3,data warehousing,true
+airflow,ingeniería de datos,"Plataforma para definir, programar y monitorear flujos de trabajo de datos como código en Python.",4,python;etl,true
+kafka,ingeniería de datos,"Plataforma distribuida de mensajería para transmitir y procesar flujos de eventos en tiempo real.",4,big data,true
+aws,nube,"Plataforma de servicios en la nube de Amazon para cómputo, almacenamiento, bases de datos y más.",3,,true
+azure,nube,"Plataforma de servicios en la nube de Microsoft para cómputo, datos e inteligencia artificial.",3,,true
+gcp,nube,"Plataforma de servicios en la nube de Google, con fuerte oferta en datos y machine learning.",3,,true
+linux,herramientas,"Sistema operativo de servidores y desarrollo; implica manejar la terminal, archivos, permisos y procesos.",2,,true
+git,herramientas,"Sistema de control de versiones distribuido para registrar cambios y colaborar en código.",2,,true
+docker,DevOps,"Herramienta para empaquetar aplicaciones y sus dependencias en contenedores portables.",3,linux,true
+kubernetes,DevOps,"Orquestador que despliega, escala y gestiona aplicaciones en contenedores sobre un clúster.",4,docker,true
+ci/cd,DevOps,"Prácticas y canalizaciones que integran, prueban y despliegan cambios de código de forma automática.",3,git,true
+jira,herramientas,"Herramienta de gestión de tareas y proyectos para equipos de software, con tableros y seguimiento de incidencias.",1,,true
+agile,ingeniería de software,"Enfoque de desarrollo iterativo e incremental con entregas frecuentes y adaptación al cambio.",1,,true
+java,programación,"Lenguaje orientado a objetos y tipado estático, muy usado en sistemas empresariales y backend.",3,,true
+javascript,programación,"Lenguaje de la web que se ejecuta en el navegador y, con Node.js, en el servidor.",3,html,true
+typescript,programación,"Superconjunto de JavaScript con tipado estático que detecta errores antes de ejecutar.",3,javascript,true
+c#,programación,"Lenguaje orientado a objetos de Microsoft para aplicaciones .NET, servicios y videojuegos.",3,,true
+c++,programación,"Lenguaje compilado de alto rendimiento con control manual de memoria, usado en sistemas y software crítico.",4,,true
+go,programación,"Lenguaje compilado de Google, simple y concurrente, popular para servicios y herramientas de infraestructura.",3,,true
+scala,programación,"Lenguaje de la JVM que combina programación funcional y orientada a objetos; es el lenguaje nativo de Spark.",4,java,true
+html,desarrollo web,"Lenguaje de marcado que define la estructura y el contenido de las páginas web.",1,,true
+css,desarrollo web,"Lenguaje de estilos que controla el diseño visual y la disposición de las páginas web.",2,html,true
+react,desarrollo web,"Biblioteca de JavaScript para construir interfaces de usuario con componentes reutilizables.",3,javascript,true
+angular,desarrollo web,"Framework de Google basado en TypeScript para construir aplicaciones web completas de una sola página.",4,typescript,true
+node.js,desarrollo web,"Entorno que ejecuta JavaScript en el servidor para construir APIs y aplicaciones backend.",3,javascript,true
+rest api,desarrollo web,"Estilo de diseño de interfaces web sobre HTTP para que sistemas intercambien datos mediante recursos y verbos.",3,,true
+microservices,ingeniería de software,"Arquitectura que divide una aplicación en servicios pequeños e independientes que se comunican por red.",4,rest api;docker,true
+object-oriented programming,ingeniería de software,"Paradigma que organiza el código en objetos con estado y comportamiento: clases, herencia y polimorfismo.",3,java,true
+data structures,ingeniería de software,"Formas de organizar datos en memoria (listas, pilas, árboles, grafos, tablas hash) y su costo de uso.",3,python,true
+algorithms,ingeniería de software,"Procedimientos para resolver problemas y su análisis de complejidad: ordenamiento, búsqueda y grafos.",4,data structures,true
+unit testing,ingeniería de software,"Pruebas automáticas de piezas pequeñas de código para detectar errores temprano y refactorizar con seguridad.",2,object-oriented programming,true
+postgresql,bases de datos,"Base de datos relacional de código abierto, robusta y extensible.",2,sql,true
+mysql,bases de datos,"Base de datos relacional de código abierto, muy extendida en aplicaciones web.",2,sql,true
+sql server,bases de datos,"Base de datos relacional de Microsoft, con dialecto T-SQL y herramientas de BI integradas.",3,sql,true
+oracle,bases de datos,"Base de datos relacional comercial de uso empresarial, con dialecto PL/SQL.",3,sql,true
+nosql,bases de datos,"Familia de bases de datos no relacionales (documentos, clave-valor, columnas, grafos) para datos flexibles o de gran escala.",3,,true

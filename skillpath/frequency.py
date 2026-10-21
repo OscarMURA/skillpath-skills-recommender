@@ -16,6 +16,7 @@ REPO_DIR = Path(__file__).resolve().parent.parent
 CATALOG_DIR = REPO_DIR / "catalog"
 FREQUENCY_CSV = CATALOG_DIR / "frequency_by_role.csv"
 ALIASES_CSV = CATALOG_DIR / "aliases.csv"
+SKILLS_CSV = CATALOG_DIR / "skills.csv"
 EXCLUSIONS_TXT = CATALOG_DIR / "exclusions.txt"
 DATOS_DIR = REPO_DIR / "datos"
 
