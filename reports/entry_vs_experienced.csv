@@ -1,0 +1,19 @@
+role,group,k,profiles,mean_jaccard,mean_kendall_tau,mean_spearman
+Data Analyst,offers,5,500,0.8400,0.8273,0.9499
+Data Analyst,offers,10,500,0.7444,0.8273,0.9499
+Data Analyst,synthetic,5,16,0.9792,0.8386,0.9563
+Data Analyst,synthetic,10,16,0.7917,0.8386,0.9563
+Data Analyst,all,5,516,0.8443,0.8277,0.9501
+Data Analyst,all,10,516,0.7459,0.8277,0.9501
+Software Engineer,offers,5,500,0.7428,0.8924,0.9752
+Software Engineer,offers,10,500,0.8166,0.8924,0.9752
+Software Engineer,synthetic,5,16,0.7500,0.9045,0.9802
+Software Engineer,synthetic,10,16,0.8333,0.9045,0.9802
+Software Engineer,all,5,516,0.7430,0.8928,0.9754
+Software Engineer,all,10,516,0.8171,0.8928,0.9754
+Data Scientist,offers,5,500,0.8323,0.8624,0.9658
+Data Scientist,offers,10,500,0.7517,0.8624,0.9658
+Data Scientist,synthetic,5,16,0.9583,0.8706,0.9690
+Data Scientist,synthetic,10,16,0.6579,0.8706,0.9690
+Data Scientist,all,5,516,0.8362,0.8626,0.9659
+Data Scientist,all,10,516,0.7488,0.8626,0.9659

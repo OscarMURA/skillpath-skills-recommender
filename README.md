@@ -28,4 +28,7 @@ streamlit run app/streamlit_app.py
 
 # Ejecutar las pruebas
 pytest
+
+# Ejecutar la evaluación (leave-one-skill-out y métricas de sesgo; escribe en reports/, ~18 s)
+python -m skillpath.evaluate
 ```

@@ -1,0 +1,4 @@
+role,offers_total,offers_empty_job_skills,train,test,test_empty_job_skills,test_with_lt2_catalog_skills,test_eligible,test_sampled,largest_duplicate_group,test_identical_skills_in_train,test_identical_skills_in_train_if_link_hash,sampled_catalog_set_seen_in_train
+Data Analyst,12894,189,10321,2573,40,1276,1257,500,4,0,18,299
+Software Engineer,9380,13,7523,1857,1,276,1580,500,5,0,41,188
+Data Scientist,4342,6,3438,904,1,129,774,500,7,0,7,135

@@ -1,0 +1,19 @@
+role,group,k,spearman
+Data Analyst,offers,5,0.7514
+Software Engineer,offers,5,0.7222
+Data Scientist,offers,5,0.7735
+Data Analyst,synthetic,5,0.5383
+Software Engineer,synthetic,5,0.4576
+Data Scientist,synthetic,5,0.5230
+Data Analyst,all,5,0.7514
+Software Engineer,all,5,0.7228
+Data Scientist,all,5,0.7735
+Data Analyst,offers,10,0.8179
+Software Engineer,offers,10,0.8548
+Data Scientist,offers,10,0.7574
+Data Analyst,synthetic,10,0.6740
+Software Engineer,synthetic,10,0.6444
+Data Scientist,synthetic,10,0.6687
+Data Analyst,all,10,0.8179
+Software Engineer,all,10,0.8548
+Data Scientist,all,10,0.7579

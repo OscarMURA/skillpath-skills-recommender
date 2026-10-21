@@ -7,7 +7,7 @@ name = "skillpath"
 version = "0.1.0"
 description = "Recomendador de Learning paths de Skills técnicas a partir de Offers."
 requires-python = ">=3.12"
-dependencies = ["streamlit", "pandas", "scikit-learn"]
+dependencies = ["streamlit", "pandas", "scikit-learn", "scipy"]
 
 [project.optional-dependencies]
 dev = ["pytest"]

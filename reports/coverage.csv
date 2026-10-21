@@ -1,0 +1,25 @@
+role,group,k,skills_shown,coverage
+Data Analyst,offers,5,17,0.2656
+Software Engineer,offers,5,18,0.2812
+Data Scientist,offers,5,20,0.3125
+GLOBAL,offers,5,35,0.5469
+Data Analyst,synthetic,5,7,0.1094
+Software Engineer,synthetic,5,7,0.1094
+Data Scientist,synthetic,5,8,0.1250
+GLOBAL,synthetic,5,13,0.2031
+Data Analyst,all,5,17,0.2656
+Software Engineer,all,5,18,0.2812
+Data Scientist,all,5,20,0.3125
+GLOBAL,all,5,35,0.5469
+Data Analyst,offers,10,22,0.3438
+Software Engineer,offers,10,28,0.4375
+Data Scientist,offers,10,28,0.4375
+GLOBAL,offers,10,48,0.7500
+Data Analyst,synthetic,10,13,0.2031
+Software Engineer,synthetic,10,14,0.2188
+Data Scientist,synthetic,10,15,0.2344
+GLOBAL,synthetic,10,24,0.3750
+Data Analyst,all,10,22,0.3438
+Software Engineer,all,10,28,0.4375
+Data Scientist,all,10,28,0.4375
+GLOBAL,all,10,48,0.7500

@@ -1,0 +1,265 @@
+role,group,k,category,catalog_skills,catalog_share,exposure_share
+Data Analyst,offers,5,DevOps,3,0.0469,0.0000
+Data Analyst,offers,5,análisis de datos,8,0.1250,0.1500
+Data Analyst,offers,5,bases de datos,6,0.0938,0.0752
+Data Analyst,offers,5,desarrollo web,6,0.0938,0.0004
+Data Analyst,offers,5,herramientas,3,0.0469,0.0804
+Data Analyst,offers,5,ingeniería de datos,9,0.1406,0.0192
+Data Analyst,offers,5,ingeniería de software,6,0.0938,0.1672
+Data Analyst,offers,5,machine learning,6,0.0938,0.0004
+Data Analyst,offers,5,nube,3,0.0469,0.0000
+Data Analyst,offers,5,programación,10,0.1562,0.1600
+Data Analyst,offers,5,visualización,4,0.0625,0.3472
+Software Engineer,offers,5,DevOps,3,0.0469,0.0016
+Software Engineer,offers,5,análisis de datos,8,0.1250,0.0000
+Software Engineer,offers,5,bases de datos,6,0.0938,0.1468
+Software Engineer,offers,5,desarrollo web,6,0.0938,0.1812
+Software Engineer,offers,5,herramientas,3,0.0469,0.2216
+Software Engineer,offers,5,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,offers,5,ingeniería de software,6,0.0938,0.1252
+Software Engineer,offers,5,machine learning,6,0.0938,0.0000
+Software Engineer,offers,5,nube,3,0.0469,0.0672
+Software Engineer,offers,5,programación,10,0.1562,0.2564
+Software Engineer,offers,5,visualización,4,0.0625,0.0000
+Data Scientist,offers,5,DevOps,3,0.0469,0.0000
+Data Scientist,offers,5,análisis de datos,8,0.1250,0.0908
+Data Scientist,offers,5,bases de datos,6,0.0938,0.0708
+Data Scientist,offers,5,desarrollo web,6,0.0938,0.0000
+Data Scientist,offers,5,herramientas,3,0.0469,0.0100
+Data Scientist,offers,5,ingeniería de datos,9,0.1406,0.0124
+Data Scientist,offers,5,ingeniería de software,6,0.0938,0.1708
+Data Scientist,offers,5,machine learning,6,0.0938,0.0212
+Data Scientist,offers,5,nube,3,0.0469,0.1160
+Data Scientist,offers,5,programación,10,0.1562,0.2188
+Data Scientist,offers,5,visualización,4,0.0625,0.2892
+GLOBAL,offers,5,DevOps,3,0.0469,0.0005
+GLOBAL,offers,5,análisis de datos,8,0.1250,0.0803
+GLOBAL,offers,5,bases de datos,6,0.0938,0.0976
+GLOBAL,offers,5,desarrollo web,6,0.0938,0.0605
+GLOBAL,offers,5,herramientas,3,0.0469,0.1040
+GLOBAL,offers,5,ingeniería de datos,9,0.1406,0.0105
+GLOBAL,offers,5,ingeniería de software,6,0.0938,0.1544
+GLOBAL,offers,5,machine learning,6,0.0938,0.0072
+GLOBAL,offers,5,nube,3,0.0469,0.0611
+GLOBAL,offers,5,programación,10,0.1562,0.2117
+GLOBAL,offers,5,visualización,4,0.0625,0.2121
+Data Analyst,synthetic,5,DevOps,3,0.0469,0.0000
+Data Analyst,synthetic,5,análisis de datos,8,0.1250,0.1375
+Data Analyst,synthetic,5,bases de datos,6,0.0938,0.1375
+Data Analyst,synthetic,5,desarrollo web,6,0.0938,0.0000
+Data Analyst,synthetic,5,herramientas,3,0.0469,0.0000
+Data Analyst,synthetic,5,ingeniería de datos,9,0.1406,0.0000
+Data Analyst,synthetic,5,ingeniería de software,6,0.0938,0.1750
+Data Analyst,synthetic,5,machine learning,6,0.0938,0.0000
+Data Analyst,synthetic,5,nube,3,0.0469,0.0000
+Data Analyst,synthetic,5,programación,10,0.1562,0.1875
+Data Analyst,synthetic,5,visualización,4,0.0625,0.3625
+Software Engineer,synthetic,5,DevOps,3,0.0469,0.0000
+Software Engineer,synthetic,5,análisis de datos,8,0.1250,0.0000
+Software Engineer,synthetic,5,bases de datos,6,0.0938,0.2000
+Software Engineer,synthetic,5,desarrollo web,6,0.0938,0.2000
+Software Engineer,synthetic,5,herramientas,3,0.0469,0.0875
+Software Engineer,synthetic,5,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,synthetic,5,ingeniería de software,6,0.0938,0.1375
+Software Engineer,synthetic,5,machine learning,6,0.0938,0.0000
+Software Engineer,synthetic,5,nube,3,0.0469,0.1000
+Software Engineer,synthetic,5,programación,10,0.1562,0.2750
+Software Engineer,synthetic,5,visualización,4,0.0625,0.0000
+Data Scientist,synthetic,5,DevOps,3,0.0469,0.0000
+Data Scientist,synthetic,5,análisis de datos,8,0.1250,0.0625
+Data Scientist,synthetic,5,bases de datos,6,0.0938,0.1375
+Data Scientist,synthetic,5,desarrollo web,6,0.0938,0.0000
+Data Scientist,synthetic,5,herramientas,3,0.0469,0.0000
+Data Scientist,synthetic,5,ingeniería de datos,9,0.1406,0.0000
+Data Scientist,synthetic,5,ingeniería de software,6,0.0938,0.1875
+Data Scientist,synthetic,5,machine learning,6,0.0938,0.0000
+Data Scientist,synthetic,5,nube,3,0.0469,0.0125
+Data Scientist,synthetic,5,programación,10,0.1562,0.2750
+Data Scientist,synthetic,5,visualización,4,0.0625,0.3250
+GLOBAL,synthetic,5,DevOps,3,0.0469,0.0000
+GLOBAL,synthetic,5,análisis de datos,8,0.1250,0.0667
+GLOBAL,synthetic,5,bases de datos,6,0.0938,0.1583
+GLOBAL,synthetic,5,desarrollo web,6,0.0938,0.0667
+GLOBAL,synthetic,5,herramientas,3,0.0469,0.0292
+GLOBAL,synthetic,5,ingeniería de datos,9,0.1406,0.0000
+GLOBAL,synthetic,5,ingeniería de software,6,0.0938,0.1667
+GLOBAL,synthetic,5,machine learning,6,0.0938,0.0000
+GLOBAL,synthetic,5,nube,3,0.0469,0.0375
+GLOBAL,synthetic,5,programación,10,0.1562,0.2458
+GLOBAL,synthetic,5,visualización,4,0.0625,0.2292
+Data Analyst,all,5,DevOps,3,0.0469,0.0000
+Data Analyst,all,5,análisis de datos,8,0.1250,0.1496
+Data Analyst,all,5,bases de datos,6,0.0938,0.0771
+Data Analyst,all,5,desarrollo web,6,0.0938,0.0004
+Data Analyst,all,5,herramientas,3,0.0469,0.0779
+Data Analyst,all,5,ingeniería de datos,9,0.1406,0.0186
+Data Analyst,all,5,ingeniería de software,6,0.0938,0.1674
+Data Analyst,all,5,machine learning,6,0.0938,0.0004
+Data Analyst,all,5,nube,3,0.0469,0.0000
+Data Analyst,all,5,programación,10,0.1562,0.1609
+Data Analyst,all,5,visualización,4,0.0625,0.3477
+Software Engineer,all,5,DevOps,3,0.0469,0.0016
+Software Engineer,all,5,análisis de datos,8,0.1250,0.0000
+Software Engineer,all,5,bases de datos,6,0.0938,0.1484
+Software Engineer,all,5,desarrollo web,6,0.0938,0.1818
+Software Engineer,all,5,herramientas,3,0.0469,0.2174
+Software Engineer,all,5,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,all,5,ingeniería de software,6,0.0938,0.1256
+Software Engineer,all,5,machine learning,6,0.0938,0.0000
+Software Engineer,all,5,nube,3,0.0469,0.0682
+Software Engineer,all,5,programación,10,0.1562,0.2570
+Software Engineer,all,5,visualización,4,0.0625,0.0000
+Data Scientist,all,5,DevOps,3,0.0469,0.0000
+Data Scientist,all,5,análisis de datos,8,0.1250,0.0899
+Data Scientist,all,5,bases de datos,6,0.0938,0.0729
+Data Scientist,all,5,desarrollo web,6,0.0938,0.0000
+Data Scientist,all,5,herramientas,3,0.0469,0.0097
+Data Scientist,all,5,ingeniería de datos,9,0.1406,0.0120
+Data Scientist,all,5,ingeniería de software,6,0.0938,0.1713
+Data Scientist,all,5,machine learning,6,0.0938,0.0205
+Data Scientist,all,5,nube,3,0.0469,0.1128
+Data Scientist,all,5,programación,10,0.1562,0.2205
+Data Scientist,all,5,visualización,4,0.0625,0.2903
+GLOBAL,all,5,DevOps,3,0.0469,0.0005
+GLOBAL,all,5,análisis de datos,8,0.1250,0.0798
+GLOBAL,all,5,bases de datos,6,0.0938,0.0995
+GLOBAL,all,5,desarrollo web,6,0.0938,0.0607
+GLOBAL,all,5,herramientas,3,0.0469,0.1017
+GLOBAL,all,5,ingeniería de datos,9,0.1406,0.0102
+GLOBAL,all,5,ingeniería de software,6,0.0938,0.1548
+GLOBAL,all,5,machine learning,6,0.0938,0.0070
+GLOBAL,all,5,nube,3,0.0469,0.0603
+GLOBAL,all,5,programación,10,0.1562,0.2128
+GLOBAL,all,5,visualización,4,0.0625,0.2127
+Data Analyst,offers,10,DevOps,3,0.0469,0.0000
+Data Analyst,offers,10,análisis de datos,8,0.1250,0.3064
+Data Analyst,offers,10,bases de datos,6,0.0938,0.0516
+Data Analyst,offers,10,desarrollo web,6,0.0938,0.0146
+Data Analyst,offers,10,herramientas,3,0.0469,0.0934
+Data Analyst,offers,10,ingeniería de datos,9,0.1406,0.0902
+Data Analyst,offers,10,ingeniería de software,6,0.0938,0.0856
+Data Analyst,offers,10,machine learning,6,0.0938,0.0112
+Data Analyst,offers,10,nube,3,0.0469,0.0008
+Data Analyst,offers,10,programación,10,0.1562,0.1508
+Data Analyst,offers,10,visualización,4,0.0625,0.1954
+Software Engineer,offers,10,DevOps,3,0.0469,0.0280
+Software Engineer,offers,10,análisis de datos,8,0.1250,0.0000
+Software Engineer,offers,10,bases de datos,6,0.0938,0.0850
+Software Engineer,offers,10,desarrollo web,6,0.0938,0.1642
+Software Engineer,offers,10,herramientas,3,0.0469,0.2392
+Software Engineer,offers,10,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,offers,10,ingeniería de software,6,0.0938,0.0658
+Software Engineer,offers,10,machine learning,6,0.0938,0.0000
+Software Engineer,offers,10,nube,3,0.0469,0.0946
+Software Engineer,offers,10,programación,10,0.1562,0.3232
+Software Engineer,offers,10,visualización,4,0.0625,0.0000
+Data Scientist,offers,10,DevOps,3,0.0469,0.0004
+Data Scientist,offers,10,análisis de datos,8,0.1250,0.1624
+Data Scientist,offers,10,bases de datos,6,0.0938,0.0360
+Data Scientist,offers,10,desarrollo web,6,0.0938,0.0000
+Data Scientist,offers,10,herramientas,3,0.0469,0.0842
+Data Scientist,offers,10,ingeniería de datos,9,0.1406,0.0618
+Data Scientist,offers,10,ingeniería de software,6,0.0938,0.0878
+Data Scientist,offers,10,machine learning,6,0.0938,0.0464
+Data Scientist,offers,10,nube,3,0.0469,0.1702
+Data Scientist,offers,10,programación,10,0.1562,0.1746
+Data Scientist,offers,10,visualización,4,0.0625,0.1762
+GLOBAL,offers,10,DevOps,3,0.0469,0.0095
+GLOBAL,offers,10,análisis de datos,8,0.1250,0.1563
+GLOBAL,offers,10,bases de datos,6,0.0938,0.0575
+GLOBAL,offers,10,desarrollo web,6,0.0938,0.0596
+GLOBAL,offers,10,herramientas,3,0.0469,0.1389
+GLOBAL,offers,10,ingeniería de datos,9,0.1406,0.0507
+GLOBAL,offers,10,ingeniería de software,6,0.0938,0.0797
+GLOBAL,offers,10,machine learning,6,0.0938,0.0192
+GLOBAL,offers,10,nube,3,0.0469,0.0885
+GLOBAL,offers,10,programación,10,0.1562,0.2162
+GLOBAL,offers,10,visualización,4,0.0625,0.1239
+Data Analyst,synthetic,10,DevOps,3,0.0469,0.0000
+Data Analyst,synthetic,10,análisis de datos,8,0.1250,0.2375
+Data Analyst,synthetic,10,bases de datos,6,0.0938,0.0688
+Data Analyst,synthetic,10,desarrollo web,6,0.0938,0.0000
+Data Analyst,synthetic,10,herramientas,3,0.0469,0.1000
+Data Analyst,synthetic,10,ingeniería de datos,9,0.1406,0.0875
+Data Analyst,synthetic,10,ingeniería de software,6,0.0938,0.1000
+Data Analyst,synthetic,10,machine learning,6,0.0938,0.0000
+Data Analyst,synthetic,10,nube,3,0.0469,0.0000
+Data Analyst,synthetic,10,programación,10,0.1562,0.2000
+Data Analyst,synthetic,10,visualización,4,0.0625,0.2063
+Software Engineer,synthetic,10,DevOps,3,0.0469,0.0000
+Software Engineer,synthetic,10,análisis de datos,8,0.1250,0.0000
+Software Engineer,synthetic,10,bases de datos,6,0.0938,0.1000
+Software Engineer,synthetic,10,desarrollo web,6,0.0938,0.1313
+Software Engineer,synthetic,10,herramientas,3,0.0469,0.2938
+Software Engineer,synthetic,10,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,synthetic,10,ingeniería de software,6,0.0938,0.0688
+Software Engineer,synthetic,10,machine learning,6,0.0938,0.0000
+Software Engineer,synthetic,10,nube,3,0.0469,0.0938
+Software Engineer,synthetic,10,programación,10,0.1562,0.3125
+Software Engineer,synthetic,10,visualización,4,0.0625,0.0000
+Data Scientist,synthetic,10,DevOps,3,0.0469,0.0000
+Data Scientist,synthetic,10,análisis de datos,8,0.1250,0.1375
+Data Scientist,synthetic,10,bases de datos,6,0.0938,0.0688
+Data Scientist,synthetic,10,desarrollo web,6,0.0938,0.0000
+Data Scientist,synthetic,10,herramientas,3,0.0469,0.0375
+Data Scientist,synthetic,10,ingeniería de datos,9,0.1406,0.0000
+Data Scientist,synthetic,10,ingeniería de software,6,0.0938,0.1000
+Data Scientist,synthetic,10,machine learning,6,0.0938,0.0688
+Data Scientist,synthetic,10,nube,3,0.0469,0.1688
+Data Scientist,synthetic,10,programación,10,0.1562,0.2313
+Data Scientist,synthetic,10,visualización,4,0.0625,0.1875
+GLOBAL,synthetic,10,DevOps,3,0.0469,0.0000
+GLOBAL,synthetic,10,análisis de datos,8,0.1250,0.1250
+GLOBAL,synthetic,10,bases de datos,6,0.0938,0.0792
+GLOBAL,synthetic,10,desarrollo web,6,0.0938,0.0437
+GLOBAL,synthetic,10,herramientas,3,0.0469,0.1437
+GLOBAL,synthetic,10,ingeniería de datos,9,0.1406,0.0292
+GLOBAL,synthetic,10,ingeniería de software,6,0.0938,0.0896
+GLOBAL,synthetic,10,machine learning,6,0.0938,0.0229
+GLOBAL,synthetic,10,nube,3,0.0469,0.0875
+GLOBAL,synthetic,10,programación,10,0.1562,0.2479
+GLOBAL,synthetic,10,visualización,4,0.0625,0.1313
+Data Analyst,all,10,DevOps,3,0.0469,0.0000
+Data Analyst,all,10,análisis de datos,8,0.1250,0.3043
+Data Analyst,all,10,bases de datos,6,0.0938,0.0521
+Data Analyst,all,10,desarrollo web,6,0.0938,0.0141
+Data Analyst,all,10,herramientas,3,0.0469,0.0936
+Data Analyst,all,10,ingeniería de datos,9,0.1406,0.0901
+Data Analyst,all,10,ingeniería de software,6,0.0938,0.0860
+Data Analyst,all,10,machine learning,6,0.0938,0.0109
+Data Analyst,all,10,nube,3,0.0469,0.0008
+Data Analyst,all,10,programación,10,0.1562,0.1523
+Data Analyst,all,10,visualización,4,0.0625,0.1957
+Software Engineer,all,10,DevOps,3,0.0469,0.0271
+Software Engineer,all,10,análisis de datos,8,0.1250,0.0000
+Software Engineer,all,10,bases de datos,6,0.0938,0.0855
+Software Engineer,all,10,desarrollo web,6,0.0938,0.1632
+Software Engineer,all,10,herramientas,3,0.0469,0.2409
+Software Engineer,all,10,ingeniería de datos,9,0.1406,0.0000
+Software Engineer,all,10,ingeniería de software,6,0.0938,0.0659
+Software Engineer,all,10,machine learning,6,0.0938,0.0000
+Software Engineer,all,10,nube,3,0.0469,0.0946
+Software Engineer,all,10,programación,10,0.1562,0.3229
+Software Engineer,all,10,visualización,4,0.0625,0.0000
+Data Scientist,all,10,DevOps,3,0.0469,0.0004
+Data Scientist,all,10,análisis de datos,8,0.1250,0.1616
+Data Scientist,all,10,bases de datos,6,0.0938,0.0370
+Data Scientist,all,10,desarrollo web,6,0.0938,0.0000
+Data Scientist,all,10,herramientas,3,0.0469,0.0828
+Data Scientist,all,10,ingeniería de datos,9,0.1406,0.0599
+Data Scientist,all,10,ingeniería de software,6,0.0938,0.0882
+Data Scientist,all,10,machine learning,6,0.0938,0.0471
+Data Scientist,all,10,nube,3,0.0469,0.1702
+Data Scientist,all,10,programación,10,0.1562,0.1764
+Data Scientist,all,10,visualización,4,0.0625,0.1766
+GLOBAL,all,10,DevOps,3,0.0469,0.0092
+GLOBAL,all,10,análisis de datos,8,0.1250,0.1553
+GLOBAL,all,10,bases de datos,6,0.0938,0.0582
+GLOBAL,all,10,desarrollo web,6,0.0938,0.0591
+GLOBAL,all,10,herramientas,3,0.0469,0.1391
+GLOBAL,all,10,ingeniería de datos,9,0.1406,0.0500
+GLOBAL,all,10,ingeniería de software,6,0.0938,0.0800
+GLOBAL,all,10,machine learning,6,0.0938,0.0193
+GLOBAL,all,10,nube,3,0.0469,0.0885
+GLOBAL,all,10,programación,10,0.1562,0.2172
+GLOBAL,all,10,visualización,4,0.0625,0.1241

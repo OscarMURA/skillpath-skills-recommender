@@ -1,0 +1,17 @@
+role,method,n,hit_at_5,hit_at_10,mrr,mean_rank,median_rank,mean_candidates
+Data Analyst,popularity,500,0.6040,0.7540,0.4432,7.4240,3.0000,60.6320
+Data Analyst,formula_no_similarity,500,0.6220,0.7420,0.4160,7.7740,4.0000,60.6320
+Data Analyst,full,500,0.6320,0.7560,0.4550,7.3020,3.0000,60.6320
+Data Analyst,random,500,0.0740,0.1340,0.0741,32.2940,32.5000,60.6320
+Software Engineer,popularity,500,0.3980,0.6220,0.2923,10.4600,8.0000,58.5200
+Software Engineer,formula_no_similarity,500,0.3860,0.6200,0.2436,11.0400,8.0000,58.5200
+Software Engineer,full,500,0.3920,0.6440,0.2618,10.6700,7.0000,58.5200
+Software Engineer,random,500,0.0760,0.1740,0.0745,31.2360,32.0000,58.5200
+Data Scientist,popularity,500,0.4860,0.6040,0.3860,12.3000,6.0000,57.6740
+Data Scientist,formula_no_similarity,500,0.4380,0.5880,0.3537,12.7900,7.0000,57.6740
+Data Scientist,full,500,0.4640,0.6100,0.3699,11.9320,6.0000,57.6740
+Data Scientist,random,500,0.1080,0.2100,0.0915,27.8340,26.0000,57.6740
+GLOBAL,popularity,1500,0.4960,0.6600,0.3738,10.0613,6.0000,58.9420
+GLOBAL,formula_no_similarity,1500,0.4820,0.6500,0.3378,10.5347,6.0000,58.9420
+GLOBAL,full,1500,0.4960,0.6700,0.3622,9.9680,6.0000,58.9420
+GLOBAL,random,1500,0.0860,0.1727,0.0800,30.4547,30.0000,58.9420

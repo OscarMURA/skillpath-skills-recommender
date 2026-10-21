@@ -1,0 +1,131 @@
+role,skill,category,difficulty
+Data Analyst,a/b testing,análisis de datos,3
+Data Analyst,airflow,ingeniería de datos,4
+Data Analyst,algorithms,ingeniería de software,4
+Data Analyst,angular,desarrollo web,4
+Data Analyst,big data,ingeniería de datos,3
+Data Analyst,c#,programación,3
+Data Analyst,c++,programación,4
+Data Analyst,ci/cd,DevOps,3
+Data Analyst,css,desarrollo web,2
+Data Analyst,data structures,ingeniería de software,3
+Data Analyst,deep learning,machine learning,5
+Data Analyst,docker,DevOps,3
+Data Analyst,gcp,nube,3
+Data Analyst,git,herramientas,2
+Data Analyst,go,programación,3
+Data Analyst,hadoop,ingeniería de datos,4
+Data Analyst,java,programación,3
+Data Analyst,javascript,programación,3
+Data Analyst,kafka,ingeniería de datos,4
+Data Analyst,kubernetes,DevOps,4
+Data Analyst,linux,herramientas,2
+Data Analyst,looker,visualización,3
+Data Analyst,microservices,ingeniería de software,4
+Data Analyst,mysql,bases de datos,2
+Data Analyst,natural language processing,machine learning,5
+Data Analyst,node.js,desarrollo web,3
+Data Analyst,nosql,bases de datos,3
+Data Analyst,numpy,análisis de datos,3
+Data Analyst,object-oriented programming,ingeniería de software,3
+Data Analyst,pandas,análisis de datos,3
+Data Analyst,postgresql,bases de datos,2
+Data Analyst,pytorch,machine learning,4
+Data Analyst,react,desarrollo web,3
+Data Analyst,rest api,desarrollo web,3
+Data Analyst,scala,programación,4
+Data Analyst,scikit-learn,machine learning,3
+Data Analyst,snowflake,ingeniería de datos,3
+Data Analyst,spark,ingeniería de datos,4
+Data Analyst,tensorflow,machine learning,4
+Data Analyst,typescript,programación,3
+Data Analyst,unit testing,ingeniería de software,2
+Data Analyst,vba,programación,3
+Software Engineer,a/b testing,análisis de datos,3
+Software Engineer,airflow,ingeniería de datos,4
+Software Engineer,algorithms,ingeniería de software,4
+Software Engineer,big data,ingeniería de datos,3
+Software Engineer,data cleaning,análisis de datos,2
+Software Engineer,data mining,análisis de datos,3
+Software Engineer,data modeling,ingeniería de datos,3
+Software Engineer,data structures,ingeniería de software,3
+Software Engineer,data visualization,visualización,2
+Software Engineer,data warehousing,ingeniería de datos,4
+Software Engineer,deep learning,machine learning,5
+Software Engineer,etl,ingeniería de datos,3
+Software Engineer,excel,análisis de datos,2
+Software Engineer,hadoop,ingeniería de datos,4
+Software Engineer,kafka,ingeniería de datos,4
+Software Engineer,looker,visualización,3
+Software Engineer,machine learning,machine learning,4
+Software Engineer,microservices,ingeniería de software,4
+Software Engineer,natural language processing,machine learning,5
+Software Engineer,numpy,análisis de datos,3
+Software Engineer,object-oriented programming,ingeniería de software,3
+Software Engineer,oracle,bases de datos,3
+Software Engineer,pandas,análisis de datos,3
+Software Engineer,power bi,visualización,2
+Software Engineer,pytorch,machine learning,4
+Software Engineer,r,programación,3
+Software Engineer,sas,análisis de datos,3
+Software Engineer,scala,programación,4
+Software Engineer,scikit-learn,machine learning,3
+Software Engineer,snowflake,ingeniería de datos,3
+Software Engineer,spark,ingeniería de datos,4
+Software Engineer,sql server,bases de datos,3
+Software Engineer,statistics,análisis de datos,3
+Software Engineer,tableau,visualización,2
+Software Engineer,tensorflow,machine learning,4
+Software Engineer,vba,programación,3
+Data Scientist,a/b testing,análisis de datos,3
+Data Scientist,airflow,ingeniería de datos,4
+Data Scientist,algorithms,ingeniería de software,4
+Data Scientist,angular,desarrollo web,4
+Data Scientist,c#,programación,3
+Data Scientist,c++,programación,4
+Data Scientist,ci/cd,DevOps,3
+Data Scientist,css,desarrollo web,2
+Data Scientist,data structures,ingeniería de software,3
+Data Scientist,data warehousing,ingeniería de datos,4
+Data Scientist,deep learning,machine learning,5
+Data Scientist,go,programación,3
+Data Scientist,hadoop,ingeniería de datos,4
+Data Scientist,html,desarrollo web,1
+Data Scientist,javascript,programación,3
+Data Scientist,kafka,ingeniería de datos,4
+Data Scientist,kubernetes,DevOps,4
+Data Scientist,linux,herramientas,2
+Data Scientist,looker,visualización,3
+Data Scientist,microservices,ingeniería de software,4
+Data Scientist,mysql,bases de datos,2
+Data Scientist,natural language processing,machine learning,5
+Data Scientist,node.js,desarrollo web,3
+Data Scientist,numpy,análisis de datos,3
+Data Scientist,object-oriented programming,ingeniería de software,3
+Data Scientist,oracle,bases de datos,3
+Data Scientist,postgresql,bases de datos,2
+Data Scientist,pytorch,machine learning,4
+Data Scientist,react,desarrollo web,3
+Data Scientist,rest api,desarrollo web,3
+Data Scientist,scikit-learn,machine learning,3
+Data Scientist,sql server,bases de datos,3
+Data Scientist,tensorflow,machine learning,4
+Data Scientist,typescript,programación,3
+Data Scientist,unit testing,ingeniería de software,2
+Data Scientist,vba,programación,3
+GLOBAL,a/b testing,análisis de datos,3
+GLOBAL,airflow,ingeniería de datos,4
+GLOBAL,algorithms,ingeniería de software,4
+GLOBAL,data structures,ingeniería de software,3
+GLOBAL,deep learning,machine learning,5
+GLOBAL,hadoop,ingeniería de datos,4
+GLOBAL,kafka,ingeniería de datos,4
+GLOBAL,looker,visualización,3
+GLOBAL,microservices,ingeniería de software,4
+GLOBAL,natural language processing,machine learning,5
+GLOBAL,numpy,análisis de datos,3
+GLOBAL,object-oriented programming,ingeniería de software,3
+GLOBAL,pytorch,machine learning,4
+GLOBAL,scikit-learn,machine learning,3
+GLOBAL,tensorflow,machine learning,4
+GLOBAL,vba,programación,3
