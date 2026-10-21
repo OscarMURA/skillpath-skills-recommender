@@ -82,6 +82,8 @@ class SimilarityModel:
         ]
         self._skill_tokens = {skill_token(n) for n in self.names}
         docs = [self._document(catalog[n], neighbours.get(n, {})) for n in self.names]
+        # Read-only view of the text document built for each Skill (for teaching and tests).
+        self.documents = dict(zip(self.names, docs))
         self.vectorizer = TfidfVectorizer(
             analyzer=self.tokenize, min_df=2, sublinear_tf=False, norm="l2", dtype=np.float64
         )

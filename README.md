@@ -32,3 +32,20 @@ pytest
 # Ejecutar la evaluación (leave-one-skill-out y métricas de sesgo; escribe en reports/, ~18 s)
 python -m skillpath.evaluate
 ```
+
+## Cuaderno del taller
+
+[`notebooks/skillpath.ipynb`](notebooks/skillpath.ipynb) cuenta el proceso de punta a punta (datos y fuentes, Catalog, criterio de similitud, reglas de conocimiento, Learning paths de ejemplo, resumen de la evaluación). Se versiona con las salidas ya ejecutadas, así que se puede leer sin ejecutarlo. Reutiliza el paquete `skillpath` y no necesita `datos/`: lo esencial sale de `catalog/` y `reports/` (solo se omite la vista previa de los datasets crudos).
+
+```bash
+# Instalar el extra opcional del cuaderno (Jupyter, nbclient, matplotlib...)
+pip install -e ".[dev,notebook]"
+
+# Abrirlo
+jupyter lab notebooks/skillpath.ipynb
+
+# Ejecutarlo de principio a fin y guardarlo con salidas (unos 5 s)
+jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.record_timing=False notebooks/skillpath.ipynb
+```
+
+Opcional: `SKILLPATH_DATOS_DIR=/ruta` apunta el cuaderno a otra carpeta de datasets (o a una vacía para comprobar que funciona sin ellos). La prueba `tests/test_notebook.py` lo ejecuta en una copia temporal, con y sin `datos/` (tarda unos 6 s y se omite si no está instalado el extra `notebook`).

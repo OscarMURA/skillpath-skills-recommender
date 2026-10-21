@@ -195,3 +195,16 @@ def test_compute_cooccurrence_min_offers_prunes_pairs():
     df = compute_cooccurrence(OFFERS, ALIASES, set(), ["python", "sql", "excel"], min_offers=2)
     assert [(r.skill_a, r.skill_b) for r in df.itertuples()] == [("excel", "python"), ("python", "sql")]
     assert df["closeness"].between(0, 1).all()
+
+
+# Read-only view of the Skill documents (used by the workshop notebook)
+def test_model_exposes_the_document_of_every_skill():
+    from skillpath.similarity import get_model
+
+    model = get_model(ROLE)
+    assert set(model.documents) == set(CATALOG)
+    doc = model.documents["pandas"]
+    assert doc.startswith("pandas pandas pandas cat_")
+    # the document is exactly what the TF-IDF matrix was fitted on
+    refit = model.vectorizer.transform([doc]).toarray()[0]
+    assert refit == pytest.approx(model.vector("pandas"))
