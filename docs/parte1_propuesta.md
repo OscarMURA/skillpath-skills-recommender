@@ -24,6 +24,8 @@ Los elementos recomendados serán habilidades técnicas profesionales, como leng
 - [Software Engineer Job Postings](https://www.kaggle.com/datasets/asaniczka/software-engineer-job-postings-linkedin)
 - [Data Scientist Job Postings](https://www.kaggle.com/datasets/asaniczka/data-scientist-linkedin-job-postings)
 
+Estos tres datasets solo contienen ofertas de nivel Associate y Mid senior. Para cubrir también el nivel inicial, se complementarán con las ofertas de nivel Entry del dataset [LinkedIn Job Postings (2023–2024)](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings), detectando las habilidades del catálogo en el texto de sus descripciones.
+
 Se tendrán en cuenta los siguientes atributos, obtenidos del procesamiento de los datasets o complementados durante la construcción del catálogo:
 
 - **Nombre:** identifica la habilidad técnica, como Python, SQL o Docker.
