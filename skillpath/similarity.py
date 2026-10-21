@@ -21,8 +21,7 @@ from functools import lru_cache
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from skillpath.catalog import ALIASES as _ALIASES
-from skillpath.catalog import CATALOG as _CATALOG
+from skillpath import catalog as _catalog
 from skillpath.cooccurrence import COOCCURRENCE_CSV, load_cooccurrence
 from skillpath.frequency import normalize_skill
 
@@ -146,9 +145,13 @@ def _unit(v: np.ndarray) -> np.ndarray:
 
 @lru_cache(maxsize=None)
 def get_model(role: str) -> SimilarityModel:
-    """Fitted model for a Role (cached). Roles without co-occurrence data get none."""
+    """Fitted model for a Role (cached). Roles without co-occurrence data get none.
+
+    The Catalog is read from ``skillpath.catalog`` at call time, so a test can
+    swap it (clear this cache with ``get_model.cache_clear()`` before and after).
+    """
     table = load_cooccurrence(COOCCURRENCE_CSV) if COOCCURRENCE_CSV.exists() else {}
-    return SimilarityModel(_CATALOG, _ALIASES, table.get(role, {}))
+    return SimilarityModel(_catalog.CATALOG, _catalog.ALIASES, table.get(role, {}))
 
 
 def compute_similarity(

@@ -46,6 +46,11 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
     then a stable topological adjustment so every Skill comes after all its
     missing Prerequisites. See docs/priority-formula.md.
 
+    ``cold_start`` is True when the profile has no known Skill in the Catalog
+    (with a valid Mastery level) and no recognized interest; the Learning path
+    then comes from Frequency and Effort alone, and ``most_frequent()`` gives the
+    Role's most frequent Skills. See docs/cold-start.md.
+
     Raises ValueError if the Role is unknown.
     """
     role = learner_profile.role
@@ -110,7 +115,12 @@ def recommend(learner_profile: LearnerProfile) -> LearningPath:
         )
         for name in ordered
     ]
-    return LearningPath(role=role, items=items, unrecognized_interests=sim.unrecognized_interests)
+    return LearningPath(
+        role=role,
+        items=items,
+        unrecognized_interests=sim.unrecognized_interests,
+        cold_start=not sim.has_anchor,
+    )
 
 
 def _explain(
@@ -127,7 +137,10 @@ def _explain(
     if has_data:
         text = f"Aparece en el {frequency:.1f}% de las ofertas de {role}; esfuerzo estimado {effort}."
     else:
-        text = f"No aparece en las ofertas de {role} analizadas. Esfuerzo estimado {effort}."
+        text = (
+            f"No aparece en las ofertas de {role} analizadas. Frequency 0 %, así que va "
+            f"al final de la ruta; esfuerzo estimado {effort}."
+        )
     text += " " + _explain_similarity(relations, has_anchor)
     missing = _missing_prerequisites(name, mastered)
     prerequisites = catalog.CATALOG[name].prerequisites

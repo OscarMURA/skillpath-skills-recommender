@@ -45,3 +45,15 @@ class LearningPath:
     role: str
     items: list[LearningPathItem]
     unrecognized_interests: list[str] = field(default_factory=list)
+    cold_start: bool = False  # True when the Learner profile has no known Skill or recognized interest
+
+    def most_frequent(self, n: int = 10) -> list[LearningPathItem]:
+        """The n candidate Skills with highest Frequency in the Role's Offers.
+
+        Pure Frequency, ties by name ascending; Skills with Frequency 0 are left out.
+        Independent of the Learning path order (which also weighs Effort).
+        """
+        ranked = sorted(
+            (i for i in self.items if i.frequency > 0), key=lambda i: (-i.frequency, i.skill)
+        )
+        return ranked[:n]

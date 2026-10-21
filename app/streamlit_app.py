@@ -15,12 +15,36 @@ LEVELS = {"básico": "basic", "intermedio": "intermediate", "avanzado": "advance
 
 st.title("SkillPath")
 st.write("Recibe una ruta ordenada de habilidades técnicas por aprender.")
+st.write(
+    "Solo necesitas elegir el rol objetivo. Si quieres una ruta más personal, marca las "
+    "habilidades que ya conoces (con tu nivel) y tus intereses; todo eso es opcional. "
+    "Si prefieres no dar datos, activa «Empezar sin datos»."
+)
 
 role = st.selectbox("Rol objetivo", ROLES)
+start_empty = st.checkbox(
+    "Empezar sin datos",
+    key="start_empty",
+    help="Ignora las habilidades y los intereses y muestra el resultado de un perfil vacío.",
+)
+
+SUGGESTIONS = 8
+suggested = [
+    i.skill for i in recommend(LearnerProfile(role=role)).most_frequent(SUGGESTIONS)
+]
+st.caption(f"Sugerencias: las más frecuentes en las ofertas de {role}. Marca las que ya conoces.")
+columns = st.columns(4)
+checked = []
+for n, skill in enumerate(suggested):
+    if columns[n % 4].checkbox(skill, key=f"suggest_{role}_{skill}"):
+        checked.append(skill)
+
 selected = st.multiselect("Habilidades que ya conoces", list(CATALOG))
 known_skills = {}
-for skill in selected:
-    label = st.selectbox(f"Nivel de dominio en {skill}", list(LEVELS), key=f"level_{skill}")
+for skill in checked + [s for s in selected if s not in checked]:
+    label = st.selectbox(
+        f"Nivel de dominio en {skill}", list(LEVELS), index=1, key=f"level_{skill}"
+    )
     known_skills[skill] = LEVELS[label]
 
 categories = sorted({skill.category for skill in CATALOG.values()})
@@ -32,9 +56,17 @@ free_interests = st.text_input(
 )
 interests = chosen_interests + [t.strip() for t in free_interests.split(",") if t.strip()]
 
+if start_empty:
+    known_skills, interests = {}, []
 path = recommend(
     LearnerProfile(role=role, known_skills=known_skills, interests=interests)
 )
+if path.cold_start:
+    st.info(
+        "Sin datos tuyos no podemos personalizar: se muestra la ruta calculada con la "
+        "frecuencia y el esfuerzo del rol, y la lista de las habilidades más frecuentes. "
+        "Completa el formulario (habilidades conocidas o intereses) para personalizarla."
+    )
 if path.unrecognized_interests:
     st.warning(
         "No reconocimos estos intereses y no se usaron: "
@@ -57,3 +89,18 @@ if path.items:
     )
 else:
     st.info("Ya dominas todas las habilidades del catálogo.")
+
+# Always visible: useful to any Learner and easy to read (pure Frequency).
+frequent = path.most_frequent(10)
+st.subheader(f"Las más frecuentes en las ofertas de {role}")
+if not path.cold_start:
+    st.caption("Entre las habilidades que aún no dominas.")
+st.table(
+    pd.DataFrame(
+        {
+            "Orden": range(1, len(frequent) + 1),
+            "Habilidad": [i.skill for i in frequent],
+            "Frecuencia (%)": [i.frequency for i in frequent],
+        }
+    ).set_index("Orden")
+)
