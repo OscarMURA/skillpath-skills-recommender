@@ -1,0 +1,618 @@
+role,skill,offers_with_skill,role_offers,frequency
+Data Analyst,data analysis,4658,12705,36.66
+Data Analyst,sql,4258,12705,33.51
+Data Analyst,excel,3340,12705,26.29
+Data Analyst,power bi,2340,12705,18.42
+Data Analyst,data visualization,2295,12705,18.06
+Data Analyst,tableau,2151,12705,16.93
+Data Analyst,python,2142,12705,16.86
+Data Analyst,microsoft office,1864,12705,14.67
+Data Analyst,business analysis,1624,12705,12.78
+Data Analyst,agile,1401,12705,11.03
+Data Analyst,reporting,1388,12705,10.92
+Data Analyst,business intelligence,1247,12705,9.82
+Data Analyst,r,1220,12705,9.6
+Data Analyst,data analytics,1162,12705,9.15
+Data Analyst,powerpoint,1073,12705,8.45
+Data Analyst,data management,1008,12705,7.93
+Data Analyst,data mining,941,12705,7.41
+Data Analyst,data modeling,843,12705,6.64
+Data Analyst,accounting,827,12705,6.51
+Data Analyst,financial analysis,767,12705,6.04
+Data Analyst,finance,754,12705,5.93
+Data Analyst,machine learning,718,12705,5.65
+Data Analyst,statistics,710,12705,5.59
+Data Analyst,word,708,12705,5.57
+Data Analyst,forecasting,690,12705,5.43
+Data Analyst,statistical analysis,648,12705,5.1
+Data Analyst,data governance,633,12705,4.98
+Data Analyst,jira,627,12705,4.94
+Data Analyst,requirements gathering,620,12705,4.88
+Data Analyst,sap,618,12705,4.86
+Data Analyst,data warehousing,583,12705,4.59
+Data Analyst,data science,580,12705,4.57
+Data Analyst,erp,564,12705,4.44
+Data Analyst,budgeting,563,12705,4.43
+Data Analyst,sas,543,12705,4.27
+Data Analyst,data quality,537,12705,4.23
+Data Analyst,documentation,513,12705,4.04
+Data Analyst,risk management,498,12705,3.92
+Data Analyst,scrum,481,12705,3.79
+Data Analyst,sql server,479,12705,3.77
+Data Analyst,data integration,476,12705,3.75
+Data Analyst,financial modeling,466,12705,3.67
+Data Analyst,troubleshooting,457,12705,3.6
+Data Analyst,oracle,430,12705,3.38
+Data Analyst,etl,421,12705,3.31
+Data Analyst,data integrity,417,12705,3.28
+Data Analyst,data cleaning,399,12705,3.14
+Data Analyst,analytics,389,12705,3.06
+Data Analyst,testing,389,12705,3.06
+Data Analyst,azure,384,12705,3.02
+Data Analyst,financial reporting,367,12705,2.89
+Data Analyst,salesforce,366,12705,2.88
+Data Analyst,quality assurance,361,12705,2.84
+Data Analyst,data interpretation,360,12705,2.83
+Data Analyst,visio,360,12705,2.83
+Data Analyst,data manipulation,346,12705,2.72
+Data Analyst,java,344,12705,2.71
+Data Analyst,databases,340,12705,2.68
+Data Analyst,sharepoint,340,12705,2.68
+Data Analyst,aws,338,12705,2.66
+Data Analyst,javascript,337,12705,2.65
+Data Analyst,software development,335,12705,2.64
+Data Analyst,data collection,332,12705,2.61
+Data Analyst,data reporting,320,12705,2.52
+Data Analyst,user stories,301,12705,2.37
+Data Analyst,dashboards,280,12705,2.2
+Data Analyst,artificial intelligence,271,12705,2.13
+Data Analyst,confluence,270,12705,2.13
+Data Analyst,snowflake,261,12705,2.05
+Data Analyst,data security,252,12705,1.98
+Data Analyst,technical writing,244,12705,1.92
+Data Analyst,programming,241,12705,1.9
+Data Analyst,mathematics,239,12705,1.88
+Data Analyst,user acceptance testing,235,12705,1.85
+Data Analyst,data extraction,234,12705,1.84
+Data Analyst,compliance,233,12705,1.83
+Data Analyst,sdlc,233,12705,1.83
+Data Analyst,data validation,229,12705,1.8
+Data Analyst,relational databases,229,12705,1.8
+Data Analyst,automation,227,12705,1.79
+Data Analyst,a/b testing,221,12705,1.74
+Data Analyst,business requirements,221,12705,1.74
+Data Analyst,waterfall,219,12705,1.72
+Data Analyst,data mapping,213,12705,1.68
+Data Analyst,vba,212,12705,1.67
+Data Analyst,workday,212,12705,1.67
+Data Analyst,report writing,209,12705,1.65
+Data Analyst,data transformation,208,12705,1.64
+Data Analyst,html,204,12705,1.61
+Data Analyst,servicenow,204,12705,1.61
+Data Analyst,variance analysis,204,12705,1.61
+Data Analyst,statistical modeling,203,12705,1.6
+Data Analyst,systems analysis,200,12705,1.57
+Data Analyst,xml,192,12705,1.51
+Data Analyst,looker,191,12705,1.5
+Data Analyst,linux,190,12705,1.5
+Data Analyst,pivot tables,188,12705,1.48
+Data Analyst,google analytics,187,12705,1.47
+Data Analyst,alteryx,186,12705,1.46
+Data Analyst,business administration,186,12705,1.46
+Data Analyst,cloud computing,186,12705,1.46
+Data Analyst,root cause analysis,186,12705,1.46
+Data Analyst,windows,182,12705,1.43
+Data Analyst,spark,181,12705,1.42
+Data Analyst,access,179,12705,1.41
+Data Analyst,presentation,179,12705,1.41
+Data Analyst,strategic planning,178,12705,1.4
+Data Analyst,data engineering,177,12705,1.39
+Data Analyst,market research,177,12705,1.39
+Data Analyst,database management,173,12705,1.36
+Data Analyst,system analysis,172,12705,1.35
+Data Analyst,vendor management,167,12705,1.31
+Data Analyst,stakeholder engagement,165,12705,1.3
+Data Analyst,business analytics,163,12705,1.28
+Data Analyst,ssrs,163,12705,1.28
+Data Analyst,outlook,162,12705,1.28
+Data Analyst,business acumen,161,12705,1.27
+Data Analyst,data architecture,161,12705,1.27
+Data Analyst,risk assessment,161,12705,1.27
+Data Analyst,planning,160,12705,1.26
+Data Analyst,spss,159,12705,1.25
+Data Analyst,team collaboration,159,12705,1.25
+Data Analyst,dax,158,12705,1.24
+Data Analyst,intelligence analysis,157,12705,1.24
+Data Analyst,cissp,156,12705,1.23
+Data Analyst,financial planning,156,12705,1.23
+Data Analyst,big data,155,12705,1.22
+Data Analyst,data migration,153,12705,1.2
+Data Analyst,business systems analysis,152,12705,1.2
+Data Analyst,hypothesis testing,151,12705,1.19
+Data Analyst,data processing,150,12705,1.18
+Data Analyst,gcp,150,12705,1.18
+Data Analyst,azure devops,149,12705,1.17
+Data Analyst,decisionmaking,147,12705,1.16
+Data Analyst,crm,145,12705,1.14
+Data Analyst,css,145,12705,1.14
+Data Analyst,hadoop,145,12705,1.14
+Data Analyst,regulatory compliance,145,12705,1.14
+Data Analyst,business process improvement,144,12705,1.13
+Data Analyst,data warehouse,143,12705,1.13
+Data Analyst,cybersecurity,141,12705,1.11
+Data Analyst,json,141,12705,1.11
+Data Analyst,predictive modeling,141,12705,1.11
+Data Analyst,business process analysis,140,12705,1.1
+Data Analyst,trend analysis,140,12705,1.1
+Data Analyst,c++,139,12705,1.09
+Data Analyst,supply chain management,139,12705,1.09
+Data Analyst,c#,137,12705,1.08
+Data Analyst,datadriven decision making,137,12705,1.08
+Data Analyst,healthcare,136,12705,1.07
+Data Analyst,financial services,133,12705,1.05
+Data Analyst,microsoft access,133,12705,1.05
+Data Analyst,continuous improvement,130,12705,1.02
+Data Analyst,crossfunctional collaboration,130,12705,1.02
+Data Analyst,data privacy,130,12705,1.02
+Data Analyst,manufacturing,130,12705,1.02
+Data Analyst,database design,129,12705,1.02
+Data Analyst,data profiling,128,12705,1.01
+Data Analyst,functional specifications,128,12705,1.01
+Data Analyst,pandas,70,12705,0.55
+Data Scientist,python,2820,4336,65.04
+Data Scientist,sql,2388,4336,55.07
+Data Scientist,machine learning,1864,4336,42.99
+Data Scientist,data science,1410,4336,32.52
+Data Scientist,r,1283,4336,29.59
+Data Scientist,data analysis,1170,4336,26.98
+Data Scientist,data visualization,1075,4336,24.79
+Data Scientist,aws,960,4336,22.14
+Data Scientist,spark,873,4336,20.13
+Data Scientist,tableau,830,4336,19.14
+Data Scientist,data engineering,707,4336,16.31
+Data Scientist,power bi,698,4336,16.1
+Data Scientist,statistics,670,4336,15.45
+Data Scientist,java,661,4336,15.24
+Data Scientist,azure,645,4336,14.88
+Data Scientist,artificial intelligence,577,4336,13.31
+Data Scientist,data mining,573,4336,13.21
+Data Scientist,data modeling,531,4336,12.25
+Data Scientist,natural language processing,530,4336,12.22
+Data Scientist,data analytics,529,4336,12.2
+Data Scientist,etl,503,4336,11.6
+Data Scientist,hadoop,464,4336,10.7
+Data Scientist,agile,460,4336,10.61
+Data Scientist,gcp,458,4336,10.56
+Data Scientist,snowflake,458,4336,10.56
+Data Scientist,git,432,4336,9.96
+Data Scientist,scala,409,4336,9.43
+Data Scientist,kafka,398,4336,9.18
+Data Scientist,data warehousing,373,4336,8.6
+Data Scientist,business intelligence,369,4336,8.51
+Data Scientist,cloud computing,360,4336,8.3
+Data Scientist,statistical analysis,358,4336,8.26
+Data Scientist,tensorflow,352,4336,8.12
+Data Scientist,docker,341,4336,7.86
+Data Scientist,airflow,338,4336,7.8
+Data Scientist,pandas,331,4336,7.63
+Data Scientist,pyspark,329,4336,7.59
+Data Scientist,data management,327,4336,7.54
+Data Scientist,kubernetes,327,4336,7.54
+Data Scientist,excel,324,4336,7.47
+Data Scientist,big data,310,4336,7.15
+Data Scientist,pytorch,310,4336,7.15
+Data Scientist,deep learning,301,4336,6.94
+Data Scientist,data pipelines,299,4336,6.9
+Data Scientist,nosql,286,4336,6.6
+Data Scientist,databricks,275,4336,6.34
+Data Scientist,data governance,270,4336,6.23
+Data Scientist,predictive modeling,261,4336,6.02
+Data Scientist,sas,261,4336,6.02
+Data Scientist,data cleaning,259,4336,5.97
+Data Scientist,scikit-learn,254,4336,5.86
+Data Scientist,statistical modeling,240,4336,5.54
+Data Scientist,data integration,238,4336,5.49
+Data Scientist,javascript,220,4336,5.07
+Data Scientist,devops,209,4336,4.82
+Data Scientist,hive,206,4336,4.75
+Data Scientist,data quality,204,4336,4.7
+Data Scientist,mathematics,198,4336,4.57
+Data Scientist,a/b testing,192,4336,4.43
+Data Scientist,analytics,192,4336,4.43
+Data Scientist,linux,190,4336,4.38
+Data Scientist,software development,186,4336,4.29
+Data Scientist,s3,185,4336,4.27
+Data Scientist,sql server,177,4336,4.08
+Data Scientist,computer vision,173,4336,3.99
+Data Scientist,microsoft office,171,4336,3.94
+Data Scientist,postgresql,171,4336,3.94
+Data Scientist,c++,170,4336,3.92
+Data Scientist,reporting,170,4336,3.92
+Data Scientist,mysql,167,4336,3.85
+Data Scientist,numpy,167,4336,3.85
+Data Scientist,relational databases,159,4336,3.67
+Data Scientist,oracle,158,4336,3.64
+Data Scientist,redshift,158,4336,3.64
+Data Scientist,keras,156,4336,3.6
+Data Scientist,bash,153,4336,3.53
+Data Scientist,jira,151,4336,3.48
+Data Scientist,predictive analytics,151,4336,3.48
+Data Scientist,algorithms,149,4336,3.44
+Data Scientist,software engineering,149,4336,3.44
+Data Scientist,data transformation,148,4336,3.41
+Data Scientist,generative ai,143,4336,3.3
+Data Scientist,troubleshooting,143,4336,3.3
+Data Scientist,ci/cd,139,4336,3.21
+Data Scientist,github,139,4336,3.21
+Data Scientist,dbt,137,4336,3.16
+Data Scientist,data security,133,4336,3.07
+Data Scientist,hypothesis testing,133,4336,3.07
+Data Scientist,json,133,4336,3.07
+Data Scientist,terraform,133,4336,3.07
+Data Scientist,data manipulation,132,4336,3.04
+Data Scientist,data processing,131,4336,3.02
+Data Scientist,matlab,131,4336,3.02
+Data Scientist,c#,130,4336,3.0
+Data Scientist,emr,127,4336,2.93
+Data Scientist,spark streaming,127,4336,2.93
+Data Scientist,dynamodb,126,4336,2.91
+Data Scientist,rest api,126,4336,2.91
+Data Scientist,data architecture,125,4336,2.88
+Data Scientist,storm,123,4336,2.84
+Data Scientist,mongodb,118,4336,2.72
+Data Scientist,data integrity,114,4336,2.63
+Data Scientist,scrum,114,4336,2.63
+Data Scientist,databases,113,4336,2.61
+Data Scientist,optimization,110,4336,2.54
+Data Scientist,programming,109,4336,2.51
+Data Scientist,helm,108,4336,2.49
+Data Scientist,data extraction,105,4336,2.42
+Data Scientist,data collection,104,4336,2.4
+Data Scientist,forecasting,103,4336,2.38
+Data Scientist,matplotlib,97,4336,2.24
+Data Scientist,data interpretation,95,4336,2.19
+Data Scientist,jenkins,95,4336,2.19
+Data Scientist,statistical techniques,95,4336,2.19
+Data Scientist,regression,94,4336,2.17
+Data Scientist,microservices,93,4336,2.14
+Data Scientist,object-oriented programming,93,4336,2.14
+Data Scientist,clustering,92,4336,2.12
+Data Scientist,elasticsearch,92,4336,2.12
+Data Scientist,azure data factory,91,4336,2.1
+Data Scientist,causal inference,91,4336,2.1
+Data Scientist,bigquery,90,4336,2.08
+Data Scientist,looker,88,4336,2.03
+Data Scientist,azure devops,87,4336,2.01
+Data Scientist,experimentation,85,4336,1.96
+Data Scientist,ssis,85,4336,1.96
+Data Scientist,automation,84,4336,1.94
+Data Scientist,cassandra,79,4336,1.82
+Data Scientist,powerpoint,79,4336,1.82
+Data Scientist,product development,77,4336,1.78
+Data Scientist,unix,76,4336,1.75
+Data Scientist,data structures,75,4336,1.73
+Data Scientist,neural networks,74,4336,1.71
+Data Scientist,data warehouse,73,4336,1.68
+Data Scientist,mlops,73,4336,1.68
+Data Scientist,data normalization,72,4336,1.66
+Data Scientist,data lake,71,4336,1.64
+Data Scientist,lambda,71,4336,1.64
+Data Scientist,confluence,70,4336,1.61
+Data Scientist,data classification,70,4336,1.61
+Data Scientist,data lakes,69,4336,1.59
+Data Scientist,glue,69,4336,1.59
+Data Scientist,robotics,69,4336,1.59
+Data Scientist,data validation,68,4336,1.57
+Data Scientist,athena,67,4336,1.55
+Data Scientist,kubeflow,67,4336,1.55
+Data Scientist,modeling,67,4336,1.55
+Data Scientist,unsupervised learning,67,4336,1.55
+Data Scientist,large language models,66,4336,1.52
+Data Scientist,sentiment analysis,66,4336,1.52
+Data Scientist,blockchain,65,4336,1.5
+Data Scientist,data exploration,65,4336,1.5
+Data Scientist,data migration,65,4336,1.5
+Data Scientist,data reporting,65,4336,1.5
+Data Scientist,datadriven decision making,65,4336,1.5
+Data Scientist,neo4j,65,4336,1.5
+Data Scientist,database design,64,4336,1.48
+Data Scientist,etl processes,64,4336,1.48
+Data Scientist,apis,63,4336,1.45
+Data Scientist,distributed systems,63,4336,1.45
+Data Scientist,flask,62,4336,1.43
+Data Scientist,go,62,4336,1.43
+Data Scientist,classification,60,4336,1.38
+Data Scientist,seaborn,60,4336,1.38
+Data Scientist,supervised learning,60,4336,1.38
+Data Scientist,dashboards,59,4336,1.36
+Data Scientist,operations research,59,4336,1.36
+Data Scientist,salesforce,59,4336,1.36
+Data Scientist,data ingestion,58,4336,1.34
+Data Scientist,data storage,58,4336,1.34
+Data Scientist,kinesis,58,4336,1.34
+Data Scientist,programming languages,58,4336,1.34
+Data Scientist,unit testing,58,4336,1.34
+Data Scientist,anomaly detection,57,4336,1.31
+Data Scientist,innovation,56,4336,1.29
+Data Scientist,reinforcement learning,56,4336,1.29
+Data Scientist,spss,55,4336,1.27
+Data Scientist,data modelling,54,4336,1.25
+Data Scientist,decision trees,54,4336,1.25
+Data Scientist,english,54,4336,1.25
+Data Scientist,experiment design,54,4336,1.25
+Data Scientist,data retention,53,4336,1.22
+Data Scientist,documentation,53,4336,1.22
+Data Scientist,spacy,52,4336,1.2
+Data Scientist,technical writing,52,4336,1.2
+Data Scientist,sagemaker,51,4336,1.18
+Data Scientist,xml,51,4336,1.18
+Data Scientist,alteryx,50,4336,1.15
+Data Scientist,business analysis,50,4336,1.15
+Data Scientist,data infrastructure,50,4336,1.15
+Data Scientist,data privacy,50,4336,1.15
+Data Scientist,pl/sql,50,4336,1.15
+Data Scientist,remote work,50,4336,1.15
+Data Scientist,statistical methods,50,4336,1.15
+Data Scientist,word,50,4336,1.15
+Data Scientist,ansible,49,4336,1.13
+Data Scientist,augmented reality,49,4336,1.13
+Data Scientist,hbase,49,4336,1.13
+Data Scientist,kanban,49,4336,1.13
+Data Scientist,nltk,49,4336,1.13
+Data Scientist,bioinformatics,48,4336,1.11
+Data Scientist,cloud technologies,48,4336,1.11
+Data Scientist,data models,48,4336,1.11
+Data Scientist,presentation,48,4336,1.11
+Data Scientist,product management,48,4336,1.11
+Data Scientist,recommendation systems,48,4336,1.11
+Data Scientist,active directory,47,4336,1.08
+Data Scientist,data wrangling,47,4336,1.08
+Data Scientist,machine learning algorithms,47,4336,1.08
+Data Scientist,nonrelational databases,47,4336,1.08
+Data Scientist,nosql databases,47,4336,1.08
+Data Scientist,pig,47,4336,1.08
+Data Scientist,virtual reality,47,4336,1.08
+Data Scientist,business analytics,46,4336,1.06
+Data Scientist,cloud platforms,46,4336,1.06
+Data Scientist,data preprocessing,46,4336,1.06
+Data Scientist,physics,46,4336,1.06
+Data Scientist,technology,46,4336,1.06
+Data Scientist,testing,46,4336,1.06
+Data Scientist,feature engineering,45,4336,1.04
+Data Scientist,risk management,45,4336,1.04
+Data Scientist,ssrs,45,4336,1.04
+Data Scientist,version control,45,4336,1.04
+Data Scientist,3d printing,44,4336,1.01
+Data Scientist,data preparation,44,4336,1.01
+Data Scientist,data warehouses,44,4336,1.01
+Data Scientist,database management,44,4336,1.01
+Data Scientist,econometrics,44,4336,1.01
+Data Scientist,presto,44,4336,1.01
+Data Scientist,windows,44,4336,1.01
+Software Engineer,python,3550,9367,37.9
+Software Engineer,java,3174,9367,33.88
+Software Engineer,agile,3172,9367,33.86
+Software Engineer,javascript,2693,9367,28.75
+Software Engineer,aws,2607,9367,27.83
+Software Engineer,sql,2244,9367,23.96
+Software Engineer,react,1821,9367,19.44
+Software Engineer,c#,1797,9367,19.18
+Software Engineer,git,1791,9367,19.12
+Software Engineer,software engineering,1785,9367,19.06
+Software Engineer,c++,1687,9367,18.01
+Software Engineer,kubernetes,1653,9367,17.65
+Software Engineer,docker,1524,9367,16.27
+Software Engineer,software development,1485,9367,15.85
+Software Engineer,typescript,1462,9367,15.61
+Software Engineer,rest api,1458,9367,15.57
+Software Engineer,linux,1402,9367,14.97
+Software Engineer,go,1397,9367,14.91
+Software Engineer,azure,1319,9367,14.08
+Software Engineer,html,1316,9367,14.05
+Software Engineer,css,1188,9367,12.68
+Software Engineer,node.js,1101,9367,11.75
+Software Engineer,angular,1085,9367,11.58
+Software Engineer,unit testing,991,9367,10.58
+Software Engineer,scrum,934,9367,9.97
+Software Engineer,microservices,925,9367,9.88
+Software Engineer,jira,920,9367,9.82
+Software Engineer,devops,886,9367,9.46
+Software Engineer,gcp,878,9367,9.37
+Software Engineer,postgresql,867,9367,9.26
+Software Engineer,cloud computing,853,9367,9.11
+Software Engineer,.net,771,9367,8.23
+Software Engineer,ci/cd,717,9367,7.65
+Software Engineer,jenkins,714,9367,7.62
+Software Engineer,machine learning,671,9367,7.16
+Software Engineer,c,646,9367,6.9
+Software Engineer,sql server,637,9367,6.8
+Software Engineer,nosql,560,9367,5.98
+Software Engineer,object-oriented programming,520,9367,5.55
+Software Engineer,kafka,497,9367,5.31
+Software Engineer,mysql,497,9367,5.31
+Software Engineer,confluence,492,9367,5.25
+Software Engineer,distributed systems,474,9367,5.06
+Software Engineer,continuous integration,452,9367,4.83
+Software Engineer,software design,438,9367,4.68
+Software Engineer,data structures,414,9367,4.42
+Software Engineer,terraform,412,9367,4.4
+Software Engineer,c/c++,402,9367,4.29
+Software Engineer,debugging,402,9367,4.29
+Software Engineer,algorithms,399,9367,4.26
+Software Engineer,software architecture,399,9367,4.26
+Software Engineer,scala,398,9367,4.25
+Software Engineer,spring boot,398,9367,4.25
+Software Engineer,mongodb,397,9367,4.24
+Software Engineer,software testing,391,9367,4.17
+Software Engineer,github,387,9367,4.13
+Software Engineer,json,386,9367,4.12
+Software Engineer,networking,370,9367,3.95
+Software Engineer,vue.js,364,9367,3.89
+Software Engineer,.net core,361,9367,3.85
+Software Engineer,design patterns,354,9367,3.78
+Software Engineer,windows,351,9367,3.75
+Software Engineer,artificial intelligence,349,9367,3.73
+Software Engineer,testing,349,9367,3.73
+Software Engineer,kotlin,332,9367,3.54
+Software Engineer,troubleshooting,332,9367,3.54
+Software Engineer,integration testing,321,9367,3.43
+Software Engineer,xml,316,9367,3.37
+Software Engineer,oracle,309,9367,3.3
+Software Engineer,redis,301,9367,3.21
+Software Engineer,embedded systems,294,9367,3.14
+Software Engineer,asp.net,292,9367,3.12
+Software Engineer,open source frameworks,289,9367,3.09
+Software Engineer,relational databases,289,9367,3.09
+Software Engineer,php,287,9367,3.06
+Software Engineer,security,281,9367,3.0
+Software Engineer,data analysis,271,9367,2.89
+Software Engineer,web development,271,9367,2.89
+Software Engineer,databases,259,9367,2.77
+Software Engineer,azure devops,258,9367,2.75
+Software Engineer,version control,254,9367,2.71
+Software Engineer,spring,242,9367,2.58
+Software Engineer,graphql,241,9367,2.57
+Software Engineer,tdd,240,9367,2.56
+Software Engineer,documentation,238,9367,2.54
+Software Engineer,gitlab,238,9367,2.54
+Software Engineer,android,236,9367,2.52
+Software Engineer,kanban,234,9367,2.5
+Software Engineer,jquery,232,9367,2.48
+Software Engineer,spark,232,9367,2.48
+Software Engineer,rust,231,9367,2.47
+Software Engineer,visual studio,229,9367,2.44
+Software Engineer,ruby,228,9367,2.43
+Software Engineer,html/css,224,9367,2.39
+Software Engineer,web services,224,9367,2.39
+Software Engineer,bitbucket,222,9367,2.37
+Software Engineer,automated testing,221,9367,2.36
+Software Engineer,data analytics,221,9367,2.36
+Software Engineer,elasticsearch,219,9367,2.34
+Software Engineer,s3,219,9367,2.34
+Software Engineer,bash,216,9367,2.31
+Software Engineer,scalability,216,9367,2.31
+Software Engineer,unix,206,9367,2.2
+Software Engineer,ansible,204,9367,2.18
+Software Engineer,objectoriented design,204,9367,2.18
+Software Engineer,automation,201,9367,2.15
+Software Engineer,virtualization,201,9367,2.15
+Software Engineer,apis,199,9367,2.12
+Software Engineer,data science,196,9367,2.09
+Software Engineer,mvc,194,9367,2.07
+Software Engineer,lambda,191,9367,2.04
+Software Engineer,junit,187,9367,2.0
+Software Engineer,operating systems,187,9367,2.0
+Software Engineer,code reviews,185,9367,1.98
+Software Engineer,node,185,9367,1.98
+Software Engineer,api,181,9367,1.93
+Software Engineer,design,179,9367,1.91
+Software Engineer,django,179,9367,1.91
+Software Engineer,cassandra,177,9367,1.89
+Software Engineer,open source,176,9367,1.88
+Software Engineer,maven,175,9367,1.87
+Software Engineer,.net framework,174,9367,1.86
+Software Engineer,system design,173,9367,1.85
+Software Engineer,frontend development,171,9367,1.83
+Software Engineer,tcp/ip,171,9367,1.83
+Software Engineer,code review,170,9367,1.81
+Software Engineer,selenium,170,9367,1.81
+Software Engineer,cloud services,168,9367,1.79
+Software Engineer,continuous delivery,167,9367,1.78
+Software Engineer,matlab,167,9367,1.78
+Software Engineer,product management,167,9367,1.78
+Software Engineer,big data,162,9367,1.73
+Software Engineer,containers,162,9367,1.73
+Software Engineer,sdlc,162,9367,1.73
+Software Engineer,backend development,161,9367,1.72
+Software Engineer,entity framework,160,9367,1.71
+Software Engineer,full stack development,160,9367,1.71
+Software Engineer,test automation,160,9367,1.71
+Software Engineer,nosql databases,158,9367,1.69
+Software Engineer,ubuntu,158,9367,1.69
+Software Engineer,soap,157,9367,1.68
+Software Engineer,testdriven development,155,9367,1.65
+Software Engineer,software development lifecycle,154,9367,1.64
+Software Engineer,programming,153,9367,1.63
+Software Engineer,ios,152,9367,1.62
+Software Engineer,powershell,151,9367,1.61
+Software Engineer,containerization,150,9367,1.6
+Software Engineer,openstack,147,9367,1.57
+Software Engineer,dynamodb,146,9367,1.56
+Software Engineer,microsoft office,146,9367,1.56
+Software Engineer,api design,143,9367,1.53
+Software Engineer,software development life cycle,140,9367,1.49
+Software Engineer,devsecops,137,9367,1.46
+Software Engineer,agile software development,136,9367,1.45
+Software Engineer,robotics,134,9367,1.43
+Software Engineer,ruby on rails,134,9367,1.43
+Software Engineer,bootstrap,131,9367,1.4
+Software Engineer,quality assurance,130,9367,1.39
+Software Engineer,fullstack development,129,9367,1.38
+Software Engineer,cloud,128,9367,1.37
+Software Engineer,coding,128,9367,1.37
+Software Engineer,gradle,127,9367,1.36
+Software Engineer,programming languages,126,9367,1.35
+Software Engineer,rtos,125,9367,1.33
+Software Engineer,perl,124,9367,1.32
+Software Engineer,rdbms,122,9367,1.3
+Software Engineer,data modeling,121,9367,1.29
+Software Engineer,saas,121,9367,1.29
+Software Engineer,svn,121,9367,1.29
+Software Engineer,technical writing,120,9367,1.28
+Software Engineer,swift,119,9367,1.27
+Software Engineer,can,117,9367,1.25
+Software Engineer,tsql,117,9367,1.25
+Software Engineer,angularjs,116,9367,1.24
+Software Engineer,redux,116,9367,1.24
+Software Engineer,api development,115,9367,1.23
+Software Engineer,rabbitmq,115,9367,1.23
+Software Engineer,react native,115,9367,1.23
+Software Engineer,monitoring,114,9367,1.22
+Software Engineer,cybersecurity,113,9367,1.21
+Software Engineer,grpc,113,9367,1.21
+Software Engineer,wpf,113,9367,1.21
+Software Engineer,cloud platforms,112,9367,1.2
+Software Engineer,hibernate,112,9367,1.2
+Software Engineer,iot,112,9367,1.2
+Software Engineer,spi,112,9367,1.2
+Software Engineer,jest,111,9367,1.19
+Software Engineer,bamboo,110,9367,1.17
+Software Engineer,analytics,109,9367,1.16
+Software Engineer,continuous deployment,108,9367,1.15
+Software Engineer,embedded software,108,9367,1.15
+Software Engineer,performance testing,107,9367,1.14
+Software Engineer,dhcp,105,9367,1.12
+Software Engineer,test driven development,105,9367,1.12
+Software Engineer,github actions,104,9367,1.11
+Software Engineer,uml,104,9367,1.11
+Software Engineer,cloud technologies,103,9367,1.1
+Software Engineer,software maintenance,103,9367,1.1
+Software Engineer,ajax,102,9367,1.09
+Software Engineer,bdd,102,9367,1.09
+Software Engineer,configuration management,102,9367,1.09
+Software Engineer,data visualization,102,9367,1.09
+Software Engineer,multithreading,102,9367,1.09
+Software Engineer,software integration,102,9367,1.09
+Software Engineer,source control,102,9367,1.09
+Software Engineer,architecture,101,9367,1.08
+Software Engineer,ec2,101,9367,1.08
+Software Engineer,embedded software development,101,9367,1.08
+Software Engineer,spring framework,101,9367,1.08
+Software Engineer,computer vision,100,9367,1.07
+Software Engineer,i2c,100,9367,1.07
+Software Engineer,natural language processing,100,9367,1.07
+Software Engineer,coding standards,99,9367,1.06
+Software Engineer,functional testing,99,9367,1.06
+Software Engineer,http,99,9367,1.06
+Software Engineer,performance,99,9367,1.06
+Software Engineer,hadoop,98,9367,1.05
+Software Engineer,deployment,97,9367,1.04
+Software Engineer,product development,97,9367,1.04
+Software Engineer,slack,97,9367,1.04
+Software Engineer,mobile development,96,9367,1.02
+Software Engineer,people management,96,9367,1.02
+Software Engineer,wifi,95,9367,1.01
+Software Engineer,data pipelines,94,9367,1.0
+Software Engineer,tableau,59,9367,0.63
+Software Engineer,excel,47,9367,0.5
+Software Engineer,pandas,38,9367,0.41

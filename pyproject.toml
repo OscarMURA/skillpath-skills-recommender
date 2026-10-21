@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillpath"
+version = "0.1.0"
+description = "Recomendador de Learning paths de Skills técnicas a partir de Offers."
+requires-python = ">=3.12"
+dependencies = ["streamlit", "pandas", "scikit-learn"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["skillpath"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

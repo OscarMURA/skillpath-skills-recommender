@@ -1,0 +1,54 @@
+# Habilidades blandas y genéricas no técnicas. Una por línea, ya normalizadas
+# (minúsculas, tras aplicar aliases.csv). Las líneas con # son comentarios.
+
+# Habilidades blandas
+communication
+problem solving
+teamwork
+collaboration
+attention to detail
+analytical skills
+critical thinking
+time management
+presentation skills
+interpersonal skills
+organizational skills
+organization
+multitasking
+prioritization
+adaptability
+decision making
+leadership
+mentoring
+creativity
+flexibility
+initiative
+negotiation
+strategic thinking
+self-motivated
+detail oriented
+work ethic
+emotional intelligence
+customer service
+training
+stakeholder management
+
+# Gestión genérica
+project management
+change management
+process improvement
+research
+
+# Formación y títulos (no son Skills aprendibles)
+bachelor's degree
+bachelors degree
+master's degree
+masters degree
+computer science
+computer engineering
+electrical engineering
+engineering
+economics
+information technology
+business analyst
+analysis

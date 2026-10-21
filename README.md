@@ -12,3 +12,20 @@ Proyecto del curso de Sistemas Recomendadores (2026-1) — Grupo 7: Gabriel Esco
 ## Estrategia
 
 Híbrido: filtrado basado en contenido (TF-IDF + similitud del coseno) + recomendación basada en conocimiento (prerrequisitos y dificultad), ponderado por la frecuencia de cada habilidad en las ofertas.
+
+## Cómo ejecutar
+
+Requiere Python 3.12 o superior.
+
+```bash
+# Crear el entorno virtual e instalar el paquete con dependencias de desarrollo
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+
+# Ejecutar la app
+streamlit run app/streamlit_app.py
+
+# Ejecutar las pruebas
+pytest
+```
