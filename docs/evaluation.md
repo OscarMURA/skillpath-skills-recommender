@@ -474,7 +474,7 @@ Skills que más suben y bajan en exposición (K = 10) al pasar a nivel inicial (
 
 ## Limitaciones
 
-- **Offers de Estados Unidos y en inglés.** Todo lo que el sistema "sabe" del mercado viene de esas Offers. No representa la demanda en otros países ni en español.
+- **Offers de LinkedIn, en inglés y sobre todo de Estados Unidos (79,8 %; el resto, de Reino Unido, Canadá y Australia, según `search_country`).** Todo lo que el sistema "sabe" del mercado viene de esas Offers. No representa la demanda en otros países ni en español.
 - **El Role es el dataset de origen.** Las tres carpetas de `datos/` no son Roles puros: una Offer de Data Analyst puede pedir `machine learning` y una de Software Engineer, `sql`.
 - **Las Offers dicen qué piden, no qué es útil aprender.** Que una Skill aparezca mucho no prueba que aprenderla primero sea lo mejor para un Learner.
 - **El Learner simulado no es un Learner real.** Es la Offer menos una Skill: todas las Skills en Mastery level intermedio, sin intereses, siempre "con experiencia". Un Learner real tiene huecos, niveles distintos y metas.
@@ -495,7 +495,7 @@ Hallazgos que sustentan cada sesgo, con su cifra y archivo de origen.
 | **Sesgo hacia lo frecuente (Frequency).** El sistema refuerza lo que ya es frecuente y deja la cola larga sin exposición. | Spearman exposición-Frequency de 0.76 a 0.85 (K = 10); las 10 Skills más expuestas ocupan 93-98 % de los puestos con K = 5 y 72-76 % con K = 10; Gini 0.77-0.80. | `exposure_vs_frequency.csv`, `exposure_concentration.csv` |
 | **Skills que nadie ve.** | Cobertura por Role de 34-44 % con K = 10; 16 Skills no aparecen en ningún Role (`deep learning`, `scikit-learn`, `pytorch`, `tensorflow`, `airflow`, `numpy`...). | `coverage.csv`, `never_recommended.csv` |
 | **Sesgo de accesibilidad contra Skills avanzadas.** El Effort castiga las Skills difíciles. | Difficulty 4-5 es el 25 % del Catalog y recibe 1.5-5.2 % de la exposición; hit@10 de Difficulty 4 es 0.223 (línea base 0.451) y de Difficulty 5 es 0.000 (0.222); machine learning recibe 4.7 % de la exposición en Data Scientist frente a 9.4 % del Catalog. | `exposure_by_difficulty.csv`, `loo_by_difficulty.csv`, `exposure_by_category.csv` |
-| **Sesgo geográfico y de idioma.** | Todas las Offers son de EE. UU. y en inglés (limitación de los datos; no hay medida propia). | descripción de los datasets (`datos/README.md`) |
+| **Sesgo geográfico y de idioma.** | El 79,8 % de las Offers son de EE. UU. y el resto de Reino Unido, Canadá y Australia (`search_country`); todas en inglés (limitación de los datos; no hay medida propia). | descripción de los datasets (`datos/README.md`) |
 | **Roles no puros.** | El Role es el dataset de origen; por ejemplo, `machine learning` aparece en 5.65 % de las Offers de Data Analyst y en 22.5 % de las de nivel inicial. | `catalog/frequency_by_role.csv`, `catalog/frequency_entry_by_role.csv` |
 | **Poca evidencia de nivel inicial.** | 80, 216 y 47 Offers; Jaccard@10 de 0.75-0.82 entre nivel inicial y con experiencia (el complemento cambia poco); `sas` sube de 0.1 % a 8.0 % en Data Scientist inicial por 13 de 47 Offers. | `entry_vs_experienced.csv`, `entry_vs_experienced_shifts.csv` |
 | **Juicio experto.** | Catalog (64 Skills), Difficulty y Prerequisites los definió una persona y el Effort depende de ellos; no hay una medida propia de cuánto error tienen. El efecto del Effort se ve en la tabla por Difficulty. | `loo_by_difficulty.csv` |

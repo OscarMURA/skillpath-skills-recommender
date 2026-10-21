@@ -119,7 +119,7 @@ Cada elemento del Learning path trae un texto en español con: la Frequency en e
 ## Limitaciones
 
 - La co-ocurrencia refleja el mercado de LinkedIn en EE. UU., en inglés, y los datos de asaniczka (ver `catalog/README.md`).
-- Los documentos son cortos (64 Skills, 153 palabras): el IDF es muy ruidoso y un cambio en una descripción mueve resultados.
+- Los documentos son cortos (64 Skills, 152 a 153 palabras según el Role): el IDF es muy ruidoso y un cambio en una descripción mueve resultados.
 - Las descripciones están en español y los nombres de Skill en inglés; un interés en inglés que no sea una Skill (`dashboard`) no se reconoce si no aparece en las descripciones.
 - Las Skills muy frecuentes actúan como "hubs" y elevan la similitud de fondo entre Skills de datos (ver tablas): la similitud ordena, pero no demuestra relación causal.
 - Los pesos (Mastery level, repeticiones, 8 vecinos, umbral 0.05) son decisiones razonables, no valores ajustados con datos.
