@@ -112,25 +112,35 @@ with st.sidebar:
     )
 
     already_known = set(st.session_state.get("known_selected", []))
-    suggested = [
+    top_suggestions = [
         i.skill
         for i in compute_path(role, (), (), experience_level).most_frequent(len(CATALOG))
         if i.skill not in already_known
     ][:SUGGESTIONS]
+    # Skills marked in a previous run stay listed even if they are not among this Role's top
+    # suggestions, so the selection survives a Role change (Streamlit drops the state of any
+    # widget that is not rendered).
+    kept_checked = [
+        s
+        for s in st.session_state.get("suggest_checked", [])
+        if s not in top_suggestions and s not in already_known
+    ]
+    suggested = top_suggestions + kept_checked
     st.markdown(f"**Sugerencias:** las más frecuentes en las Offers de {role}. Marca las que ya conoces.")
     if not suggested:
         st.caption("Ya declaraste todas las Skills más frecuentes del Role.")
     checked = []
     for skill in suggested:
-        if st.checkbox(skill, key=f"suggest_{role}_{skill}"):
+        if st.checkbox(skill, key=f"suggest_{skill}"):
             checked.append(skill)
+    st.session_state["suggest_checked"] = list(checked)
 
     selected = st.multiselect(
         "Skills que ya conoces",
         list(CATALOG),
         key="known_selected",
         placeholder="Elige Skills",
-        help="Elige cualquier Skill del Catalog. Se conservan si cambias de Role.",
+        help="Elige cualquier Skill del Catalog. Esta lista y las sugerencias que marcaste se conservan si cambias de Role.",
     )
     known_skills = {}
     declared = checked + [s for s in selected if s not in checked]
@@ -138,9 +148,9 @@ with st.sidebar:
         st.markdown("**Mastery level de cada Skill**")
         st.caption("Desde intermedio se considera dominada; básico no.")
     for skill in declared:
-        label = st.selectbox(
-            f"Mastery level en {skill}", list(LEVELS), index=1, key=f"level_{skill}"
-        )
+        # Default through Session State (not `index=`): the level can also be seeded from the URL.
+        st.session_state.setdefault(f"level_{skill}", "intermedio")
+        label = st.selectbox(f"Mastery level en {skill}", list(LEVELS), key=f"level_{skill}")
         known_skills[skill] = LEVELS[label]
 
     categories = sorted({skill.category for skill in CATALOG.values()})

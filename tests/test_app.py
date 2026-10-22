@@ -126,7 +126,7 @@ def test_mastery_level_decides_whether_a_skill_leaves_the_gap(role):
     skill = top_frequent(role, 8)[0]
     at = with_role(role)
     assert skill in set(gap_table(at)["Skill"])
-    at.checkbox(key=f"suggest_{role}_{skill}").check().run()
+    at.checkbox(key=f"suggest_{skill}").check().run()
     assert not at.exception
     assert not is_cold_start_info(at)
     assert skill not in set(gap_table(at)["Skill"])  # intermediate = mastered
@@ -371,12 +371,12 @@ def test_query_params_ignore_invalid_values():
 def test_suggestions_hide_skills_already_in_multiselect(role):
     top = top_frequent(role, 3)
     at = with_role(role)
-    assert all(at.checkbox(key=f"suggest_{role}_{s}") for s in top)
+    assert all(at.checkbox(key=f"suggest_{s}") for s in top)
     at.multiselect(key="known_selected").select(top[0]).select(top[1]).run()
     assert not at.exception
     keys = {c.key for c in at.checkbox if c.key and c.key.startswith("suggest_")}
-    assert f"suggest_{role}_{top[0]}" not in keys and f"suggest_{role}_{top[1]}" not in keys
-    assert f"suggest_{role}_{top[2]}" in keys
+    assert f"suggest_{top[0]}" not in keys and f"suggest_{top[1]}" not in keys
+    assert f"suggest_{top[2]}" in keys
     assert len(keys) == 8  # topped up with the next most frequent Skills
     assert top[0] not in set(gap_table(at)["Skill"])
 
@@ -384,8 +384,58 @@ def test_suggestions_hide_skills_already_in_multiselect(role):
 def test_checked_suggestion_stays_visible_and_all_known_shows_caption():
     at = with_role("Data Analyst")
     skill = top_frequent("Data Analyst", 1)[0]
-    at.checkbox(key=f"suggest_Data Analyst_{skill}").check().run()
-    assert at.checkbox(key=f"suggest_Data Analyst_{skill}").value  # not hidden by itself
+    at.checkbox(key=f"suggest_{skill}").check().run()
+    assert at.checkbox(key=f"suggest_{skill}").value  # not hidden by itself
     at.multiselect(key="known_selected").set_value(list(CATALOG)).run()
     assert not [c for c in at.checkbox if c.key and c.key.startswith("suggest_")]
     assert any("Ya declaraste todas las Skills" in c.value for c in at.sidebar.caption)
+
+
+def test_checked_suggestions_survive_a_role_change():
+    """Marking a suggested Skill and switching Role keeps it declared (it used to reset)."""
+    at = with_role("Data Analyst")
+    skill = top_frequent("Data Analyst", 1)[0]
+    at.checkbox(key=f"suggest_{skill}").check().run()
+    mastered_before = [m.value for m in at.metric][2]
+    assert mastered_before == "1"
+    at.selectbox(key="role").select("Data Scientist").run()
+    assert not at.exception
+    assert [m.value for m in at.metric][2] == "1"
+    assert at.checkbox(key=f"suggest_{skill}").value  # still listed and checked
+    assert skill not in set(gap_table(at)["Skill"])
+    at.selectbox(key="role").select("Software Engineer").run()
+    assert [m.value for m in at.metric][2] == "1"
+
+
+def test_unchecking_a_kept_suggestion_removes_it_after_a_role_change():
+    at = with_role("Data Analyst")
+    skill = top_frequent("Data Analyst", 1)[0]
+    at.checkbox(key=f"suggest_{skill}").check().run()
+    at.selectbox(key="role").select("Data Scientist").run()
+    at.checkbox(key=f"suggest_{skill}").uncheck().run()
+    assert [m.value for m in at.metric][2] == "0"
+
+
+def test_url_seeded_mastery_level_does_not_trigger_a_streamlit_warning():
+    """Seeding `level_<skill>` from the URL must not also pass a default to the widget."""
+    import logging
+
+    messages = []
+
+    class Collect(logging.Handler):
+        def emit(self, record):
+            messages.append(record.getMessage())
+
+    logger = logging.getLogger("streamlit.elements.lib.policies")
+    handler = Collect()
+    logger.addHandler(handler)
+    try:
+        at = AppTest.from_file(APP, default_timeout=30)
+        at.query_params["known"] = "sql:basic,python:advanced"
+        at.run()
+    finally:
+        logger.removeHandler(handler)
+    assert not at.exception
+    assert at.selectbox(key="level_sql").value == "básico"
+    assert at.selectbox(key="level_python").value == "avanzado"
+    assert not [m for m in messages if "created with a default value" in m]
